@@ -1,0 +1,132 @@
+% Masterfile
+
+% Laden der Preamble
+\input{docs/preamble}
+
+
+% Begin des Dokuments
+\begin{document}
+%Titelseite
+\begin{titlepage}
+\flushright
+\vspace*{-2.3cm}
+{\transparent{1}
+\includegraphics[scale=0.7]{figs/pem_logo.png}}
+\\
+\centering
+\vspace{0.5cm}
+\begin{doublespacing}
+	\textbf{Diese Arbeit wurde vorgelegt am Lehrstuhl für Production Engineering of\\ E-Mobility Components (PEM) der RWTH Aachen.}\\
+\end{doublespacing}
+\vspace{1.5cm}
+\textbf{\LARGE Bachelorarbeit}
+\\
+\flushleft
+\vspace{1.7cm}
+\Large
+\begin{tabular}{lp{10cm}}
+	%Name
+	\rule[-2ex]{0pt}{2.5ex} Name: & Max Mustermann \\ 
+	%Matrikel Nummer
+	\rule[-6ex]{0pt}{2.5ex} Matr.-Nr.: & 123456 \\ 
+	%Kurzthema
+	\rule[-16ex]{0pt}{2.5ex} Thema: & Dies ist der Titel der wissenschaftlichen Arbeit, der Titel kann auch etwas länger sein! \\ 
+	%Betreuer
+	\rule[-6ex]{0pt}{2.5ex} Betreuender Assistent: & Heinz Mustermann, M.Sc. \\ 
+	%1. Prüfer
+	\rule[-2ex]{0pt}{2.5ex} 1. Prüfer: & Prof. Dr.-Ing. Peter Mustermann \\ 
+	%2. Prüfer
+	\rule[-2ex]{0pt}{2.5ex} 2. Prüfer: & Dr.-Ing. Thomas Mustermann \\ 
+\end{tabular} 
+\\
+\vspace{1.2cm}
+\hspace{0.15cm}
+%Ort und Datum
+Aachen, den \today
+\\
+\vspace{1.4cm}
+\hspace{0.15cm}
+\begin{minipage}{0.98\textwidth}
+	\large
+	Inhalt und Ergebnis dieser Arbeit sind ausschließlich zum internen Gebrauch\\ bestimmt. Alle Urheberrechte liegen bei der RWTH Aachen. Ohne ausdrückliche\\ Genehmigung des betreuenden Lehrstuhls ist es nicht gestattet, diese Arbeit oder Teile daraus an Dritte weiterzugeben.
+\end{minipage}
+\end{titlepage}	
+\newpage
+\thispagestyle{empty} %leere Seite einfügen
+\mbox{}
+
+\newpage
+
+%Überschriften in Kopfzeile inkl. Seitenzahlen
+\pagestyle{scrheadings} 
+\clearscrheadfoot
+\automark[section]{chapter}
+\ohead{\pagemark}
+\ihead{\headmark}
+\setheadsepline{1pt}
+\renewcommand{\headfont}{\normalfont \sffamily}
+\newcommand{\sectionnumbering}[1] {%
+	\setcounter{section}{0}%
+	\renewcommand{\thesection}{\csname #1\endcsname{section}}}
+%Römische Numerrierung für das Inhaltsverzeichnis und folgende
+\renewcommand\thesection{\Roman{section}}
+
+%Inhaltsverzeichnis
+\tableofcontents
+\pagenumbering{roman} %römische Seitenzahlen
+\newpage
+
+%Formelzeichen und Abkürzungen wird über eine Tabelle realisiert
+\input{glos/Formelzeichen}
+\newpage
+
+%Abbildungsverzeichnis
+\listoffigures
+\newpage
+
+%Tabellenverzeichnis
+\listoftables
+\newpage
+
+%Arabische Numerrierung für die Kapitel
+\renewcommand{\theHsection}{arabicsection.\thesection}
+\renewcommand\thesection{\arabic{section}}
+\setcounter{section}{0}
+
+\input{docs/Einleitung}
+\pagenumbering{arabic} %arabische Seitenzahlen
+\newpage
+\input{docs/Grundlagen}
+\newpage
+\input{docs/Methodik}
+\newpage
+\input{docs/Auswertung}
+\newpage
+\input{docs/Zusammenfassung}
+\newpage
+
+%Römische Numerrierung
+%Setz die Kapitelzahl auf 5 (Inhaltsverzeichnis ist I, Formelzeichen II usw. Zähler beginnend bei 0)
+\renewcommand{\theHsection}{\thesection}
+\sectionnumbering{Roman}
+\setcounter{section}{4}
+
+
+%Literaturverzeichnis
+\begingroup
+\raggedright
+\sloppy
+\printbibliography
+\endgroup
+
+\newpage
+
+%Anhang
+\input{docs/Anhang}
+\newpage
+
+%Erklärung
+\input{docs/Erklaerung}
+
+\end{document}
+

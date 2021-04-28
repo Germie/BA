@@ -1,0 +1,198 @@
+% This file contains your LaTeX preamble. A preamble is a part of your document where all required packages and macros can be defined. This needs to be done before the \begin{document} command.
+
+
+
+% Documentclass:
+% Standard LaTeX classes are: article, book, report, slides, and letter. These cover the basis, but are not best. More advanced users might want to try out the KOMA classes or the memoir class. Optional arguments: 10pt. The font size of the main content is set to 10pt with the option between [].
+
+\documentclass[a4paper, 11pt, bibtotocnumbered, liststotocnumbered, toc=listofnumbered, captions=nooneline, fleqn]{scrartcl} 
+\usepackage{scrpage2}
+%Inhaltsverzeichnis mit im Inhaltsverzeichnis
+\setuptoc{toc}{numbered}
+
+%Schriftart
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%Deutsches Sprachpaket
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+
+%Verbessertes Schriftbild
+\usepackage{microtype}
+
+% Geometry:
+% The papersize of the document is defined with the geometry package. Here, the size is set to A4 with a4paper. Other possibilities are a5paper, b5paper, letterpaper, legalpaper and executivepaper.
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[bottom, hang]{footmisc} %Fußnoten nicht einrücken und am Seitenende
+\usepackage{longtable} %Tabellen über mehrere Seiten
+
+% AMS math packages:
+% Required for proper math display.
+\usepackage{amsmath,amsfonts,amsthm}
+
+
+% Graphicx:
+% If you want to include graphics in your document, the graphicx package is required.
+\usepackage{graphicx}
+
+% Booktabs:
+% The booktabs package is needed for better looking tables. 
+\usepackage{booktabs}
+
+% SIunitx:
+% The SIunitx package enables the \SI{}{} command. It provides an easy way of working with (SI) units.
+\usepackage[decimalsymbol=comma]{siunitx}
+
+% URL:
+% Clickable URL's can be made with this package: \url{}.
+\usepackage{url}
+
+
+% Caption:
+% For better looking captions. See caption documentation on how to change the format of the captions.
+\usepackage{caption}
+
+%Float Package zur Positionierung von Abbildungen
+\usepackage{float}
+	
+%Referenzen Zählweise
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+%\counterwithin{equation}{section} Formel durchgehend nummeriert!
+
+
+%Bild anstelle von Abbildung in der Bildbeschriftung
+%\addto\captionsngerman{\renewcommand{\figurename}{Bild}}
+
+%Bildbeschriftung in Fett
+\usepackage{caption}
+\captionsetup[figure]{labelfont={bf,small}, font={bf,small}}
+\captionsetup[table]{labelfont={bf,small}, font={bf,small}}
+
+%Biblatex
+%zitieren mit Footcite, Anpassung des Zitierstils gemäß PEM vorgabe
+\usepackage[backend=biber, citestyle=authortitle, bibstyle=authortitle, isbn=false, doi=false, url=false, block=space, maxcitenames=2, maxbibnames=99, backref=false, giveninits=true, dashed=false]{biblatex}
+\setlength{\bibitemsep}{1em}
+\setlength{\bibhang}{2em}
+\DefineBibliographyStrings{german}{%
+	andothers = {et al.},
+}
+\DeclareFieldFormat %Klammern um den Kurztitel
+[book,article,inbook,incollection,inproceedings,patent,thesis,unpublished,misc,manual]
+{citetitle}{\mkbibparens{#1\isdot}}
+
+
+\renewcommand*{\nametitledelim}{\addspace} %kein Komma hinter dem Autor Namen
+\usepackage{xpatch}%Hinzufügen des Erscheinungsjahr in Zitation
+\xapptobibmacro{cite}{\setunit{\nametitledelim}\printfield{year}}{}{}
+
+\renewbibmacro*{title}{%
+	\ifboolexpr{
+		test {\iffieldundef{title}}
+		and
+		test {\iffieldundef{subtitle}}
+	}
+	{}
+	{\printtext[title]{%
+			\printfield[parens]{shorttitle}%
+			\setunit{\newline}%
+			\printfield[titlecase]{title}%
+			\setunit{\subtitlepunct}%
+			\printfield[titlecase]{subtitle}}%
+		\newunit}%
+	\printfield{titleaddon}}
+
+\DeclareFieldFormat %keine Anführungszeichen im Titel
+[book,article,inbook,incollection,inproceedings,patent,thesis,unpublished,misc,manual]
+{title}{#1\isdot}
+\DeclareFieldFormat %keine Klammern beim Jahr
+[article,inbook,incollection,inproceedings,patent,thesis,unpublished,misc,manual]
+{year}{#1\isdot}
+
+\xpretobibmacro{author}{\mkbibbold\bgroup}{}{}
+\xapptobibmacro{author}{\egroup}{}{}
+
+%keine Klammern um Jahr bei Article
+\renewbibmacro*{issue+date}{%
+	\setunit{\addcomma\space}%
+	%
+	\iffieldundef{issue}
+	{\usebibmacro{date}}
+	{\printfield{issue}%
+		\setunit*{\addspace}%
+		%
+		\usebibmacro{date}}
+	\newunit}
+
+%Autor-Name Reihenfolge
+\DeclareNameAlias{sortname}{last-first}
+
+%Semikolon als Trenner zwischen Autoren und kein "und"
+\newcommand*{\bibmultinamedelim}{\addsemicolon\space}
+\newcommand*{\bibfinalnamedelim}{\addsemicolon\space}
+\AtBeginBibliography{
+	\let\multinamedelim\bibmultinamedelim
+	\let\finalnamedelim\bibfinalnamedelim
+}
+
+\addbibresource{refs/references.bib}
+
+%Array für Tabellen
+\usepackage{array}
+
+%Transparent
+\usepackage{transparent}
+
+%Abbildung und Tabelle in den Verzeichnissen
+\usepackage[titles]{tocloft}
+\renewcommand{\cfttabpresnum}{Tabelle }
+\renewcommand{\cftfigpresnum}{Abbildung }
+\renewcommand{\cftfigaftersnum}{:}
+\renewcommand{\cfttabaftersnum}{:}
+\settowidth{\cfttabnumwidth}{Tabelle 10 \quad}
+\settowidth{\cftfignumwidth}{Abbildung 10 \quad}
+%Punkte im Inhaltsverzeichnis bei Section
+\renewcommand\cftsecdotsep{\cftdotsep}
+
+
+%Zeilenabstand definiern
+\usepackage{setspace}
+
+%TabularX
+\usepackage{tabularx}
+
+
+%Serifenlose Matheschrift
+\usepackage{sfmath}
+
+%Subfigures
+\usepackage{subfig}
+
+%Trennung bestimmter Wörter
+
+
+% Hyperref:
+% This package makes all references within your document clickable. By default, these references will become boxed and colored. This is turned back to normal with the \hypersetup command below.
+%Dieses Paket sollte möglichst zuletzt geladen werden!
+\usepackage{hyperref}
+\hypersetup{colorlinks=false,pdfborder=0 0 0}
+
+% Cleveref:
+% This package automatically detects the type of reference (equation, table, etc.) when the \cref{} command is used. It then adds a word in front of the reference, i.e. Fig. in front of a reference to a figure. With the \crefname{}{}{} command, these words may be changed.
+%Cleverref nach Hyperref Laden!
+\usepackage{cleveref}
+\crefname{equation}{Gleichung}{Gleichung}
+\crefname{figure}{Abbildung}{Abbildungen}	
+\crefname{table}{Tabelle}{Tabellen}
+\crefname{section}{Kapitel}{Kapitel}
+\newcommand{\crefrangeconjunction}{ bis }
+\newcommand{\creflastconjunction}{ und }
+\newcommand{\crefpairconjunction}{ und }
+
+
+
+
+
+
