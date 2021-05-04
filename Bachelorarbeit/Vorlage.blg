@@ -1,0 +1,21 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Vorlage.blg'
+[101] biber-MSWIN64:322> INFO - === 
+[124] Biber.pm:415> INFO - Reading 'Vorlage.bcf'
+[301] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[326] Biber.pm:4256> INFO - Processing section 0
+[327] Utils.pm:75> INFO - Globbing data source 'refs/references.bib'
+[339] Utils.pm:91> INFO - Globbed data source 'refs/references.bib' to refs/references.bib
+[356] Biber.pm:4455> INFO - Looking for bibtex format file 'refs/references.bib' for section 0
+[359] bibtex.pm:1653> INFO - LaTeX decoding ...
+[370] bibtex.pm:1471> INFO - Found BibTeX data source 'refs/references.bib'
+[399] Utils.pm:304> WARN - Entry 'Ajanovic2020' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring
+[416] Utils.pm:304> WARN - Entry 'Hettesheimer2017' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring
+[419] Utils.pm:304> WARN - Entry 'BeloitEDU2021' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring
+[437] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[437] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[437] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[437] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[450] bbl.pm:652> INFO - Writing 'Vorlage.bbl' with encoding 'UTF-8'
+[456] bbl.pm:755> INFO - Output to Vorlage.bbl
+[457] Biber.pm:128> INFO - WARNINGS: 3

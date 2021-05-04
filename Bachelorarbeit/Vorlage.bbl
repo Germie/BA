@@ -1,0 +1,208 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Ajanovic2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=23633ffbbdf745a9da43527256bf1238}{%
+           family={Ajanovic},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5d06cd7992404aa013cc06e32b98711}{%
+           family={Glatt},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{47d03803707fe1bd928b42162c03e5ae}
+      \strng{fullhash}{47d03803707fe1bd928b42162c03e5ae}
+      \strng{bibnamehash}{47d03803707fe1bd928b42162c03e5ae}
+      \strng{authorbibnamehash}{47d03803707fe1bd928b42162c03e5ae}
+      \strng{authornamehash}{47d03803707fe1bd928b42162c03e5ae}
+      \strng{authorfullhash}{47d03803707fe1bd928b42162c03e5ae}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{e {\&} i Elektrotechnik und Informationstechnik}
+      \field{title}{Wirtschaftliche und {ö}kologische Aspekte der Elektromobilit{ä}t: Economic and ecological aspects of electric vehicles}
+      \field{volume}{137}
+      \field{year}{2020}
+      \field{pages}{136\bibrangedash 146}
+      \range{pages}{11}
+      \verb{file}
+      \verb a8585d78-3adb-4b45-88f8-f2be0f59966e:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\a8585d78-3adb-4b45-88f8-f2be0f59966e.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/s00502-020-00812-x
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s00502-020-00812-x
+      \endverb
+      \warn{\item Entry 'Ajanovic2020' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{BeloitEDU2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02b0699fb06e4ab20d64a6602f4450a2}{%
+           family={{Beloit EDU}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{02b0699fb06e4ab20d64a6602f4450a2}
+      \strng{fullhash}{02b0699fb06e4ab20d64a6602f4450a2}
+      \strng{bibnamehash}{02b0699fb06e4ab20d64a6602f4450a2}
+      \strng{authorbibnamehash}{02b0699fb06e4ab20d64a6602f4450a2}
+      \strng{authornamehash}{02b0699fb06e4ab20d64a6602f4450a2}
+      \strng{authorfullhash}{02b0699fb06e4ab20d64a6602f4450a2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy Density Table}
+      \verb{file}
+      \verb 7a66539b-ffad-49be-9889-d48b4404387d:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\7a66539b-ffad-49be-9889-d48b4404387d.png:png
+      \endverb
+      \verb{urlraw}
+      \verb https://chemistry.beloit.edu/edetc/SlideShow/slides/energy/density.html
+      \endverb
+      \verb{url}
+      \verb https://chemistry.beloit.edu/edetc/SlideShow/slides/energy/density.html
+      \endverb
+      \warn{\item Entry 'BeloitEDU2021' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Hettesheimer2017}{book}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=7815d56d13102fc566517ce522d9faf1}{%
+           family={Hettesheimer},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25f645ec69ecce97a04fd3d2e4346f54}{%
+           family={Thielmann},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=852a7bab165238a258bd5442f0cf0046}{%
+           family={Neef},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba1e99d4cd339a28b0cd50e0d214b9cd}{%
+           family={M{ö}ller},
+           familyi={M\bibinitperiod},
+           given={K.-C.},
+           giveni={K\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1929f61f8a9ef725b10ddaaa39183b3c}{%
+           family={Wolter},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4a5ae61438bd8aa4c9a7b33f16effb7}{%
+           family={Lorentz},
+           familyi={L\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b3e5d5e3126f5f72aad43f26499bcea}{%
+           family={Gepp},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20da16fe12ae3d128b8f532340ffd205}{%
+           family={Wenger},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa4e4e72b9a3893050bfc9df1b4099f4}{%
+           family={Prill},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e8744d594507b6602d48ec5ab6d5ac5}{%
+           family={Zausch},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85e56b97aebc8caf7a95b3ef61723278}{%
+           family={Kitzler},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91111534cafc7595e41071e5c7a97e85}{%
+           family={Montnacher},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a053d5c05d7aa56dce11d713a8aaabcd}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b7054e753575b62eb365d52e84869ab}{%
+           family={Hagen},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b112fb047a9f45bdeaeee33f00e4b758}{%
+           family={Fanz},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Fraunhofer-Allianz-Batterien}%
+      }
+      \strng{namehash}{73c7aaa0ef717840c60e99a939ff7bee}
+      \strng{fullhash}{ea00a5fd6d95522d9df7fd811b232d9e}
+      \strng{bibnamehash}{ea00a5fd6d95522d9df7fd811b232d9e}
+      \strng{authorbibnamehash}{ea00a5fd6d95522d9df7fd811b232d9e}
+      \strng{authornamehash}{73c7aaa0ef717840c60e99a939ff7bee}
+      \strng{authorfullhash}{ea00a5fd6d95522d9df7fd811b232d9e}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Entwicklungsperspektiven f{ü}r Zellformate von Lithium-Ionen-Batteiren in der Elektromobilit{ä}t}
+      \field{year}{2017}
+      \verb{file}
+      \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
+      \endverb
+      \warn{\item Entry 'Hettesheimer2017' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
