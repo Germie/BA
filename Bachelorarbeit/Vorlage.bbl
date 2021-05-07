@@ -89,6 +89,45 @@
       \endverb
       \warn{\item Entry 'BeloitEDU2021' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
     \endentry
+    \entry{Hepperle2012}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b786cc75abe997abeb8724a33e3654ec}{%
+           family={Hepperle},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {DLR}%
+      }
+      \list{location}{1}{%
+        {Germany}%
+      }
+      \strng{namehash}{b786cc75abe997abeb8724a33e3654ec}
+      \strng{fullhash}{b786cc75abe997abeb8724a33e3654ec}
+      \strng{bibnamehash}{b786cc75abe997abeb8724a33e3654ec}
+      \strng{authorbibnamehash}{b786cc75abe997abeb8724a33e3654ec}
+      \strng{authornamehash}{b786cc75abe997abeb8724a33e3654ec}
+      \strng{authorfullhash}{b786cc75abe997abeb8724a33e3654ec}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electric Flight - Potential and Limitations}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb 009592c2-9ab5-4f02-b5b1-eee7059b91f9:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\009592c2-9ab5-4f02-b5b1-eee7059b91f9.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://elib.dlr.de/78726/1/MP-AVT-209-09.pdf
+      \endverb
+      \verb{url}
+      \verb https://elib.dlr.de/78726/1/MP-AVT-209-09.pdf
+      \endverb
+      \warn{\item Entry 'Hepperle2012' (refs/references.bib): Invalid format '06.05.2021' of date field 'urldate' - ignoring}
+    \endentry
     \entry{Hettesheimer2017}{book}{}
       \name{author}{15}{}{%
         {{un=0,uniquepart=base,hash=7815d56d13102fc566517ce522d9faf1}{%
@@ -201,6 +240,35 @@
       \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
       \endverb
       \warn{\item Entry 'Hettesheimer2017' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Sollmann2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6fe96fad09cc645a32cc7b5b1c77f942}{%
+           family={Sollmann},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fe96fad09cc645a32cc7b5b1c77f942}
+      \strng{fullhash}{6fe96fad09cc645a32cc7b5b1c77f942}
+      \strng{bibnamehash}{6fe96fad09cc645a32cc7b5b1c77f942}
+      \strng{authorbibnamehash}{6fe96fad09cc645a32cc7b5b1c77f942}
+      \strng{authornamehash}{6fe96fad09cc645a32cc7b5b1c77f942}
+      \strng{authorfullhash}{6fe96fad09cc645a32cc7b5b1c77f942}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nickel-Cadmium-Batterien}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.batterieforum-deutschland.de/infoportal/lexikon/nickel-cadmium-batterien/
+      \endverb
+      \verb{url}
+      \verb https://www.batterieforum-deutschland.de/infoportal/lexikon/nickel-cadmium-batterien/
+      \endverb
+      \warn{\item Entry 'Sollmann2018' (refs/references.bib): Invalid format '06.05.2021' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

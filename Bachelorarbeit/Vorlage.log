@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  4 MAY 2021 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  6 MAY 2021 11:57
 entering extended mode
 **./Vorlage.tex
 (Vorlage.tex
@@ -1227,9 +1227,21 @@ d format '04.05.2021' of date field 'urldate' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Hepperle2012':
+(biblatex)                - Entry 'Hepperle2012' (refs/references.bib): Invalid
+ format '06.05.2021' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'Hettesheimer2017':
 (biblatex)                - Entry 'Hettesheimer2017' (refs/references.bib): Inv
 alid format '04.05.2021' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Sollmann2018':
+(biblatex)                - Entry 'Sollmann2018' (refs/references.bib): Invalid
+ format '06.05.2021' of date field 'urldate' - ignoring.
 
 )
 Package biblatex Info: Reference section=0 on input line 8.
@@ -1355,8 +1367,13 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 89
 \tf@lot=\write7
 \openout7 = `Vorlage.lot'.
 
- [4] (docs/Einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
+ [4] (docs/Einleitung.tex [5]
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
@@ -1416,20 +1433,20 @@ Package logreq Info: Writing requests to 'Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28148 strings out of 480801
- 573472 string characters out of 2905436
- 1366857 words of memory out of 3000000
- 43608 multiletter control sequences out of 15000+200000
- 581258 words of font info for 174 fonts, out of 3000000 for 9000
+ 28176 strings out of 480801
+ 573942 string characters out of 2905436
+ 1369056 words of memory out of 3000000
+ 43621 multiletter control sequences out of 15000+200000
+ 581597 words of font info for 180 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  56i,19n,86p,10169b,2195s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/hel
 vetic/uhvro8a.pfb>
-Output written on Vorlage.pdf (14 pages, 834002 bytes).
+Output written on Vorlage.pdf (15 pages, 837536 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 46694 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 46702 words of extra memory for PDF output out of 51595 (max. 10000000)
 
