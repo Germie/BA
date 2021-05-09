@@ -89,6 +89,44 @@
       \endverb
       \warn{\item Entry 'BeloitEDU2021' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
     \endentry
+    \entry{Ecker2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=433184bfc43aeda8f48d50e519908aed}{%
+           family={Ecker},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64fecdf22a118da5d2addf9959708865}{%
+           family={{Sauer, Prof. Dr. rer. nat. D. U.}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{229e5353c1ee597f816ef4d6f7ef5ed5}
+      \strng{fullhash}{229e5353c1ee597f816ef4d6f7ef5ed5}
+      \strng{bibnamehash}{229e5353c1ee597f816ef4d6f7ef5ed5}
+      \strng{authorbibnamehash}{229e5353c1ee597f816ef4d6f7ef5ed5}
+      \strng{authornamehash}{229e5353c1ee597f816ef4d6f7ef5ed5}
+      \strng{authorfullhash}{229e5353c1ee597f816ef4d6f7ef5ed5}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MTZ Wissen}
+      \field{title}{Batterietechnik - Lithium-Ionen-Batterien}
+      \field{year}{2013}
+      \field{pages}{66\bibrangedash 70}
+      \range{pages}{5}
+      \verb{file}
+      \verb 80b67c50-3b6a-49ee-8f21-5e72edadf545:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\80b67c50-3b6a-49ee-8f21-5e72edadf545.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/content/pdf/10.1007/s35146-013-0014-9.pdf
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/content/pdf/10.1007/s35146-013-0014-9.pdf
+      \endverb
+      \warn{\item Entry 'Ecker2013' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring}
+    \endentry
     \entry{Hepperle2012}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b786cc75abe997abeb8724a33e3654ec}{%
@@ -241,6 +279,31 @@
       \endverb
       \warn{\item Entry 'Hettesheimer2017' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
     \endentry
+    \entry{Lilium}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97b9796626f0c95c1cb2ff127f74b011}{%
+           family={Lilium},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{97b9796626f0c95c1cb2ff127f74b011}
+      \strng{fullhash}{97b9796626f0c95c1cb2ff127f74b011}
+      \strng{bibnamehash}{97b9796626f0c95c1cb2ff127f74b011}
+      \strng{authorbibnamehash}{97b9796626f0c95c1cb2ff127f74b011}
+      \strng{authornamehash}{97b9796626f0c95c1cb2ff127f74b011}
+      \strng{authorfullhash}{97b9796626f0c95c1cb2ff127f74b011}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lilium Jet}
+      \verb{urlraw}
+      \verb https://lilium.com/jet
+      \endverb
+      \verb{url}
+      \verb https://lilium.com/jet
+      \endverb
+      \warn{\item Entry 'Lilium' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring}
+    \endentry
     \entry{Sollmann2018}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6fe96fad09cc645a32cc7b5b1c77f942}{%
@@ -269,6 +332,40 @@
       \verb https://www.batterieforum-deutschland.de/infoportal/lexikon/nickel-cadmium-batterien/
       \endverb
       \warn{\item Entry 'Sollmann2018' (refs/references.bib): Invalid format '06.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Traub2011}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07fed3b23ccf96db5d2671a014dd03c2}{%
+           family={Traub},
+           familyi={T\bibinitperiod},
+           given={L.\bibnamedelimi W.},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07fed3b23ccf96db5d2671a014dd03c2}
+      \strng{fullhash}{07fed3b23ccf96db5d2671a014dd03c2}
+      \strng{bibnamehash}{07fed3b23ccf96db5d2671a014dd03c2}
+      \strng{authorbibnamehash}{07fed3b23ccf96db5d2671a014dd03c2}
+      \strng{authornamehash}{07fed3b23ccf96db5d2671a014dd03c2}
+      \strng{authorfullhash}{07fed3b23ccf96db5d2671a014dd03c2}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Aircraft}
+      \field{number}{2}
+      \field{title}{Range and Endurance Estimates for Battery-Powered Aircraft}
+      \field{volume}{48}
+      \field{year}{2011}
+      \field{pages}{703\bibrangedash 707}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://arc.aiaa.org/doi/abs/10.2514/1.C031027
+      \endverb
+      \verb{url}
+      \verb https://arc.aiaa.org/doi/abs/10.2514/1.C031027
+      \endverb
+      \warn{\item Entry 'Traub2011' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

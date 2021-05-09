@@ -1,4 +1,54 @@
-\section{Grundlagen}\label{sec:Grundlagen}
+\section{Grundlagen und Stand der Technik}\label{sec:GrundlagenUSdT}
+
+\subsection{Lithium-Ionen-Batterietechnologie}\label{subsec:LIB}
+
+\subsubsection*{Aufbau und Funktionsweise}\label{subsec*:LIBAufbau}
+
+Der Begriff Lithium-Ionen-Batterie umfasst viele verschiedene Batterietechnologien, welche alle auf dem gleichen Wirkprinzip beruhen. Analog zu allen anderen Batterietypen besteht eine Lithium-Ionen-Batterie aus dem Elektrolyten, einem Separator und zwei Elektroden.\\
+Nach Konvention wird nach den elektrischen Zuständen beim Entladevorgang die negativ geladene Elektrode als Anode und die positiv geladene Elektrode als Kathode bezeichnet.\\
+
+\begin{figure}[H]
+	\begin{overpic}[width=12cm]{figs/LIB_Aufbau_Schematic.eps}
+			\put(343,180){\mbox{Sauerstoff}}
+			\put(343,155){\mbox{Metall}}
+			\put(343,130){\mbox{Lithium-Ion}}
+			\put(343,105){\mbox{Kohlenstoff(Graphit)}}
+			\put(343,80){\mbox{Separator}}
+			\put(343,55){\mbox{Entladen}}
+			\put(343,30){\mbox{Laden}}
+			\put(240,2){\mbox{Anode}}
+			\put(25,2){\mbox{Kathode}}
+			\put(135,2){\mbox{Elektrolyt}}
+			
+	\end{overpic}
+	
+		\caption[Blah]{Aufbau Lithium-Ionen-Batteriezelle in Anlehnung an Ecker u. Sauer 2013}
+	
+		\label{fig:LithiumIonAufbau}
+\end{figure}
 %
 %
+Wie in Abbildung \ref{fig:LithiumIonAufbau} dargestellt, können die Lithium-Ionen durch das Elektrolyt von der Kathode zur Anode oder umgekehrt ?wandern?. \\
+Um die Oberfläche für das Einlagern der Ionen möglichst groß zu gestalten, sind die Materialien der beiden Elektroden hochporös. Dies ermöglicht zudem eine hohe Reaktionsrate. \\
+Die Kathode einer \textbf{LIB} (Lithium-Ionen-Batterie) besteht meist aus einem Metalloxid, die Anode aus einer Kohlenstoffmodifikation, oftmals Graphit. Für die Bindung der Elektrodenmaterialien wird häufig Polyvinylidenfluorid (PVFD) in verschiedenen Formen verwendet.\\
+Diese Materialien werden dann auf einer dünnen Metallfolie aufgetragen. An der Kathode kommt hierfür Aluminium zum Einsatz, an der Anode wird Kupfer verwendet. Diese Metallfolien dienen gleichzeitig als Stromableiter.\\
+Der Separator besteht normalerweise aus einem porösen Polymer. Die Bauteile der Batterie, Elektroden und Separator sind in einem Elektrolyt getränkt. Dieses besteht aus Lithiumsalz das in einem organischem Solvat gelöst ist. Das Solvat wird so gewählt, dass es bei den im Betrieb auftretenden Spannungszuständen trotzdem weitgehend stabil ist.\\
+Die Bauform der Batteriezellen ist meist einer von drei etablierten Typen, wie in Tabelle \ref{tab:BauformenZelle} dargestellt ist. Bei allen Typen bestehen die Zellen aus mehreren Lagen von Elektroden-Separator-Elektroden-Stapeln, die je nach Typ geschichtet oder gewickelt werden.\\
+
+\begin{table}[H]
+	\caption{Bauformen der Batteriezellen}
+	\label{tab:BauformenZelle}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|X|  }
+		\toprule[1.5pt]
+		\textbf{Bauform} & \textbf{Geschichtet} & \textbf{Gewickelt} \\
+		\hline\hline
+		Zylindrisch &  & Ja\\
+		\hline
+		Prismatisch & Ja & Ja \\
+		\hline
+		Pouch-Bag & Ja &  \\
+		\bottomrule[1.5pt]
+	\end{tabularx}		
+\end{table}
 
