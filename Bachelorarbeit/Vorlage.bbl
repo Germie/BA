@@ -359,6 +359,9 @@
       \field{year}{2011}
       \field{pages}{703\bibrangedash 707}
       \range{pages}{5}
+      \verb{file}
+      \verb ef40b386-c151-4a50-98f9-fb8a900cbdd6:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\ef40b386-c151-4a50-98f9-fb8a900cbdd6.pdf:pdf
+      \endverb
       \verb{urlraw}
       \verb https://arc.aiaa.org/doi/abs/10.2514/1.C031027
       \endverb
@@ -366,6 +369,44 @@
       \verb https://arc.aiaa.org/doi/abs/10.2514/1.C031027
       \endverb
       \warn{\item Entry 'Traub2011' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Wohrle2013}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6ebf7416aaf13c77bec61a37276a34fc}{%
+           family={W{ö}hrle},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Springer}%
+      }
+      \list{publisher}{1}{%
+        {Springer Verlag}%
+      }
+      \strng{namehash}{6ebf7416aaf13c77bec61a37276a34fc}
+      \strng{fullhash}{6ebf7416aaf13c77bec61a37276a34fc}
+      \strng{bibnamehash}{6ebf7416aaf13c77bec61a37276a34fc}
+      \strng{authorbibnamehash}{6ebf7416aaf13c77bec61a37276a34fc}
+      \strng{authornamehash}{6ebf7416aaf13c77bec61a37276a34fc}
+      \strng{authorfullhash}{6ebf7416aaf13c77bec61a37276a34fc}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lithium-Ionen-Zelle}
+      \field{year}{2013}
+      \verb{file}
+      \verb eec62f2a-31c3-4aff-994a-331e0e4ed272:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\eec62f2a-31c3-4aff-994a-331e0e4ed272.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/chapter/10.1007/978-3-642-30653-2_9
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/chapter/10.1007/978-3-642-30653-2_9
+      \endverb
+      \warn{\item Entry 'Wohrle2013' (refs/references.bib): Invalid format '12.05.2021' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

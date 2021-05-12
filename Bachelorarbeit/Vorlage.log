@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  9 MAY 2021 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  12 MAY 2021 15:56
 entering extended mode
 **./Vorlage.tex
 (Vorlage.tex
@@ -1284,6 +1284,12 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - Entry 'Traub2011' (refs/references.bib): Invalid fo
 rmat '08.05.2021' of date field 'urldate' - ignoring.
 
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wohrle2013':
+(biblatex)                - Entry 'Wohrle2013' (refs/references.bib): Invalid f
+ormat '12.05.2021' of date field 'urldate' - ignoring.
+
 )
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
@@ -1457,7 +1463,7 @@ Package pdftex.def Info: figs/LIB_Aufbau_Schematic-eps-converted-to.pdf  used o
 n input line 11.
 (pdftex.def)             Requested size: 341.43306pt x 201.72676pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--37
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
 
  []
 
@@ -1465,14 +1471,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 
-      [2 <./figs/LIB_Aufbau_Schematic-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+l.54 \end{table}
+                 [2 <./figs/LIB_Aufbau_Schematic-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--63
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
@@ -1487,20 +1498,20 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figs/Prismatische_und_Zylin
 drische_Zelle-eps-converted-to.pdf figs/Prismatische_und_Zylindrische_Zelle.eps
 >
-(epstopdf)             \includegraphics on input line 70.
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/Prismatische_und_Zylindrische_Zelle-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf, id=124, 233.873
+<figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf, id=129, 233.873
 75pt x 168.63pt>
 File: figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Prismatische_und_Zylindrische_Zelle-eps-converted
--to.pdf  used on input line 70.
+-to.pdf  used on input line 75.
 (pdftex.def)             Requested size: 341.43306pt x 246.21318pt.
 [3]) [4 <./figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf>]
 (docs/Methodik.tex) [5] (docs/Auswertung.tex) [6] (docs/Zusammenfassung.tex)
@@ -1545,20 +1556,20 @@ Package logreq Info: Writing requests to 'Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28444 strings out of 480801
- 578653 string characters out of 2905436
- 1374807 words of memory out of 3000000
- 43819 multiletter control sequences out of 15000+200000
- 583179 words of font info for 208 fonts, out of 3000000 for 9000
+ 28463 strings out of 480801
+ 578967 string characters out of 2905436
+ 1375045 words of memory out of 3000000
+ 43827 multiletter control sequences out of 15000+200000
+ 583644 words of font info for 214 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  56i,19n,86p,10169b,2195s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/hel
 vetic/uhvro8a.pfb>
-Output written on Vorlage.pdf (17 pages, 968319 bytes).
+Output written on Vorlage.pdf (17 pages, 969809 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
  46736 words of extra memory for PDF output out of 51595 (max. 10000000)
 

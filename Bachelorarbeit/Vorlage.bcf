@@ -2187,7 +2187,8 @@
     <bcf:citekey order="5">Hepperle2012</bcf:citekey>
     <bcf:citekey order="6">Lilium</bcf:citekey>
     <bcf:citekey order="7">Traub2011</bcf:citekey>
-    <bcf:citekey order="8">Ecker2013</bcf:citekey>
+    <bcf:citekey order="8">Wohrle2013</bcf:citekey>
+    <bcf:citekey order="9">Ecker2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
