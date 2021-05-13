@@ -2189,6 +2189,13 @@
     <bcf:citekey order="7">Traub2011</bcf:citekey>
     <bcf:citekey order="8">Wohrle2013</bcf:citekey>
     <bcf:citekey order="9">Ecker2013</bcf:citekey>
+    <bcf:citekey order="10">Leuthner.2013</bcf:citekey>
+    <bcf:citekey order="11">DAHN1994</bcf:citekey>
+    <bcf:citekey order="12">Leuthner.2013</bcf:citekey>
+    <bcf:citekey order="13">LionKnowledge2021Zylind</bcf:citekey>
+    <bcf:citekey order="14">LionKnowledge2021Prisma</bcf:citekey>
+    <bcf:citekey order="15">Liu2014</bcf:citekey>
+    <bcf:citekey order="16">Waldmann2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

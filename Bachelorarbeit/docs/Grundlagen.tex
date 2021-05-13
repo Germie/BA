@@ -2,6 +2,8 @@
 
 \subsection{Lithium-Ionen-Batterietechnologie}\label{subsec:LIB}
 
+In diesem Kapitel wird ein Überblick über die Lithium-Ionen-Batterietechnologie verschafft. Außerdem wird das thermische und elektrische Verhalten der Zellen erläutert. Zuletzt werden noch Alterungsmechanismen und Temperaturabhängigkeiten betrachtet.
+
 \subsubsection*{Aufbau und Funktionsweise}\label{subsec*:LIBAufbau}
 
 Der Begriff Lithium-Ionen-Batterie umfasst viele verschiedene Batterietechnologien, welche alle auf dem gleichen Wirkprinzip beruhen. Analog zu allen anderen Batterietypen besteht eine Lithium-Ionen-Batterie aus dem Elektrolyten, einem Separator und zwei Elektroden.\\
@@ -62,13 +64,25 @@ Beginnend mit der Lithium-Kobalt-Oxid-Batterie (LCO) von Sony in den 1990er-Jahr
 Um diese Nachteile auszugleichen wurden beispielsweise die Lithium-Nickel-Mangan-Kobalt-Batteriezelle (NMC) oder die Lithium-Nickel-Kobalt-Aluminium-Batteriezelle (NCA) entwickelt. Eine weitere Variation ist die Batteriezelle mit einer Kathode auf Eisenphosphatbasis (LFP). Diese besitzt verglichen mit den anderen Varianten eine geringere Spannungslage und gravimetrische Energiedichte. Da aber kein Kobalt verbaut wird, besitzt diese Technologie relevante Umweltvorteile.\\
 Auch eine alternative Anoden-Technologie, die sogenannte LTO-Zelle (Lithiumtitanat), kommt aktuell auf den Markt. Sie besitzt zwar eine geringere Energiedichte im Vergleich zu anderen Technologien, weist sich jedoch durch eine hohe Leistungsdichte und Lebensdauer aus. \\
 
+\subsubsection*{Elektrische und chemische Funktionsweise der Lithium-Ionen-Batterietechnologie}\label{subsub:ElekChemFunktion}
+
+Während des Entladevorgangs, was dem Auslagern von Lithium aus der negativen Elektrode entspricht, werden Elektronen ausgegeben. Die Lithium-Ionen wandern durch das Elektrolyt und den Separator zur positiven Elektrode und lagern sich dort ein. Gleichzeitig fließen die Elektronen durch die externe Verbindung über einen Verbraucher zur positiven Elektrode wo Aluminium als Stromableiter dient. Beim Laden wird dieser Prozess umgekehrt\footcite[Vgl.][S. 13-19]{Leuthner.2013}.\\
+Der Interkalationsprozess der Lithium-Ionen ist nahezu reversibel. Daher tritt unter normalem Gebrauch meist kein Lithium-Plating auf\footcite[Vgl.][S. 265-270]{DAHN1994}.\\
+Beim Lithium-Plating setzt sich reines Lithium an der Anode ab und verringert so die Kapazität der Batterie.\\
+Durch den nahezu reversiblen Prozess ist der Wirkungsgrad von Lithium-Ionen-Batterien sehr hoch. Dieser ist nach Gleichung \ref{gl:WirkungsgradLIB} definiert als die Energie die bei der Entladung frei wird geteilt durch die Energie, die beim Laden aufgewendet wird\footcite[Vgl.][S. 13-19]{Leuthner.2013}.\\
+	
+\begin{equation}
+	\mbox{Wirkungsgrad} = \frac{Entladeenerige}{Ladeenergie}
+	\label{gl:WirkungsgradLIB}
+\end{equation}
+
+
+
 \subsubsection*{Bauformen der Lithium-Ionen-Batterien}\label{subsub:BauformenLIB}
 
-Wie in Tabelle \ref{tab:BauformenZelle} dargestellt, gibt es drei Bauformen von Lithium-Ionen-Batterien. \\
-
-
-
-
+Wie in Tabelle \ref{tab:BauformenZelle} dargestellt, gibt es drei Bauformen von Lithium-Ionen-Batterien. Da in dieser Arbeit nur die zylindrische und prismatische Bauform relevant ist, werden nur sie hier behandelt.\\
+Die zylindrische Zelle besitzt gewickelte Elektroden-Separator-Elektroden-Paare. Analog zu einer klassischen AA-Batterie sind die positiven und negativen Anschlüsse auf jeweils einer der beiden Stirnseiten angebracht. In der konventionellen Batteriezelle wird der Strom durch ein sogenanntes $"Tab"$ aus den Kathoden-Anoden-Paaren entnommen.\\
+Die Bauform der zylindrischen Zell wird häufig durch ein Zahlenkürzel angegeben, bei dem die ersten beiden Ziffern den Durchmesser in [mm] vorgeben. Die nächsten beiden Ziffern stehen für die Zellhöhe, wieder in [mm]. Die letzte Ziffer ist eine 0 und schließt die Zahl ab. Zum Beispiel ist eine häufige Bauform die 18650er Zelle mit einem Durchmesser von 18 mm und einer Höhe von 65 mm. Auch viel verwendet werden die 26650er- und die 21700er-Zellgrößen\footcite[Vgl.][]{LionKnowledge2021Zylind}.\\
 
 \begin{figure}[H]
 	\begin{center}
@@ -85,3 +99,34 @@ Wie in Tabelle \ref{tab:BauformenZelle} dargestellt, gibt es drei Bauformen von 
 	\label{fig:PrismaZylindZelle}
 \end{figure}
 
+Der Aufbau der prismatischen Zelle (siehe Abbildung \ref{fig:PrismaZylindZelle}) ist relativ einfach. \\
+In diesem Bauformat werden gewickelte oder gestapelte Elektrodenpaare verwendet. Die Spannnungs-, bzw. Stromentnahme erfolgt über $"Tabs"$ in der Zelle und wird nach außen über an der Kopfseite der Batteriezelle angebrachte Anschlüsse entnommen.\\
+Die Größe der prismatischen Zellen variiert stark und wird je nach Anwendungsfall bestimmt\footcite[Vgl.][]{LionKnowledge2021Prisma}. 
+
+\subsubsection*{Alterungsmechanismen und Batteriezelltemperatur}\label{subsub:Alterung}
+
+Die Leistung von LIB's hängt stark von der Zelltemperatur ab. \\
+Mit sinkender Temperatur steigt der innere Widerstand der Zelle und die verfügbare Kapazität nimmt ab. Dies führt zu verminderter abnehmbarer Energie und geringerer maximaler Leistung. Bei hoher Zelltemperatur kann jedoch die Sicherheit der Batteriezelle nicht mehr gewährleistet werden und es finden Alterungsprozesse statt. Die Zelltemperatur ist hierbei von der Außentemperatur und dem Laden bzw. Entladen der Batterie abhängig\footcite[Vgl.][S.1001-1010]{Liu2014}. \\
+Die Temperaturgradienten die sich beim Benutzen der Batterie in der Zelle ausbilden, können auch Alterungsgradienten hervorrufen. Hinzu kommt, dass starke Temperaturgradienten, die z.B. während hoher C-Raten auftreten, Verformungen der Elektrodenwickel induzieren können\footcite[Vgl.][S.921-927]{Waldmann2015}.\\
+Es ist also zu Schlussfolgern, dass eine homogene Temperaturverteilung innerhalb der Zelle von Vorteil ist.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

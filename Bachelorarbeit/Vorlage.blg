@@ -2,26 +2,16 @@
 [0] Config.pm:307> INFO - Logfile is 'Vorlage.blg'
 [99] biber-MSWIN64:322> INFO - === 
 [122] Biber.pm:415> INFO - Reading 'Vorlage.bcf'
-[298] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
-[322] Biber.pm:4256> INFO - Processing section 0
-[323] Utils.pm:75> INFO - Globbing data source 'refs/references.bib'
-[335] Utils.pm:91> INFO - Globbed data source 'refs/references.bib' to refs/references.bib
-[352] Biber.pm:4455> INFO - Looking for bibtex format file 'refs/references.bib' for section 0
-[356] bibtex.pm:1653> INFO - LaTeX decoding ...
-[374] bibtex.pm:1471> INFO - Found BibTeX data source 'refs/references.bib'
-[404] Utils.pm:304> WARN - Entry 'Ajanovic2020' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring
-[422] Utils.pm:304> WARN - Entry 'Hettesheimer2017' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring
-[425] Utils.pm:304> WARN - Entry 'BeloitEDU2021' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring
-[428] Utils.pm:304> WARN - Entry 'Sollmann2018' (refs/references.bib): Invalid format '06.05.2021' of date field 'urldate' - ignoring
-[431] Utils.pm:304> WARN - Entry 'Hepperle2012' (refs/references.bib): Invalid format '06.05.2021' of date field 'urldate' - ignoring
-[434] Utils.pm:304> WARN - Entry 'Lilium' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring
-[437] Utils.pm:304> WARN - Entry 'Traub2011' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring
-[440] Utils.pm:304> WARN - Entry 'Wohrle2013' (refs/references.bib): Invalid format '12.05.2021' of date field 'urldate' - ignoring
-[444] Utils.pm:304> WARN - Entry 'Ecker2013' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring
-[472] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[472] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[472] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[472] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[494] bbl.pm:652> INFO - Writing 'Vorlage.bbl' with encoding 'UTF-8'
-[503] bbl.pm:755> INFO - Output to Vorlage.bbl
-[505] Biber.pm:128> INFO - WARNINGS: 9
+[299] Biber.pm:943> INFO - Found 15 citekeys in bib section 0
+[324] Biber.pm:4256> INFO - Processing section 0
+[324] Utils.pm:75> INFO - Globbing data source 'refs/references.bib'
+[336] Utils.pm:91> INFO - Globbed data source 'refs/references.bib' to refs/references.bib
+[353] Biber.pm:4455> INFO - Looking for bibtex format file 'refs/references.bib' for section 0
+[357] bibtex.pm:1653> INFO - LaTeX decoding ...
+[391] bibtex.pm:1471> INFO - Found BibTeX data source 'refs/references.bib'
+[549] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[549] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[549] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[549] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[583] bbl.pm:652> INFO - Writing 'Vorlage.bbl' with encoding 'UTF-8'
+[598] bbl.pm:755> INFO - Output to Vorlage.bbl

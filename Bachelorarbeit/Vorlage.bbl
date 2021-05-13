@@ -46,6 +46,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{e {\&} i Elektrotechnik und Informationstechnik}
       \field{title}{Wirtschaftliche und {ö}kologische Aspekte der Elektromobilit{ä}t: Economic and ecological aspects of electric vehicles}
+      \field{urlyear}{}
       \field{volume}{137}
       \field{year}{2020}
       \field{pages}{136\bibrangedash 146}
@@ -59,7 +60,6 @@
       \verb{url}
       \verb https://link.springer.com/article/10.1007/s00502-020-00812-x
       \endverb
-      \warn{\item Entry 'Ajanovic2020' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
     \endentry
     \entry{BeloitEDU2021}{misc}{}
       \name{author}{1}{}{%
@@ -78,6 +78,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Energy Density Table}
+      \field{urlyear}{}
       \verb{file}
       \verb 7a66539b-ffad-49be-9889-d48b4404387d:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\7a66539b-ffad-49be-9889-d48b4404387d.png:png
       \endverb
@@ -87,7 +88,61 @@
       \verb{url}
       \verb https://chemistry.beloit.edu/edetc/SlideShow/slides/energy/density.html
       \endverb
-      \warn{\item Entry 'BeloitEDU2021' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{DAHN1994}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=25f626569e641718a5723ea1f13d6196}{%
+           family={DAHN},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4760279377554d86066145c48d28a892}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={E.\bibnamedelimi W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b456e9fcb361f1e2c9062d10b156a82f}{%
+           family={OBROVAC},
+           familyi={O\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45494441ab8292c7536fc223cff2fe7b}{%
+           family={Sacken},
+           familyi={S\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{a15003fb5af86ea541d8ace4942f6ad1}
+      \strng{fullhash}{afcf9ccb463f6a9887a73efa69db7336}
+      \strng{bibnamehash}{afcf9ccb463f6a9887a73efa69db7336}
+      \strng{authorbibnamehash}{afcf9ccb463f6a9887a73efa69db7336}
+      \strng{authornamehash}{a15003fb5af86ea541d8ace4942f6ad1}
+      \strng{authorfullhash}{afcf9ccb463f6a9887a73efa69db7336}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01672738}
+      \field{journaltitle}{Solid State Ionics}
+      \field{title}{Thermal stability of LixCoO2, LixNiO2 and 2-MnO2 and consequences for the safety of Li-ion cells}
+      \field{urlyear}{}
+      \field{volume}{69}
+      \field{year}{1994}
+      \field{pages}{265\bibrangedash 270}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0167273894904154
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0167273894904154
+      \endverb
     \endentry
     \entry{Ecker2013}{article}{}
       \name{author}{2}{}{%
@@ -113,6 +168,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{MTZ Wissen}
       \field{title}{Batterietechnik - Lithium-Ionen-Batterien}
+      \field{urlyear}{}
       \field{year}{2013}
       \field{pages}{66\bibrangedash 70}
       \range{pages}{5}
@@ -125,7 +181,6 @@
       \verb{url}
       \verb https://link.springer.com/content/pdf/10.1007/s35146-013-0014-9.pdf
       \endverb
-      \warn{\item Entry 'Ecker2013' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring}
     \endentry
     \entry{Hepperle2012}{misc}{}
       \name{author}{1}{}{%
@@ -153,6 +208,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Electric Flight - Potential and Limitations}
+      \field{urlyear}{}
       \field{year}{2012}
       \field{dateera}{ce}
       \verb{file}
@@ -164,7 +220,6 @@
       \verb{url}
       \verb https://elib.dlr.de/78726/1/MP-AVT-209-09.pdf
       \endverb
-      \warn{\item Entry 'Hepperle2012' (refs/references.bib): Invalid format '06.05.2021' of date field 'urldate' - ignoring}
     \endentry
     \entry{Hettesheimer2017}{book}{}
       \name{author}{15}{}{%
@@ -273,11 +328,56 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Entwicklungsperspektiven f{ü}r Zellformate von Lithium-Ionen-Batteiren in der Elektromobilit{ä}t}
+      \field{urlyear}{}
       \field{year}{2017}
       \verb{file}
       \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
       \endverb
-      \warn{\item Entry 'Hettesheimer2017' (refs/references.bib): Invalid format '04.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Leuthner.2013}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3631bc784c4895544a9a4e75c0e365ac}{%
+           family={Leuthner},
+           familyi={L\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6e3fdec84837a88de572cf28b7b302ad}{%
+           family={Korthauer},
+           familyi={K\bibinitperiod},
+           given={Reiner},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{3631bc784c4895544a9a4e75c0e365ac}
+      \strng{fullhash}{3631bc784c4895544a9a4e75c0e365ac}
+      \strng{bibnamehash}{3631bc784c4895544a9a4e75c0e365ac}
+      \strng{authorbibnamehash}{3631bc784c4895544a9a4e75c0e365ac}
+      \strng{authornamehash}{3631bc784c4895544a9a4e75c0e365ac}
+      \strng{authorfullhash}{3631bc784c4895544a9a4e75c0e365ac}
+      \strng{editorbibnamehash}{6e3fdec84837a88de572cf28b7b302ad}
+      \strng{editornamehash}{6e3fdec84837a88de572cf28b7b302ad}
+      \strng{editorfullhash}{6e3fdec84837a88de572cf28b7b302ad}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbuch Lithium-Ionen-Batterien}
+      \field{isbn}{978-3-642-30652-5}
+      \field{title}{{Ü}bersicht zu Lithium-Ionen-Batterien}
+      \field{year}{2013}
+      \field{pages}{13\bibrangedash 19}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/978-3-642-30653-2{\textunderscore }2
+      \endverb
     \endentry
     \entry{Lilium}{misc}{}
       \name{author}{1}{}{%
@@ -296,13 +396,99 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Lilium Jet}
+      \field{urlyear}{}
       \verb{urlraw}
       \verb https://lilium.com/jet
       \endverb
       \verb{url}
       \verb https://lilium.com/jet
       \endverb
-      \warn{\item Entry 'Lilium' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{LionKnowledge2021Zylind}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Lithium-Ionen-Batterietechnik: Zylindrische Zellen}
+      \field{urlyear}{}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://lionknowledge.com/5-bauformen/5-1-zylindrische-zellen/#:~:text=Zellen%20zylindrischer%20Bauform%2C%20haben%20den,Becher%20ist%20aus%20vernickeltem%20Stahlblech.&text=Die%20Zelle%20hat%2018%20mm,weitere%20gebr%C3%A4uchliche%20Bauform%20ist%2026650.
+      \endverb
+      \verb{url}
+      \verb https://lionknowledge.com/5-bauformen/5-1-zylindrische-zellen/#:~:text=Zellen%20zylindrischer%20Bauform%2C%20haben%20den,Becher%20ist%20aus%20vernickeltem%20Stahlblech.&text=Die%20Zelle%20hat%2018%20mm,weitere%20gebr%C3%A4uchliche%20Bauform%20ist%2026650.
+      \endverb
+    \endentry
+    \entry{LionKnowledge2021Prisma}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Lithium-Ionen{\_}Batterietechnik: Prismatische Zellen}
+      \field{urlyear}{}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://lionknowledge.com/5-bauformen/5-2-primatische-zellen/
+      \endverb
+      \verb{url}
+      \verb https://lionknowledge.com/5-bauformen/5-2-primatische-zellen/
+      \endverb
+    \endentry
+    \entry{Liu2014}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4775b18e2e081fddc73428ed82246ab1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Guangming},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cfaa4c4adb40f0640b57be20e7eb6fe}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Minggao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23417570c08a79af5d6abf197b88741a}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Languang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53db551fb22a14147ddfdfebe5f9d607}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jianqiu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dded401445d5a8117c0679f5cffbf21b}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Xuebing},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e28ba9f11ddd1e9a60c426b70d838121}
+      \strng{fullhash}{6b64c18263e43eb34d764de5cc123501}
+      \strng{bibnamehash}{6b64c18263e43eb34d764de5cc123501}
+      \strng{authorbibnamehash}{6b64c18263e43eb34d764de5cc123501}
+      \strng{authornamehash}{e28ba9f11ddd1e9a60c426b70d838121}
+      \strng{authorfullhash}{6b64c18263e43eb34d764de5cc123501}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1388-6150}
+      \field{journaltitle}{Journal of Thermal Analysis and Calorimetry}
+      \field{number}{2}
+      \field{title}{Analysis of the heat generation of lithium-ion battery during charging and discharging considering different influencing factors}
+      \field{volume}{116}
+      \field{year}{2014}
+      \field{pages}{1001\bibrangedash 1010}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s10973-013-3599-9
+      \endverb
+      \verb{file}
+      \verb 1539cac7-4783-4b7e-9201-d876314b5264:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\1539cac7-4783-4b7e-9201-d876314b5264.pdf:pdf
+      \endverb
     \endentry
     \entry{Sollmann2018}{misc}{}
       \name{author}{1}{}{%
@@ -324,6 +510,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Nickel-Cadmium-Batterien}
+      \field{urlyear}{}
       \field{year}{2018}
       \verb{urlraw}
       \verb https://www.batterieforum-deutschland.de/infoportal/lexikon/nickel-cadmium-batterien/
@@ -331,7 +518,6 @@
       \verb{url}
       \verb https://www.batterieforum-deutschland.de/infoportal/lexikon/nickel-cadmium-batterien/
       \endverb
-      \warn{\item Entry 'Sollmann2018' (refs/references.bib): Invalid format '06.05.2021' of date field 'urldate' - ignoring}
     \endentry
     \entry{Traub2011}{article}{}
       \name{author}{1}{}{%
@@ -355,6 +541,7 @@
       \field{journaltitle}{Journal of Aircraft}
       \field{number}{2}
       \field{title}{Range and Endurance Estimates for Battery-Powered Aircraft}
+      \field{urlyear}{}
       \field{volume}{48}
       \field{year}{2011}
       \field{pages}{703\bibrangedash 707}
@@ -368,7 +555,89 @@
       \verb{url}
       \verb https://arc.aiaa.org/doi/abs/10.2514/1.C031027
       \endverb
-      \warn{\item Entry 'Traub2011' (refs/references.bib): Invalid format '08.05.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Waldmann2015}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=53072ea3cca46684a4f18101495664b1}{%
+           family={Waldmann},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34db47f133a107932ee10b4be92dc1b9}{%
+           family={Bisle},
+           familyi={B\bibinitperiod},
+           given={Gunther},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2795688c9456814b6693e7b29d2c178}{%
+           family={Hogg},
+           familyi={H\bibinitperiod},
+           given={Bj{ö}rn-Ingo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbc46e1e82683be33e4004a86332e947}{%
+           family={Stumpp},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50d2189dc1789e75e19b0006b4c694de}{%
+           family={Danzer},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a42da1888514673c50047c7d59c2004}{%
+           family={Kasper},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20ad1f3e58d44521590556d0acf5236a}{%
+           family={Axmann},
+           familyi={A\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30402561ec25e9ec16b0ba459264d8c2}{%
+           family={Wohlfahrt-Mehrens},
+           familyi={W\bibinithyphendelim M\bibinitperiod},
+           given={Margret},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c982de3ed4b6209ac399cca0c139b8d}
+      \strng{fullhash}{df00e81b00bf6b84ed245eb682cf23da}
+      \strng{bibnamehash}{df00e81b00bf6b84ed245eb682cf23da}
+      \strng{authorbibnamehash}{df00e81b00bf6b84ed245eb682cf23da}
+      \strng{authornamehash}{5c982de3ed4b6209ac399cca0c139b8d}
+      \strng{authorfullhash}{df00e81b00bf6b84ed245eb682cf23da}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0013-4651}
+      \field{journaltitle}{Journal of The Electrochemical Society}
+      \field{number}{6}
+      \field{title}{Influence of Cell Design on Temperatures and Temperature Gradients in Lithium-Ion Cells: An In Operando Study}
+      \field{urlyear}{}
+      \field{volume}{162}
+      \field{year}{2015}
+      \field{pages}{A921\bibrangedash A927}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1149/2.0561506jes
+      \endverb
+      \verb{file}
+      \verb 633312e7-90ec-48e8-bdaf-b169bbff4ce1:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\633312e7-90ec-48e8-bdaf-b169bbff4ce1.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1149/2.0561506jes/meta?casa_token=YyURX4TdT6sAAAAA:7vFDNuPpN-zy-9En8I0fBih6DkbfiBvsSaRnpvu5VvmtSkUZdHSv-yN5-DPXK3KsvUbZN7BMdA
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1149/2.0561506jes/meta?casa_token=YyURX4TdT6sAAAAA:7vFDNuPpN-zy-9En8I0fBih6DkbfiBvsSaRnpvu5VvmtSkUZdHSv-yN5-DPXK3KsvUbZN7BMdA
+      \endverb
     \endentry
     \entry{Wohrle2013}{book}{}
       \name{author}{1}{}{%
@@ -396,6 +665,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Lithium-Ionen-Zelle}
+      \field{urlyear}{}
       \field{year}{2013}
       \verb{file}
       \verb eec62f2a-31c3-4aff-994a-331e0e4ed272:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\eec62f2a-31c3-4aff-994a-331e0e4ed272.pdf:pdf
@@ -406,7 +676,6 @@
       \verb{url}
       \verb https://link.springer.com/chapter/10.1007/978-3-642-30653-2_9
       \endverb
-      \warn{\item Entry 'Wohrle2013' (refs/references.bib): Invalid format '12.05.2021' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

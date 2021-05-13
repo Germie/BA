@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  12 MAY 2021 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  13 MAY 2021 10:34
 entering extended mode
 **./Vorlage.tex
 (Vorlage.tex
@@ -1235,62 +1235,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Vorlage.bbl' found.
- (Vorlage.bbl
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Ajanovic2020':
-(biblatex)                - Entry 'Ajanovic2020' (refs/references.bib): Invalid
- format '04.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BeloitEDU2021':
-(biblatex)                - Entry 'BeloitEDU2021' (refs/references.bib): Invali
-d format '04.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Ecker2013':
-(biblatex)                - Entry 'Ecker2013' (refs/references.bib): Invalid fo
-rmat '08.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Hepperle2012':
-(biblatex)                - Entry 'Hepperle2012' (refs/references.bib): Invalid
- format '06.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Hettesheimer2017':
-(biblatex)                - Entry 'Hettesheimer2017' (refs/references.bib): Inv
-alid format '04.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Lilium':
-(biblatex)                - Entry 'Lilium' (refs/references.bib): Invalid forma
-t '08.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Sollmann2018':
-(biblatex)                - Entry 'Sollmann2018' (refs/references.bib): Invalid
- format '06.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Traub2011':
-(biblatex)                - Entry 'Traub2011' (refs/references.bib): Invalid fo
-rmat '08.05.2021' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Wohrle2013':
-(biblatex)                - Entry 'Wohrle2013' (refs/references.bib): Invalid f
-ormat '12.05.2021' of date field 'urldate' - ignoring.
-
-)
+ (Vorlage.bbl)
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
 \AtBeginShipoutBox=\box68
@@ -1435,7 +1380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--42
                    \relax 
 l.99 \newpage
               [1] (docs/Grundlagen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
@@ -1448,7 +1393,7 @@ Package epstopdf Info: Source file: <figs/LIB_Aufbau_Schematic.eps>
 (epstopdf)                    size: 40749 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/LIB_Aufbau_Schematic-e
 ps-converted-to.pdf figs/LIB_Aufbau_Schematic.eps>
-(epstopdf)             \includegraphics on input line 11.
+(epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1460,10 +1405,10 @@ d
 File: figs/LIB_Aufbau_Schematic-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/LIB_Aufbau_Schematic-eps-converted-to.pdf>
 Package pdftex.def Info: figs/LIB_Aufbau_Schematic-eps-converted-to.pdf  used o
-n input line 11.
+n input line 13.
 (pdftex.def)             Requested size: 341.43306pt x 201.72676pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
 
  []
 
@@ -1471,51 +1416,56 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 \end{table}
-                 [2 <./figs/LIB_Aufbau_Schematic-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+l.40 
+      [2 <./figs/LIB_Aufbau_Schematic-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
 Package epstopdf Info: Source file: <figs/Prismatische_und_Zylindrische_Zelle.e
 ps>
-(epstopdf)                    date: 2021-05-09 15:26:19
-(epstopdf)                    size: 1085946 bytes
+(epstopdf)                    date: 2021-05-13 08:52:55
+(epstopdf)                    size: 1051930 bytes
 (epstopdf)             Output file: <figs/Prismatische_und_Zylindrische_Zelle-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2021-05-09 15:27:53
-(epstopdf)                    size: 78649 bytes
+(epstopdf)                    date: 2021-05-13 08:53:04
+(epstopdf)                    size: 74115 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/Prismatische_und_Zylin
 drische_Zelle-eps-converted-to.pdf figs/Prismatische_und_Zylindrische_Zelle.eps
 >
-(epstopdf)             \includegraphics on input line 75.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/Prismatische_und_Zylindrische_Zelle-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf, id=129, 233.873
+<figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf, id=148, 233.873
 75pt x 168.63pt>
 File: figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Prismatische_und_Zylindrische_Zelle-eps-converted
--to.pdf  used on input line 75.
+-to.pdf  used on input line 89.
 (pdftex.def)             Requested size: 341.43306pt x 246.21318pt.
-[3]) [4 <./figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf>]
-(docs/Methodik.tex) [5] (docs/Auswertung.tex) [6] (docs/Zusammenfassung.tex)
-[7]
+[4 <./figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf>]) [5]
+(docs/Methodik.tex) [6] (docs/Auswertung.tex) [7] (docs/Zusammenfassung.tex)
+[8]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
@@ -1523,7 +1473,7 @@ Package biblatex Warning: Name format 'last-first' deprecated.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 120.
-[8] (docs/Anhang.tex) [9] (docs/Erklaerung.tex
+[9] (docs/Anhang.tex) [10] (docs/Erklaerung.tex
 Overfull \hbox (0.43408pt too wide) in paragraph at lines 12--16
 [][]  
  []
@@ -1544,7 +1494,7 @@ Overfull \hbox (0.43408pt too wide) in paragraph at lines 29--33
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [10]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (Vorlage.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
@@ -1556,20 +1506,20 @@ Package logreq Info: Writing requests to 'Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28463 strings out of 480801
- 578967 string characters out of 2905436
- 1375045 words of memory out of 3000000
- 43827 multiletter control sequences out of 15000+200000
- 583644 words of font info for 214 fonts, out of 3000000 for 9000
+ 28549 strings out of 480801
+ 580543 string characters out of 2905436
+ 1375841 words of memory out of 3000000
+ 43872 multiletter control sequences out of 15000+200000
+ 584800 words of font info for 230 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  56i,19n,86p,10169b,2195s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/hel
 vetic/uhvro8a.pfb>
-Output written on Vorlage.pdf (17 pages, 969809 bytes).
+Output written on Vorlage.pdf (18 pages, 978892 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
  46736 words of extra memory for PDF output out of 51595 (max. 10000000)
 
