@@ -55,27 +55,31 @@ Das Gehäuse oder das Verpackungsmaterial der Batteriezellen ist ausschließlich
 	\end{tabularx}		
 \end{table}
 
-Je nachdem ob eine höhere Energiedichte oder Leistungsdichte bei den Batteriezellen gewünscht ist, können die Aktivmaterialschichten den Anforderungen entsprechend ausgelegt werden. Bei dünneren Schichten ist die Leistungsdichte, bei gleichzeitig geringerer Energiedichte, höher\footcite[Vlg.][S.66-67]{Ecker2013}.\\
+Je nachdem ob eine höhere Energiedichte oder Leistungsdichte bei den Batteriezellen gewünscht ist, können die Aktivmaterialschichten den Anforderungen entsprechend ausgelegt werden. Bei dünneren Schichten ist die Leistungsdichte, bei gleichzeitig geringerer Energiedichte, höher\footcite[Vlg.\label{Ecker2013}][S.66-67]{Ecker2013}.\\
 
 \subsubsection*{Batterietechnologien}\label{subsub:BatTechnology}
 
 Der größte Unterschied zwischen den LIB-Technologien liegt in der Materialzusammensetzung der Elektroden.\\
 Beginnend mit der Lithium-Kobalt-Oxid-Batterie (LCO) von Sony in den 1990er-Jahren, wurden seitdem auch Lithium-Nickel-Oxid- (LNO) oder Lithium-Mangan-Oxid-Batteriezellen (LMO) entwickelt. LNO und LCO weisen beide eine hohe Kapazität auf, LNO besitzt jedoch eine geringe thermische Stabilität und LCO ist aufgrund des Kobaltgehalts in Sachen Kosten, Sicherheit und Umweltverträglichkeit nicht ideal für den Massenmarkt. LMO ist zwar stabil, löst sich jedoch bei Raumtemperatur teilweise im Elektrolyten. \\
 Um diese Nachteile auszugleichen wurden beispielsweise die Lithium-Nickel-Mangan-Kobalt-Batteriezelle (NMC) oder die Lithium-Nickel-Kobalt-Aluminium-Batteriezelle (NCA) entwickelt. Eine weitere Variation ist die Batteriezelle mit einer Kathode auf Eisenphosphatbasis (LFP). Diese besitzt verglichen mit den anderen Varianten eine geringere Spannungslage und gravimetrische Energiedichte. Da aber kein Kobalt verbaut wird, besitzt diese Technologie relevante Umweltvorteile.\\
-Auch eine alternative Anoden-Technologie, die sogenannte LTO-Zelle (Lithiumtitanat), kommt aktuell auf den Markt. Sie besitzt zwar eine geringere Energiedichte im Vergleich zu anderen Technologien, weist sich jedoch durch eine hohe Leistungsdichte und Lebensdauer aus. \\
+Auch eine alternative Anoden-Technologie, die sogenannte LTO-Zelle (Lithiumtitanat), kommt aktuell auf den Markt. Sie besitzt zwar eine geringere Energiedichte im Vergleich zu anderen Technologien, weist sich jedoch durch eine hohe Leistungsdichte und Lebensdauer aus\footnote{Vgl. Fußnote \ref{Ecker2013}, Ecker und Sauer 2013}.  \\
 
-\subsubsection*{Elektrische und chemische Funktionsweise der Lithium-Ionen-Batterietechnologie}\label{subsub:ElekChemFunktion}
+\subsubsection*{Elektrische Funktionsweise und Kenngrößen der Lithium-Ionen-Batterietechnologie}\label{subsub:ElekChemFunktion}
 
-Während des Entladevorgangs, was dem Auslagern von Lithium aus der negativen Elektrode entspricht, werden Elektronen ausgegeben. Die Lithium-Ionen wandern durch das Elektrolyt und den Separator zur positiven Elektrode und lagern sich dort ein. Gleichzeitig fließen die Elektronen durch die externe Verbindung über einen Verbraucher zur positiven Elektrode wo Aluminium als Stromableiter dient. Beim Laden wird dieser Prozess umgekehrt\footcite[Vgl.][S. 13-19]{Leuthner.2013}.\\
+Während des Entladevorgangs, was dem Auslagern von Lithium aus der negativen Elektrode entspricht, werden Elektronen ausgegeben. Die Lithium-Ionen wandern durch das Elektrolyt und den Separator zur positiven Elektrode und lagern sich dort ein. Gleichzeitig fließen die Elektronen durch die externe Verbindung über einen Verbraucher zur positiven Elektrode wo Aluminium als Stromableiter dient. Beim Laden wird dieser Prozess umgekehrt\footcite[Vgl.\label{cite:Leuthner}][S. 13-19]{Leuthner.2013}.\\
 Der Interkalationsprozess der Lithium-Ionen ist nahezu reversibel. Daher tritt unter normalem Gebrauch meist kein Lithium-Plating auf\footcite[Vgl.][S. 265-270]{DAHN1994}.\\
-Beim Lithium-Plating setzt sich reines Lithium an der Anode ab und verringert so die Kapazität der Batterie.\\
-Durch den nahezu reversiblen Prozess ist der Wirkungsgrad von Lithium-Ionen-Batterien sehr hoch. Dieser ist nach Gleichung \ref{gl:WirkungsgradLIB} definiert als die Energie die bei der Entladung frei wird geteilt durch die Energie, die beim Laden aufgewendet wird\footcite[Vgl.][S. 13-19]{Leuthner.2013}.\\
-	
+Beim Lithium-Plating setzt sich Lithium an der Anode ab und verringert so die Kapazität der Batterie.\\
+
+
+Die gebräuchlichen Kenngrößen der Batteriezelle sind meist die nominale Kapazität, elektrische Energie und Leistung. \\
+Die Kapazität ist die Menge an elektrischer Ladung, welche von einer Leistungsquelle während der Entladung geliefert werden kann. Sie wird primär von dem Entladestrom, der Temperatur, der Entladeschlussspannung und der Art und Menge der Aktivmaterialien auf den Elektroden beeinflusst. Die Einheit ist [\textbf{Ah}].\\
+Die Energie einer Batteriezelle berechent sich aus der Kapazität und der mittleren Entladespannung und wird in der Einheit [\textbf{Wh}] angegeben. Die Energiedichte bezieht sich auf das Volumen der Batterie und wird in [\textbf{Wh/l}] gerechnet. Die spezifische Energiedichte referenziert die Masse der Batterie und wird dementsprechend in [\textbf{Wh/kg}] angegeben.\\
+Um die Leistung zu berechnen wird der Strom mit der Spannung multipliziert, was die Einheit Watt [\textbf{W}] ergibt. Durch den nahezu reversiblen Prozess ist der Wirkungsgrad von Lithium-Ionen-Batterien sehr hoch. Dieser ist nach Gleichung \ref{gl:WirkungsgradLIB} definiert als die Energie die bei der Entladung frei wird geteilt durch die Energie, die beim Laden aufgewendet wird\footnote{Vgl. Fußnote \ref{cite:Leuthner}, Leuthner 2013}.\\
+
 \begin{equation}
 	\mbox{Wirkungsgrad} = \frac{Entladeenerige}{Ladeenergie}
 	\label{gl:WirkungsgradLIB}
 \end{equation}
-
 
 
 \subsubsection*{Bauformen der Lithium-Ionen-Batterien}\label{subsub:BauformenLIB}
@@ -84,7 +88,7 @@ Wie in Tabelle \ref{tab:BauformenZelle} dargestellt, gibt es drei Bauformen von 
 Die zylindrische Zelle besitzt gewickelte Elektroden-Separator-Elektroden-Paare. Analog zu einer klassischen AA-Batterie sind die positiven und negativen Anschlüsse auf jeweils einer der beiden Stirnseiten angebracht. In der konventionellen Batteriezelle wird der Strom durch ein sogenanntes $"Tab"$ aus den Kathoden-Anoden-Paaren entnommen.\\
 Die Bauform der zylindrischen Zell wird häufig durch ein Zahlenkürzel angegeben, bei dem die ersten beiden Ziffern den Durchmesser in [mm] vorgeben. Die nächsten beiden Ziffern stehen für die Zellhöhe, wieder in [mm]. Die letzte Ziffer ist eine 0 und schließt die Zahl ab. Zum Beispiel ist eine häufige Bauform die 18650er Zelle mit einem Durchmesser von 18 mm und einer Höhe von 65 mm. Auch viel verwendet werden die 26650er- und die 21700er-Zellgrößen\footcite[Vgl.][]{LionKnowledge2021Zylind}.\\
 
-\begin{figure}[H]
+\begin{figure}[!h]
 	\begin{center}
 		\begin{overpic}[width=12cm]{figs/Prismatische_und_Zylindrische_Zelle.eps}
 		\put(20,250){\mbox{Zylindrische Zelle}}
@@ -109,6 +113,11 @@ Die Leistung von LIB's hängt stark von der Zelltemperatur ab. \\
 Mit sinkender Temperatur steigt der innere Widerstand der Zelle und die verfügbare Kapazität nimmt ab. Dies führt zu verminderter abnehmbarer Energie und geringerer maximaler Leistung. Bei hoher Zelltemperatur kann jedoch die Sicherheit der Batteriezelle nicht mehr gewährleistet werden und es finden Alterungsprozesse statt. Die Zelltemperatur ist hierbei von der Außentemperatur und dem Laden bzw. Entladen der Batterie abhängig\footcite[Vgl.][S.1001-1010]{Liu2014}. \\
 Die Temperaturgradienten die sich beim Benutzen der Batterie in der Zelle ausbilden, können auch Alterungsgradienten hervorrufen. Hinzu kommt, dass starke Temperaturgradienten, die z.B. während hoher C-Raten auftreten, Verformungen der Elektrodenwickel induzieren können\footcite[Vgl.][S.921-927]{Waldmann2015}.\\
 Es ist also zu Schlussfolgern, dass eine homogene Temperaturverteilung innerhalb der Zelle von Vorteil ist.
+Im weiteren werden drei häufig auftretende Alterungsmechanismen erläutert.\\
+Beim Lithium-Plating setzen sich Lithium-Ionen auf der Trennschicht, oder "Solid Electrolyte Interface" (SEI), zwischen Elektrode und Elektrolyt durch irreversible chemische Reaktionen ab. Diese Ablagerungen verdicken die Trennschicht, was zu einem Anstieg des Stofftransportwiderstands und dadurch zu einem Anstieg des ohm'schen Wiederstands führt. Da die Konzentration der Lithium-Ionen im Elektrolyt auch abnimmt, kommt es außerdem zu einem Kapazitätsverlust.\\
+Alterung kann außerdem durch mechanische Spannungen ausgelöst werden. Diese entstehen, wenn Lithium-Ionen sich in die Aktivmaterialien einlagern. Die Spannung innerhalb der Partikel kann hierbei zur Rissbildung führen. Durch die Risse sind die Teile des Aktivmaterials nicht mehr elektrisch angebunden und werden als "Dead-Lithium" bezeichnet.\\
+Der letzte hier behandelte Alterungsvorgang entsteht aus Dehnvorgängen bei der Lithium-Einlagerung. Diese Belastung kann den Leitruß, einen speziellen Kohlenstoffleiter der Leitpfade zwischen Stromableitern und Partikeln bereitstellt, auftrennen. Dadurch sind die Aktivmaterialpartikel nicht mehr mit dem Stromableiter verbunden. Dieser Alterungsvorgang kann sowohl an Kathode, als auch an der Anode auftreten\footnote{Vgl. Fußnote \ref{cite:Leuthner}, Leuthner 2013}.\\
+
 
 
 
