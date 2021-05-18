@@ -61,8 +61,11 @@ Je nachdem ob eine höhere Energiedichte oder Leistungsdichte bei den Batterieze
 
 Der größte Unterschied zwischen den LIB-Technologien liegt in der Materialzusammensetzung der Elektroden.\\
 Beginnend mit der Lithium-Kobalt-Oxid-Batterie (LCO) von Sony in den 1990er-Jahren, wurden seitdem auch Lithium-Nickel-Oxid- (LNO) oder Lithium-Mangan-Oxid-Batteriezellen (LMO) entwickelt. LNO und LCO weisen beide eine hohe Kapazität auf, LNO besitzt jedoch eine geringe thermische Stabilität und LCO ist aufgrund des Kobaltgehalts in Sachen Kosten, Sicherheit und Umweltverträglichkeit nicht ideal für den Massenmarkt. LMO ist zwar stabil, löst sich jedoch bei Raumtemperatur teilweise im Elektrolyten. \\
-Um diese Nachteile auszugleichen wurden beispielsweise die Lithium-Nickel-Mangan-Kobalt-Batteriezelle (NMC) oder die Lithium-Nickel-Kobalt-Aluminium-Batteriezelle (NCA) entwickelt. Eine weitere Variation ist die Batteriezelle mit einer Kathode auf Eisenphosphatbasis (LFP). Diese besitzt verglichen mit den anderen Varianten eine geringere Spannungslage und gravimetrische Energiedichte. Da aber kein Kobalt verbaut wird, besitzt diese Technologie relevante Umweltvorteile.\\
+Um diese Nachteile auszugleichen wurden beispielsweise die Lithium-Nickel-Mangan-Kobalt-Batteriezelle (NCM) oder die Lithium-Nickel-Kobalt-Aluminium-Batteriezelle (NCA) entwickelt. Eine weitere Variation ist die Batteriezelle mit einer Kathode auf Eisenphosphatbasis (LFP). Diese besitzt verglichen mit den anderen Varianten eine geringere Spannungslage und gravimetrische Energiedichte. Da aber kein Kobalt verbaut wird, besitzt diese Technologie relevante Umweltvorteile.\\
 Auch eine alternative Anoden-Technologie, die sogenannte LTO-Zelle (Lithiumtitanat), kommt aktuell auf den Markt. Sie besitzt zwar eine geringere Energiedichte im Vergleich zu anderen Technologien, weist sich jedoch durch eine hohe Leistungsdichte und Lebensdauer aus\footnote{Vgl. Fußnote \ref{Ecker2013}, Ecker und Sauer 2013}.  \\
+In der Industrie setzt sich jedoch die NCM-Kathoden-Technologie durch. Zwar sind aktuell in der Transportbranche alle Technologien vertreten, jedoch stellen Produzenten wie Panasonic ihre NCA-Technologie auf die NCM-basierten Zellen um. In der Gigafactory die Panasonic in Zusammenarbeit mit Tesla in Nevada (USA) seit 2017 in Betrieb hat sollen ab 2025 nur noch NCM-Zellen produziert werden. Die Anoden-Technologie wendet weitgehend Graphit basierte Lösungen an.\\
+Diese Entwicklung ist auf die Batterie-Roadmaps der OEM-Hersteller zurückzuführen. In diesen Roadmaps stellen Hochenergie-LIB's mit NCM-Basierten Kathoden die aussichtsreichste Wahl was Kosten und Energiedichte angeht dar\footnote{Vgl. Fußnote \ref{cite:Hettesheimer}, Hettenheimer et al. 2017}. \\
+Daher wird in dieser Arbeit die NMC-Kathoden-Technologie betrachtet.%ist das wirklich nötig hier??
 
 \subsubsection*{Elektrische Funktionsweise und Kenngrößen der Lithium-Ionen-Batterietechnologie}\label{subsub:ElekChemFunktion}
 
@@ -85,8 +88,9 @@ Um die Leistung zu berechnen wird der Strom mit der Spannung multipliziert, was 
 \subsubsection*{Bauformen der Lithium-Ionen-Batterien}\label{subsub:BauformenLIB}
 
 Wie in Tabelle \ref{tab:BauformenZelle} dargestellt, gibt es drei Bauformen von Lithium-Ionen-Batterien. Da in dieser Arbeit nur die zylindrische und prismatische Bauform relevant ist, werden nur sie hier behandelt.\\
-Die zylindrische Zelle besitzt gewickelte Elektroden-Separator-Elektroden-Paare. Analog zu einer klassischen AA-Batterie sind die positiven und negativen Anschlüsse auf jeweils einer der beiden Stirnseiten angebracht. In der konventionellen Batteriezelle wird der Strom durch ein sogenanntes $"Tab"$ aus den Kathoden-Anoden-Paaren entnommen.\\
-Die Bauform der zylindrischen Zell wird häufig durch ein Zahlenkürzel angegeben, bei dem die ersten beiden Ziffern den Durchmesser in [mm] vorgeben. Die nächsten beiden Ziffern stehen für die Zellhöhe, wieder in [mm]. Die letzte Ziffer ist eine 0 und schließt die Zahl ab. Zum Beispiel ist eine häufige Bauform die 18650er Zelle mit einem Durchmesser von 18 mm und einer Höhe von 65 mm. Auch viel verwendet werden die 26650er- und die 21700er-Zellgrößen\footcite[Vgl.][]{LionKnowledge2021Zylind}.\\
+Die zylindrische Zelle besitzt gewickelte Elektroden-Separator-Elektroden-Paare. Analog zu einer klassischen AA-Batterie sind die positiven und negativen Anschlüsse auf jeweils einer der beiden Stirnseiten angebracht. In der konventionellen Batteriezelle wird der Strom durch ein sogenanntes $"Tab"$ aus den Kathoden-Anoden-Paaren entnommen. Der $Tab$ der Kathode oder Anode ist demnach an einer Stelle der Elektrode angebracht. Dadurch muss der Strom zum Teil große Distanzen zurücklegen um über die $Tab$-Verbindung zum elektrischen Leitstück am Ende der Batteriehülle, oder $Can$, zu gelangen. In Kapitel \ref{} wird dieser Prozess näher erläutert.\\ %%%%%%%%%%%%%%%%%%%%%%%% HIER NOCH REFERENCE EINFUEGEN!!!!!!!%%%%
+Die Bauform der zylindrischen Zelle wird häufig durch ein Zahlenkürzel angegeben, bei dem die ersten beiden Ziffern den Durchmesser in [mm] vorgeben. Die nächsten beiden Ziffern stehen für die Zellhöhe, wieder in [mm]. Die letzte Ziffer ist eine 0 und schließt die Zahl ab. Zum Beispiel ist eine häufige Bauform die 18650er Zelle mit einem Durchmesser von 18 mm und einer Höhe von 65 mm. Auch viel verwendet werden die 26650er- und die 21700er-Zellgrößen\footcite[Vgl.][]{LionKnowledge2021Zylind}.\\
+
 
 \begin{figure}[!h]
 	\begin{center}
@@ -104,8 +108,9 @@ Die Bauform der zylindrischen Zell wird häufig durch ein Zahlenkürzel angegebe
 \end{figure}
 
 Der Aufbau der prismatischen Zelle (siehe Abbildung \ref{fig:PrismaZylindZelle}) ist relativ einfach. \\
-In diesem Bauformat werden gewickelte oder gestapelte Elektrodenpaare verwendet. Die Spannnungs-, bzw. Stromentnahme erfolgt über $"Tabs"$ in der Zelle und wird nach außen über an der Kopfseite der Batteriezelle angebrachte Anschlüsse entnommen.\\
+In diesem Bauformat werden gewickelte oder geschichtete Elektrodenpaare verwendet. Die Spannungs-, bzw. Stromentnahme erfolgt analog zu der konventionellen zylindrischen Batterie-\newline zelle über $"Tabs"$ und wird über an der Kopfseite der Batteriezelle angebrachte Anschlüsse entnommen.\\
 Die Größe der prismatischen Zellen variiert stark und wird je nach Anwendungsfall bestimmt\footcite[Vgl.][]{LionKnowledge2021Prisma}. 
+
 
 \subsubsection*{Alterungsmechanismen und Batteriezelltemperatur}\label{subsub:Alterung}
 
@@ -118,6 +123,68 @@ Beim Lithium-Plating setzen sich Lithium-Ionen auf der Trennschicht, oder "Solid
 Alterung kann außerdem durch mechanische Spannungen ausgelöst werden. Diese entstehen, wenn Lithium-Ionen sich in die Aktivmaterialien einlagern. Die Spannung innerhalb der Partikel kann hierbei zur Rissbildung führen. Durch die Risse sind die Teile des Aktivmaterials nicht mehr elektrisch angebunden und werden als "Dead-Lithium" bezeichnet.\\
 Der letzte hier behandelte Alterungsvorgang entsteht aus Dehnvorgängen bei der Lithium-Einlagerung. Diese Belastung kann den Leitruß, einen speziellen Kohlenstoffleiter der Leitpfade zwischen Stromableitern und Partikeln bereitstellt, auftrennen. Dadurch sind die Aktivmaterialpartikel nicht mehr mit dem Stromableiter verbunden. Dieser Alterungsvorgang kann sowohl an Kathode, als auch an der Anode auftreten\footnote{Vgl. Fußnote \ref{cite:Leuthner}, Leuthner 2013}.\\
 
+\subsection{Das Tesla-Patent}
+
+Im Folgenden wird das Patent von Tesla für eine innovative thermische und elektrische Anbindung des Elektrodenwickels an das Batteriegehäuse für die Leistungsabnahme behandelt.\\
+Das Patent wurde von Tesla Inc. mit den Erfindern Tsuruta et al am 4. November 2019 eingereicht und am 7. Mai 2020 unter der $Publishing\,No.$ \textbf{US 2020/0144676 A1} veröffentlicht.\\
+Der Abstract der Veröffentlichung fasst die Erfindung, bei der es sich um eine zylindrische Zelle handelt, wie folgt zusammen: \\
+``Eine Zelle eines Energiespeichergeräts mit mindestens einer Elektrode die ohne $Tab$ konstruiert wird und Herstellungsmethoden dieser."\\
+
+In der konventionellen Batteriezelle, ob zylindrisch oder prismatisch, werden die Kathode und Anode mit den positiven und negativen Anschlüssen mithilfe von $Tabs$ verbunden (Beispiel $Tab$ siehe Abbildung \ref{fig:JellyRoll} mit Tabelle \ref{tab:BeschriftungJellyRoll}). \\
+Diese $Tabs$ dienen als sogenannte ``Current collectors", d.h. durch sie fließt der gesamte Strom den die Batteriezelle abgibt oder aufnimmt. \\
+Da der Widerstand nach Gleichung \ref{gl:WiderstandElektrisch} von der Dichte des Materials ($\rho$), der Länge die der Strom zurücklegt (l) und der Fläche (A) durch den er fließt abhängt, haben Tsuruta et al in ihrem Patent die Länge reduziert und die Fläche vergrößert um den Widerstand zu verringern.\\
+
+\begin{equation}
+	R = \rho * \frac{l}{A}
+	\label{gl:WiderstandElektrisch}
+\end{equation}
+
+
+
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=14 cm]{figs/JellyRollTeslaPatent.eps}
+			\put(0,-2){(\textbf{1})}
+			\put(-9,27){(\textbf{2})}
+			\put(-11,132){(\textbf{3})}
+			\put(-14,220){(\textbf{4})}
+			\put(-8,270){(\textbf{5})}
+			\put(35,302){(\textbf{6})}
+			\put(392,232){(\textbf{7})}
+		\end{overpic}
+	\end{center}
+	
+	
+	\caption[Blah]{Aufbau des Elektrodenwickels in der zylindrischen Zelle in Anlehnung an Tesla 2020}
+	
+	\label{fig:JellyRoll}
+\end{figure}
+
+\begin{table}[H]
+	\caption{Beschriftung von Abbildung \ref{fig:JellyRoll}}
+	\label{tab:BeschriftungJellyRoll}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|  }
+		\toprule[1.5pt]
+		\textbf{Nummer} & \textbf{Beschreibung} \\
+		\hline\hline
+		(1) & Leitfähiges Material \\
+		\hline
+		(2) & Isolierendes Material\\
+		\hline
+		(3) & Kathode/Anode\\
+		\hline
+		(4) & Innere Trennschicht\\
+		\hline
+		(5) & Anode/Kathode\\
+		\hline
+		(6) & Äußere Trennschicht\\
+		\hline
+		(7) & $Tab$\\
+		\bottomrule[1.5pt]
+	\end{tabularx}		
+\end{table}
 
 
 

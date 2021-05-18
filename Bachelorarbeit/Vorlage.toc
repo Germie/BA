@@ -21,14 +21,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Lithium-Ionen-Batterietechnologie}{2}{subsection.arabicsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Methodik}{7}{section.arabicsection.4}%
+\contentsline {subsection}{\numberline {3.2}Das Tesla-Patent}{6}{subsection.arabicsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Auswertung}{8}{section.arabicsection.5}%
+\contentsline {section}{\numberline {4}Methodik}{8}{section.arabicsection.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{9}{section.arabicsection.6}%
+\contentsline {section}{\numberline {5}Auswertung}{9}{section.arabicsection.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V}Literatur}{10}{section.V}%
+\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{10}{section.arabicsection.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VI}Anhang}{11}{section.VI}%
+\contentsline {section}{\numberline {V}Literatur}{11}{section.V}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{12}{section.VII}%
+\contentsline {section}{\numberline {VI}Anhang}{12}{section.VI}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{13}{section.VII}%
