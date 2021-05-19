@@ -556,6 +556,47 @@
       \verb https://arc.aiaa.org/doi/abs/10.2514/1.C031027
       \endverb
     \endentry
+    \entry{TsurutaTesla2020}{patent}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9a82db2296af3980dccca3062b82c3cb}{%
+           family={Tsuruta},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59774608fe3790b57e0617bd21014324}{%
+           family={Dermer},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c718bf0e681a6d92c6b7d2960e30d31c}{%
+           family={Dhiman},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Tesla, Inc.}%
+      }
+      \strng{namehash}{84073b512b176d2c0a71cf702ed8a0c9}
+      \strng{fullhash}{a3ef7234abed12477322a9031e0c0f73}
+      \strng{bibnamehash}{a3ef7234abed12477322a9031e0c0f73}
+      \strng{authorbibnamehash}{a3ef7234abed12477322a9031e0c0f73}
+      \strng{authornamehash}{84073b512b176d2c0a71cf702ed8a0c9}
+      \strng{authorfullhash}{a3ef7234abed12477322a9031e0c0f73}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{US 2020/0144676 A1}
+      \field{title}{Cell with a tabless electrode}
+      \field{year}{2020}
+      \verb{file}
+      \verb e4f49546-8696-4394-9929-2e9372534677:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\e4f49546-8696-4394-9929-2e9372534677.pdf:pdf
+      \endverb
+    \endentry
     \entry{Waldmann2015}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=53072ea3cca46684a4f18101495664b1}{%

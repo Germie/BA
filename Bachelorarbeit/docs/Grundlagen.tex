@@ -119,29 +119,58 @@ Mit sinkender Temperatur steigt der innere Widerstand der Zelle und die verfügb
 Die Temperaturgradienten die sich beim Benutzen der Batterie in der Zelle ausbilden, können auch Alterungsgradienten hervorrufen. Hinzu kommt, dass starke Temperaturgradienten, die z.B. während hoher C-Raten auftreten, Verformungen der Elektrodenwickel induzieren können\footcite[Vgl.][S.921-927]{Waldmann2015}.\\
 Es ist also zu Schlussfolgern, dass eine homogene Temperaturverteilung innerhalb der Zelle von Vorteil ist.
 Im weiteren werden drei häufig auftretende Alterungsmechanismen erläutert.\\
-Beim Lithium-Plating setzen sich Lithium-Ionen auf der Trennschicht, oder "Solid Electrolyte Interface" (SEI), zwischen Elektrode und Elektrolyt durch irreversible chemische Reaktionen ab. Diese Ablagerungen verdicken die Trennschicht, was zu einem Anstieg des Stofftransportwiderstands und dadurch zu einem Anstieg des ohm'schen Wiederstands führt. Da die Konzentration der Lithium-Ionen im Elektrolyt auch abnimmt, kommt es außerdem zu einem Kapazitätsverlust.\\
+Beim Lithium-Plating setzen sich Lithium-Ionen auf der Trennschicht, oder ``Solid Electrolyte Interface" (SEI), zwischen Elektrode und Elektrolyt durch irreversible chemische Reaktionen ab. Diese Ablagerungen verdicken die Trennschicht, was zu einem Anstieg des Stofftransportwiderstands und dadurch zu einem Anstieg des ohm'schen Wiederstands führt. Da die Konzentration der Lithium-Ionen im Elektrolyt auch abnimmt, kommt es außerdem zu einem Kapazitätsverlust.\\
 Alterung kann außerdem durch mechanische Spannungen ausgelöst werden. Diese entstehen, wenn Lithium-Ionen sich in die Aktivmaterialien einlagern. Die Spannung innerhalb der Partikel kann hierbei zur Rissbildung führen. Durch die Risse sind die Teile des Aktivmaterials nicht mehr elektrisch angebunden und werden als "Dead-Lithium" bezeichnet.\\
 Der letzte hier behandelte Alterungsvorgang entsteht aus Dehnvorgängen bei der Lithium-Einlagerung. Diese Belastung kann den Leitruß, einen speziellen Kohlenstoffleiter der Leitpfade zwischen Stromableitern und Partikeln bereitstellt, auftrennen. Dadurch sind die Aktivmaterialpartikel nicht mehr mit dem Stromableiter verbunden. Dieser Alterungsvorgang kann sowohl an Kathode, als auch an der Anode auftreten\footnote{Vgl. Fußnote \ref{cite:Leuthner}, Leuthner 2013}.\\
 
 \subsection{Das Tesla-Patent}
 
 Im Folgenden wird das Patent von Tesla für eine innovative thermische und elektrische Anbindung des Elektrodenwickels an das Batteriegehäuse für die Leistungsabnahme behandelt.\\
-Das Patent wurde von Tesla Inc. mit den Erfindern Tsuruta et al am 4. November 2019 eingereicht und am 7. Mai 2020 unter der $Publishing\,No.$ \textbf{US 2020/0144676 A1} veröffentlicht.\\
+Das Patent wurde von Tesla Inc. mit den Erfindern Tsuruta et al am 4. November 2019 eingereicht und am 7. Mai 2020 unter der $Publishing\,No.$ \textbf{US 2020/0144676 A1} veröffentlicht\footcite[Vgl.\label{cite:TeslaPatent}][]{TsurutaTesla2020}.\\
 Der Abstract der Veröffentlichung fasst die Erfindung, bei der es sich um eine zylindrische Zelle handelt, wie folgt zusammen: \\
 ``Eine Zelle eines Energiespeichergeräts mit mindestens einer Elektrode die ohne $Tab$ konstruiert wird und Herstellungsmethoden dieser."\\
 
 In der konventionellen Batteriezelle, ob zylindrisch oder prismatisch, werden die Kathode und Anode mit den positiven und negativen Anschlüssen mithilfe von $Tabs$ verbunden (Beispiel $Tab$ siehe Abbildung \ref{fig:JellyRoll} mit Tabelle \ref{tab:BeschriftungJellyRoll}). \\
 Diese $Tabs$ dienen als sogenannte ``Current collectors", d.h. durch sie fließt der gesamte Strom den die Batteriezelle abgibt oder aufnimmt. \\
-Da der Widerstand nach Gleichung \ref{gl:WiderstandElektrisch} von der Dichte des Materials ($\rho$), der Länge die der Strom zurücklegt (l) und der Fläche (A) durch den er fließt abhängt, haben Tsuruta et al in ihrem Patent die Länge reduziert und die Fläche vergrößert um den Widerstand zu verringern.\\
-
+Da der Widerstand nach Gleichung \ref{gl:WiderstandElektrisch} von der Dichte des Materials ($\rho$), der Länge die der Strom zurücklegt (l) und der Fläche (A) durch den er fließt abhängt, haben Tsuruta et al in ihrem Patent die zurückgelegte Distanz reduziert und die Fläche vergrößert um den Widerstand zu verringern\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}.
 \begin{equation}
-	R = \rho * \frac{l}{A}
+	R = \rho \cdot \frac{l}{A}
 	\label{gl:WiderstandElektrisch}
 \end{equation}
 
+Im konventionellen Design sind die $Tabs$ entweder in der Mitte oder an einem Ende der Elektrode angebracht. Daher muss der Strom zuerst mindestens die Hälfte, beim $Tab$ am Ende der Elektrode die gesamte Länge der Elektrode zurücklegen. \\
+Bei dem innovativen Entwurf ist die maximale Distanz die der Strom zurücklegen muss die Höhe der Elektrode. Abhängend vom Batteriezellenformfaktor entspricht die Höhe der Elektrode typischerweise $5\percent-20\percent$ der Länge. Es folgt, dass der ohm'sche Widerstand des elektrochemischen Zyklus' des innovativen Konzepts 5- bis 20-Mal kleiner ist als der Widerstand des konventionellen Konzepts\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}.\\
+Ein weiterer Effekt der durch das innovative Konzept hervorgerufen wird ist, dass signifikant weniger Stromabweichungen (Checken mit Jonas) auftreten. Stromabweichung ist das Phänomen bei dem manche Elektrodenregionen mehr oder weniger Strom als andere Regionen auf der selben Elektrode während der Zyklendauer leiten.\\
+Nach Ohm fließt Strom bevorzugt entlang der Strecke mit dem geringsten Widerstand (siehe Gleichung \ref{gl:OhmsLaw}). In dem konventionellen Design entspricht dies dem Bereich auf der Elektrode nahe des $Tabs$. Die auftretenden Stromabweichungen sind unerwünscht, da es zur Entstehung von lokalen ``Elektroden-Hotspots`` führt. Hier treten Spannungsüberhöhungen auf, welche chemische Reaktionen hervorrufen die die Lebensdauer der Zelle reduzieren. Ein Beispiel einer solchen Reaktion ist Lithium-Plating\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}.
+\begin{equation}
+	I = \frac{V}{R}
+	\label{gl:OhmsLaw}
+\end{equation}
 
+Die innovativen Konzepte bieten laut Patentschrift auch verbesserte Wärmeentstehungs- und Wärmeübertragungseigenschaften.\\
+Nach Gleichung \ref{gl:HeatResistance} ist die ohm'sche Erhitzung in [\textbf{W}] abhängig von dem Strom und dem Widerstand. 
+\begin{equation}
+	 P \approx I^{2} \cdot R
+	 \label{gl:HeatResistance}
+\end{equation}
 
+Da der Widerstand \textbf{R} zwischen 5 und 20 mal kleiner ist als beim konventionelle Entwurf ist zu erwarten, dass beim innovativen Design die ohm'sche Wärmeproduktion signifikant reduziert ist.\\
+Die trotz der Maßnahmen entstehende Wärme kann effizienter abgeführt werden.
+\begin{equation}
+	\dot{Q} = \frac{k\cdot A\cdot (T_{2} - T_{1})}{d}
+	\label{gl:HeatTransferEquation}
+\end{equation}
 
+Gleichung \ref{gl:HeatTransferEquation} beschreibt den Wärmetransport durch ein wärmeleitendes Medium. \.{Q} ist der Wärmestrom in [\textbf{$\frac{Joule}{Sekunde}$}]. k ist der Wärmeleitkoeffizient des Materials in [\textbf{$\frac{W}{mK}$}].
+Die Fläche A in [\textbf{$m^{2}$}] und die Distanz d in [\textbf{$m$}] sind die geometrischen Dimensionen über die der Transfer stattfindet. Der Term $(T_{2}-T_{1})$ entspricht der Temperaturdifferenz über d.\\
+In konventionellen Batteriezellen wird die Kontaktfläche zwischen Elektrode und Batteriegehäuse vom $Tab$ realisiert. Beim innovativen Entwurf entspricht der Kontakt zwischen Elektrode und Gehäuse der gesamten Elektrodenlänge. Der Bereich (\textbf{1}) der Elektrode in Abbildung \ref{fig:JellyRoll} befindet sich im Kontakt mit dem Gehäuse und nimmt effektiv $100\percent$ des Durchmessers des Batterie-\newline zylinders ein. Die signifikant größere Kontaktfläche ermöglicht erhöhte Wärmeleitung und dadurch eine optimierte Temperaturkontrolle der Batteriezelle\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}.\\
+
+\subsubsection*{Inhalte des Patents}
+
+In der Patentschrift wird auch auf mögliche Herstellungsvorgänge für die Elektrodenbeschichtung eingegangen. Da diese Arbeit sich mit den physikalischen Vorgängen in der Batteriezelle auseinandersetzt wird die Produktion an dieser Stelle nicht weiter behandelt. Bei Interesse an der Produktion wird die Patentschrift als weiterführende Literatur empfohlen.\\
+Es werden verschiedene Konfigurationen der Elektrodenwickel beschrieben. In Abbildung \ref{fig:JellyRoll} ist ein Beispiel für eine ``Jelly-Roll`` zu sehen. \\
+Die Kathode oder Anode (\textbf{3}) wird mit dem Aktivmaterial beschichtet. Dabei kann der leitende Teil an dem unteren Ende der Elektrode (\textbf{1}) durch eine isolierende Schicht (\textbf{2}) von dem Aktivmaterial getrennt werden. Diese Schicht ist in manchen Konfigurationen des Patents jedoch nicht vorhanden.\\
+Zwischen die beiden Elektroden wird eine Trennschicht eingebracht (\textbf{4}). Da die Elektroden gewickelt werden, wird nach der Anode oder Kathode (\textbf{5}) eine weiter, äußere Trennschicht eingebracht. Diese 4 Schichten werden dann um eine zentrale Achse \textbf{AA'} gewickelt.\\
 \begin{figure}[H]
 	\begin{center}
 		\begin{overpic}[width=14 cm]{figs/JellyRollTeslaPatent.eps}
@@ -152,16 +181,17 @@ Da der Widerstand nach Gleichung \ref{gl:WiderstandElektrisch} von der Dichte de
 			\put(-8,270){(\textbf{5})}
 			\put(35,302){(\textbf{6})}
 			\put(392,232){(\textbf{7})}
+			\put(292,270){\textbf{AA'}}
 		\end{overpic}
 	\end{center}
 	
 	
-	\caption[Blah]{Aufbau des Elektrodenwickels in der zylindrischen Zelle in Anlehnung an Tesla 2020}
+	\caption[Blah]{Aufbau des Elektrodenwickels in der zylindrischen Zelle in Anlehnung an Tesla Patent, Tsuruta et al. 2020}
 	
 	\label{fig:JellyRoll}
 \end{figure}
 
-\begin{table}[H]
+\begin{table}[h!]
 	\caption{Beschriftung von Abbildung \ref{fig:JellyRoll}}
 	\label{tab:BeschriftungJellyRoll}
 	\vspace{0.2cm}	
@@ -186,6 +216,22 @@ Da der Widerstand nach Gleichung \ref{gl:WiderstandElektrisch} von der Dichte de
 	\end{tabularx}		
 \end{table}
 
+Damit der leitende Teil der Elektrode Kontakt zum Zellgehäuse hat, wird ein Ende des Batteriezylinders mit einer $Cap$ versehen. Das $Cap$ besteht aus einem leitenden Material, zum Beispiel einer Nickel-Legierung\footnote{Vgl. Fußnote \ref{cite:TeslaPatent} S. 1, Tsuruta et al. 2020}.\\
+Dieser Deckel oder $Cap$ kann für eine optimierte Anbindung des Elektrodenwickels in verschiedenen Konfigurationen vorhanden sein. Diese Modifikationen der $Cap$ können unter anderem Nuten, Erhebungen und Aussparungen, sowie andere nicht beschriebene Merkmale sein.\\
+Der Kontakt zwischen Elektrodenwickel und $Cap$ kann mit mehreren Konzepten verwirklicht werden. Einer davon ist eine Pressverbindung, bei der das $Cap$ und die Kathode oder Anode durch Druck miteinander in Berührung kommen.\\
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=14 cm]{figs/CapGroovedTeslaPatent.eps}
+			
+		\end{overpic}
+	\end{center}
+	
+	
+	\caption[Blah]{Beispielhafter Deckel oder \textbf{$Cap$} des Batteriezellgehäuses in Anlehnung an Tesla Patent, Tsuruta et al. 2020}
+	
+	\label{fig:CapGrooved}
+\end{figure}
 
 
 
