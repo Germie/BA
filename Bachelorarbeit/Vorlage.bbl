@@ -334,6 +334,27 @@
       \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
       \endverb
     \endentry
+    \entry{COMSOL2020}{misc}{}
+      \list{institution}{1}{%
+        {COMSOL}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to COMSOL Multiphysics}
+      \field{urlyear}{}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb 3accdd3c-2be7-4b1d-ba00-65c5a3cf5cc0:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\3accdd3c-2be7-4b1d-ba00-65c5a3cf5cc0.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://cdn.comsol.com/doc/5.6/IntroductionToCOMSOLMultiphysics.de_DE.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn.comsol.com/doc/5.6/IntroductionToCOMSOLMultiphysics.de_DE.pdf
+      \endverb
+    \endentry
     \entry{Leuthner.2013}{incollection}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3631bc784c4895544a9a4e75c0e365ac}{%

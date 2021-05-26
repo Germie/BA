@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  26 MAY 2021 08:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  26 MAY 2021 11:02
 entering extended mode
 **./Vorlage.tex
 (Vorlage.tex
@@ -1667,11 +1667,11 @@ Package logreq Info: Writing requests to 'Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28718 strings out of 480801
- 584193 string characters out of 2905436
- 1378522 words of memory out of 3000000
- 43952 multiletter control sequences out of 15000+200000
- 588194 words of font info for 263 fonts, out of 3000000 for 9000
+ 28727 strings out of 480801
+ 584384 string characters out of 2905436
+ 1378581 words of memory out of 3000000
+ 43959 multiletter control sequences out of 15000+200000
+ 588507 words of font info for 264 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,19n,86p,10169b,2195s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -1680,9 +1680,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 ype1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helve
 tic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pf
 b>
-Output written on Vorlage.pdf (27 pages, 1136089 bytes).
+Output written on Vorlage.pdf (27 pages, 1137115 bytes).
 PDF statistics:
- 456 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
- 47289 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 47801 words of extra memory for PDF output out of 51595 (max. 10000000)
 
