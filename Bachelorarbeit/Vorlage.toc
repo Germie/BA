@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Das Tesla-Patent}{7}{subsection.arabicsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Die Simulationsumgebung - COMSOL}{14}{subsection.arabicsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Die Simulationsumgebung - COMSOL Multiphysics\textsuperscript {\textregistered }}{14}{subsection.arabicsection.3.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Methodik}{15}{section.arabicsection.4}%
 \defcounter {refsection}{0}\relax 

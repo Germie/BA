@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  26 MAY 2021 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  26 MAY 2021 11:14
 entering extended mode
 **./Vorlage.tex
 (Vorlage.tex
@@ -1336,11 +1336,23 @@ Package scrlayer-scrpage Warning: Command deprecated!
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 76
 .
-(Vorlage.toc)
+(Vorlage.toc
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+6.
+
+(C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 \tf@toc=\write5
 \openout5 = `Vorlage.toc'.
 
- [1] (glos/Formelzeichen.tex
+
+[1] (glos/Formelzeichen.tex
 Underfull \hbox (badness 10000) in alignment at lines 17--17
 [][][] 
  []
@@ -1596,16 +1608,6 @@ Package pdftex.def Info: figs/ConducticePortionTypes-eps-converted-to.pdf  used
  on input line 307.
 (pdftex.def)             Requested size: 398.33858pt x 237.8172pt.
 [11 <./figs/BottomElectrodeConnector-eps-converted-to.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-44.
-
-(C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 Package epstopdf Info: Source file: <figs/BottomConnectorTypes.eps>
 (epstopdf)                    date: 2021-05-21 11:08:10
 (epstopdf)                    size: 668910 bytes
@@ -1630,8 +1632,21 @@ Package pdftex.def Info: figs/BottomConnectorTypes-eps-converted-to.pdf  used o
 n input line 349.
 (pdftex.def)             Requested size: 398.33858pt x 252.29506pt.
 [12 <./figs/ConducticePortionTypes-eps-converted-to.pdf>] [13 <./figs/BottomCon
-nectorTypes-eps-converted-to.pdf>]) [14] (docs/Methodik.tex) [15]
-(docs/Auswertung.tex) [16] (docs/Zusammenfassung.tex) [17]
+nectorTypes-eps-converted-to.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 364.
+
+) [14] (docs/Methodik.tex) [15] (docs/Auswertung.tex) [16]
+(docs/Zusammenfassung.tex) [17]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
@@ -1667,11 +1682,11 @@ Package logreq Info: Writing requests to 'Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28727 strings out of 480801
- 584384 string characters out of 2905436
- 1378581 words of memory out of 3000000
- 43959 multiletter control sequences out of 15000+200000
- 588507 words of font info for 264 fonts, out of 3000000 for 9000
+ 28734 strings out of 480801
+ 584489 string characters out of 2905436
+ 1378713 words of memory out of 3000000
+ 43965 multiletter control sequences out of 15000+200000
+ 590452 words of font info for 267 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,19n,86p,10169b,2195s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -1680,9 +1695,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 ype1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helve
 tic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pf
 b>
-Output written on Vorlage.pdf (27 pages, 1137115 bytes).
+Output written on Vorlage.pdf (27 pages, 1137588 bytes).
 PDF statistics:
  460 PDF objects out of 1000 (max. 8388607)
  113 named destinations out of 1000 (max. 500000)
- 47801 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 48825 words of extra memory for PDF output out of 51595 (max. 10000000)
 
