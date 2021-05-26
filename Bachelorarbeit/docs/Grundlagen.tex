@@ -140,7 +140,7 @@ Da der Widerstand nach Gleichung \ref{gl:WiderstandElektrisch} von der Dichte de
 
 Im konventionellen Design sind die $Tabs$ entweder in der Mitte oder an einem Ende der Elektrode angebracht. Daher muss der Strom zuerst mindestens die Hälfte, beim $Tab$ am Ende der Elektrode die gesamte Länge der Elektrode zurücklegen. \\
 Bei dem innovativen Entwurf ist die maximale Distanz die der Strom zurücklegen muss die Höhe der Elektrode. Abhängend vom Batteriezellenformfaktor entspricht die Höhe der Elektrode typischerweise $5\percent-20\percent$ der Länge. Es folgt, dass der ohm'sche Widerstand des elektrochemischen Zyklus' des innovativen Konzepts 5- bis 20-Mal kleiner ist als der Widerstand des konventionellen Konzepts\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}.\\
-Ein weiterer Effekt der durch das innovative Konzept hervorgerufen wird ist, dass signifikant weniger Stromabweichungen (Checken mit Jonas) auftreten. Stromabweichung ist das Phänomen bei dem manche Elektrodenregionen mehr oder weniger Strom als andere Regionen auf der selben Elektrode während der Zyklendauer leiten.\\
+Ein weiterer Effekt der durch das innovative Konzept hervorgerufen wird ist, dass signifikant weniger Stromabweichungen (Checken mit Jonas) (Stromverteilung auf der Elektrode) auftreten. Stromabweichung ist das Phänomen bei dem manche Elektrodenregionen mehr oder weniger Strom als andere Regionen auf der selben Elektrode während der Zyklendauer leiten.\\
 Nach Ohm fließt Strom bevorzugt entlang der Strecke mit dem geringsten Widerstand (siehe Gleichung \ref{gl:OhmsLaw}). In dem konventionellen Design entspricht dies dem Bereich auf der Elektrode nahe des $Tabs$. Die auftretenden Stromabweichungen sind unerwünscht, da es zur Entstehung von lokalen ``Elektroden-Hotspots`` führt. Hier treten Spannungsüberhöhungen auf, welche chemische Reaktionen hervorrufen die die Lebensdauer der Zelle reduzieren. Ein Beispiel einer solchen Reaktion ist Lithium-Plating\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}.
 \begin{equation}
 	I = \frac{V}{R}
@@ -165,7 +165,7 @@ Gleichung \ref{gl:HeatTransferEquation} beschreibt den Wärmetransport durch ein
 Die Fläche A in [\textbf{$m^{2}$}] und die Distanz d in [\textbf{$m$}] sind die geometrischen Dimensionen über die der Transfer stattfindet. Der Term $(T_{2}-T_{1})$ entspricht der Temperaturdifferenz über d.\\
 In konventionellen Batteriezellen wird die Kontaktfläche zwischen Elektrode und Batteriegehäuse vom $Tab$ realisiert. Beim innovativen Entwurf entspricht der Kontakt zwischen Elektrode und Gehäuse der gesamten Elektrodenlänge. Der Bereich (\textbf{1}) der Elektrode in Abbildung \ref{fig:JellyRoll} befindet sich im Kontakt mit dem Gehäuse und nimmt effektiv $100\percent$ des Durchmessers des Batterie-\newline zylinders ein. Die signifikant größere Kontaktfläche ermöglicht erhöhte Wärmeleitung und dadurch eine optimierte Temperaturkontrolle der Batteriezelle\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}.\\
 
-\subsubsection*{Inhalte des Patents}
+\subsubsection*{Inhalte des Patents}\label{subsub:PatentContents}
 
 In der Patentschrift wird auch auf mögliche Herstellungsvorgänge für die Elektrodenbeschichtung eingegangen. Da diese Arbeit sich mit den physikalischen Vorgängen in der Batteriezelle auseinandersetzt wird die Produktion an dieser Stelle nicht weiter behandelt. Bei Interesse an der Produktion wird die Patentschrift als weiterführende Literatur empfohlen.\\
 Es werden verschiedene Konfigurationen der Elektrodenwickel beschrieben. In Abbildung \ref{fig:JellyRoll} ist ein Beispiel für eine ``Jelly-Roll`` zu sehen. \\
@@ -216,7 +216,9 @@ Zwischen die beiden Elektroden wird eine Trennschicht eingebracht (\textbf{4}). 
 	\end{tabularx}		
 \end{table}
 
-Damit der leitende Teil der Elektrode Kontakt zum Zellgehäuse hat, wird ein Ende des Batteriezylinders mit einer $Cap$ versehen. Das $Cap$ besteht aus einem leitenden Material, zum Beispiel einer Nickel-Legierung\footnote{Vgl. Fußnote \ref{cite:TeslaPatent} S. 1, Tsuruta et al. 2020}.\\
+\subsubsection*{Der Kontakt zwischen Elektrodenwickel und Cap}\label{subsub:JellyrollCapContact}
+
+Damit der leitende Teil der Elektrode Kontakt zum entsprechenden Pol des Batteriegehäuses hat, wird ein Ende des Batteriezylinders mit einer $Cap$ versehen. Das $Cap$ besteht aus einem leitenden Material, zum Beispiel einer Nickel-Legierung\footnote{Vgl. Fußnote \ref{cite:TeslaPatent} S. 1, Tsuruta et al. 2020}.\\
 Dieser Deckel kann für eine optimierte Anbindung des Elektrodenwickels in verschiedenen Konfigurationen vorhanden sein. Diese Modifikationen der $Cap$ können unter anderem Nuten, Erhebungen und Aussparungen, sowie andere nicht beschriebene Merkmale sein.\\
 Der Kontakt zwischen Elektrodenwickel und $Cap$ kann mit mehreren Konzepten verwirklicht werden. Einer davon ist eine Pressverbindung, bei der das $Cap$ und die Kathode oder Anode durch Druck miteinander in Berührung kommen.\\
 Damit der Verbindung zwischen $Cap$ und Kathode, bzw. Anode mehr Oberfläche verfügbar ist, kann das $Cap$ so ausgelegt sein, dass es mit dem leitenden Teil der Elektrode (Abbildung \ref{fig:JellyRoll} (\textbf{1})) einen möglichst schlüssigen Kontakt hat. Um die benötigte Presskraft aufzubringen kann oberhalb des Elektrodenwickels ein isolierendes Material eingebracht werden, welches die Elektrode gegen die $Cap$ presst. Die Verbindung kann auch durch Anschwellen der Anode durch den Elektrolyten oder durch Laser- oder Ultraschallschweißen realisiert werden.\\
@@ -232,7 +234,7 @@ Für einen möglichst guten Kontakt können wie in Abbildung \ref{fig:CapGrooved
 	\end{center}
 	
 	
-	\caption[Blah]{Beispielhafter Deckel oder \textbf{$Cap$} des Batteriezellgehäuses in Anlehnung an Tesla Patent, Tsuruta et al. 2020}
+	\caption[Blah]{Beispielhafter Deckel oder Cap des Batteriezellgehäuses in Anlehnung an Tesla Patent, Tsuruta et al. 2020}
 	
 	\label{fig:CapGrooved}
 \end{figure}
@@ -252,8 +254,113 @@ Für einen möglichst guten Kontakt können wie in Abbildung \ref{fig:CapGrooved
 	\end{tabularx}		
 \end{table}
 
-\subsubsection*{Der Kontakt zwischen Elektrodenwickel und Cap}
+Wie in Abbildung \ref{fig:BottomConnection} b) gezeigt kann die Verbindung zwischen Elektrode und Batteriegehäuse auch ohne eine spezielle $Cap$ hergestellt werden. Hierzu werden die leitenden Teile des Elektrodenwickels zum Teil miteinander oder direkt mit dem Gehäuse verbunden. \\
 
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=14 cm]{figs/BottomElectrodeConnector.eps}
+			\put(-15,240){\textbf{a)}}
+			\put(-15,101){\textbf{b)}}
+			\put(190,130){\textbf{(1)}}
+			\put(160,260){\textbf{(2)}}
+			\put(197,260){\textbf{(2)}}
+			\put(8,120){\textbf{(2)}}
+			\put(374,120){\textbf{(2)}}
+			\put(400,160){\textbf{(3)}}
+			\put(169,-5){\textbf{(4)}}
+			\put(70,130){\textbf{(4)}}
+			\put(300,130){\textbf{(4)}}
+		\end{overpic}
+	\end{center}
+	
+	
+	\caption[Blah]{Verbindungsmöglichkeiten des Elekrodenwickels mit dem Batteriegehäuse nach Tesla Patent, Tsuruta et al. 2020\newline a) Verbindung mit Cap\newline b) Verbindung ohne Cap}
+	%\caption*{a) Verbindung mit Cap, b) Verbindung ohne Cap}
+	
+	\label{fig:BottomConnection}
+\end{figure}
+
+\begin{table}[h!]
+	\caption{Beschriftung von Abbildung \ref{fig:BottomConnection}}
+	\label{tab:BeschriftungBottomConnection}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|  }
+		\toprule[1.5pt]
+		\textbf{Nummer} & \textbf{Beschreibung} \\
+		\hline\hline
+		(1) & Leitender Elektrodenteil \\
+		\hline
+		(2) & Elektrodenwickel\\
+		\hline
+		(3) & Cap\\
+		\hline
+		(4) & Kontaktfläche\\
+		\bottomrule[1.5pt]
+	\end{tabularx}	
+\end{table}
+
+Imperfektionen können durch Fehler im Herstellungsprozess entstehen. Leitendes Material kann über sich selbst gefaltet sein und dadurch den Kontakt zwischen Elektrodenwickel und $Cap$, bzw. Gehäuse negativ beeinflussen. Um diesen Effekten entgegen zu wirken können Abschnitte des leitenden Teils der Elektrode entfernt werden wie in Abbildung \ref{fig:BottomConnectorTypes} gezeigt ist. Mögliche Vorgehensweisen sind die Entfernung von Material in festen Abständen \textbf{(a)} oder in größer werdenden Abständen \textbf{(b)}. Bei \textbf{(b)} kann die Anordnung so gewählt werden, dass nach der Wicklung der Elektrode die leitenden Teile ein gleichmäßiges Muster bilden.\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, S. 5, Tsuruta et al. 2020}\\
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=14 cm]{figs/ConducticePortionTypes.eps}
+			\put(9,146){\textbf{(1)}}
+			\put(280,2){\textbf{(1)}}
+			\put(113,144){\textbf{(2)}}
+			\put(143,-5){\textbf{(2)}}
+			\put(186,234){\textbf{(3)}}
+			\put(313,105){\textbf{(3)}}
+		\end{overpic}
+	\end{center}
+	
+	
+	\caption[Blah]{Beschreibung}
+	
+	\label{fig:ConductivePortionTypes}
+\end{figure}
+
+\begin{table}[h!]
+	\caption{Beschriftung von Abbildung \ref{fig:ConductivePortionTypes}}
+	\label{tab:ConductivePortionTypes}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|  }
+		\toprule[1.5pt]
+		\textbf{Nummer} & \textbf{Beschreibung} \\
+		\hline\hline
+		(1) & Nut \\
+		\hline
+		(2) & Kontaktfläche\\
+		\bottomrule[1.5pt]
+	\end{tabularx}		
+\end{table}
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=14 cm]{figs/BottomConnectorTypes.eps}
+			
+		\end{overpic}
+	\end{center}
+	
+	
+	\caption[Blah]{Beschreibung}
+	
+	\label{fig:BottomConnectorTypes}
+\end{figure}
+
+\begin{table}[h!]
+	\caption{Beschriftung von Abbildung \ref{fig:BottomConnectorTypes}}
+	\label{tab:BottomConnectorTypes}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|  }
+		\toprule[1.5pt]
+		\textbf{Nummer} & \textbf{Beschreibung} \\
+		\hline\hline
+		(1) & Nut \\
+		\hline
+		(2) & Kontaktfläche\\
+		\bottomrule[1.5pt]
+	\end{tabularx}		
+\end{table}
 
 
 
