@@ -112,16 +112,79 @@ In diesem Bauformat werden gewickelte oder geschichtete Elektrodenpaare verwende
 Die Größe der prismatischen Zellen variiert stark und wird je nach Anwendungsfall bestimmt\footcite[Vgl.][]{LionKnowledge2021Prisma}. 
 
 
-\subsubsection*{Alterungsmechanismen und Batteriezelltemperatur}\label{subsub:Alterung}
+\subsubsection*{Alterungsmechanismen}\label{subsub:alterung}
 
-Die Leistung von LIB's hängt stark von der Zelltemperatur ab. \\
-Mit sinkender Temperatur steigt der innere Widerstand der Zelle und die verfügbare Kapazität nimmt ab. Dies führt zu verminderter abnehmbarer Energie und geringerer maximaler Leistung. Bei hoher Zelltemperatur kann jedoch die Sicherheit der Batteriezelle nicht mehr gewährleistet werden und es finden Alterungsprozesse statt. Die Zelltemperatur ist hierbei von der Außentemperatur und dem Laden bzw. Entladen der Batterie abhängig\footcite[Vgl.][S.1001-1010]{Liu2014}. \\
 Die Temperaturgradienten die sich beim Benutzen der Batterie in der Zelle ausbilden, können auch Alterungsgradienten hervorrufen. Hinzu kommt, dass starke Temperaturgradienten, die z.B. während hoher C-Raten auftreten, Verformungen der Elektrodenwickel induzieren können\footcite[Vgl.][S.921-927]{Waldmann2015}.\\
 Es ist also zu Schlussfolgern, dass eine homogene Temperaturverteilung innerhalb der Zelle von Vorteil ist.
 Im weiteren werden drei häufig auftretende Alterungsmechanismen erläutert.\\
 Beim Lithium-Plating setzen sich Lithium-Ionen auf der Trennschicht, oder ``Solid Electrolyte Interface" (SEI), zwischen Elektrode und Elektrolyt durch irreversible chemische Reaktionen ab. Diese Ablagerungen verdicken die Trennschicht, was zu einem Anstieg des Stofftransportwiderstands und dadurch zu einem Anstieg des ohm'schen Wiederstands führt. Da die Konzentration der Lithium-Ionen im Elektrolyt auch abnimmt, kommt es außerdem zu einem Kapazitätsverlust.\\
-Alterung kann außerdem durch mechanische Spannungen ausgelöst werden. Diese entstehen, wenn Lithium-Ionen sich in die Aktivmaterialien einlagern. Die Spannung innerhalb der Partikel kann hierbei zur Rissbildung führen. Durch die Risse sind die Teile des Aktivmaterials nicht mehr elektrisch angebunden und werden als "Dead-Lithium" bezeichnet.\\
-Der letzte hier behandelte Alterungsvorgang entsteht aus Dehnvorgängen bei der Lithium-Einlagerung. Diese Belastung kann den Leitruß, einen speziellen Kohlenstoffleiter der Leitpfade zwischen Stromableitern und Partikeln bereitstellt, auftrennen. Dadurch sind die Aktivmaterialpartikel nicht mehr mit dem Stromableiter verbunden. Dieser Alterungsvorgang kann sowohl an Kathode, als auch an der Anode auftreten\footnote{Vgl. Fußnote \ref{cite:Leuthner}, Leuthner 2013}.\\
+Alterung kann außerdem durch mechanische Spannungen ausgelöst werden. Diese entstehen, wenn Lithium-Ionen sich in die Aktivmaterialien einlagern. Die Spannung innerhalb der Partikel kann hierbei zur Rissbildung führen. Durch die Risse sind die Teile des Aktivmaterials nicht mehr elektrisch angebunden und werden als ``Dead-Lithium`` bezeichnet.\\
+Der letzte hier behandelte Alterungsvorgang entsteht aus Dehnvorgängen bei der Lithium-Einlagerung. Diese Belastung kann den Leitruß, einen speziellen Kohlenstoffleiter der Leitpfade zwischen Stromableitern und Partikeln bereitstellt, auftrennen. Dadurch sind die Aktivmaterialpartikel nicht mehr mit dem Stromableiter verbunden. Dieser Alterungsvorgang kann sowohl an Kathode, als auch an der Anode auftreten.\footnote{Vgl. Fußnote \ref{cite:Leuthner}, Leuthner 2013}\\
+
+\subsubsection*{Wärmeentwicklung und Temperatureinfluss auf die Batteriezelle}\label{subsub:waermeundtemperatur}
+
+Die Leistung von LIB's hängt stark von der Zelltemperatur ab. \\
+Mit sinkender Temperatur steigt der innere Widerstand der Zelle und die verfügbare Kapazität nimmt ab. Dies führt zu verminderter abnehmbarer Energie und geringerer maximaler Leistung. Bei hoher Zelltemperatur kann jedoch die Sicherheit der Batteriezelle nicht mehr gewährleistet werden und es finden Alterungsprozesse statt. Die Zelltemperatur ist hierbei von der Außentemperatur und der Wärmeentstehung beim Laden bzw. Entladen der Batterie abhängig.\footcite[Vgl.\label{cite:Liu}][S.1001-1010]{Liu2014} \\
+Liu et al. stellen Gleichung \ref{gl:cycleheatgeneration} für die Berechnung der Wärmegeneration in der Batteriezelle während der Ladezyklen auf.
+
+
+\begin{equation}\label{gl:cycleheatgeneration}
+		\dot{Q} = I \cdot (U_{OCV} - U_{t}) 
+		- I \cdot T \frac{\partial U_{OVC}}{\partial T} 
+		- \sum_{i}^{ } \bigtriangleup H_{i}^{avg}r_{i}
+		- \int \sum_{i}^{ } (\overline{H_{j}} - \overline{H_{j}^{avg}})	\cdot \frac{\partial c_{j}}{\partial t} dv
+\end{equation}
+
+\begin{table}[h!]
+	\caption{Variablen aus Gleichung \ref{gl:cycleheatgeneration}}
+	\label{tab:variablenheatgeneration}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|  }
+		\toprule[1.5pt]
+		\textbf{Nummer} & \textbf{Beschreibung} \\
+		\hline\hline
+		$\dot{Q}$ & Wärmeentstehungsrate \\
+		\hline
+		$I$ & Batteriestrom\\
+		\hline
+		$U_{t}$ & Klemmenspannung der Batterie\\
+		\hline
+		$U_{OCV}$ & Leerlaufspannung der Batterie\\
+		\hline
+		$T$ & Batterietemperatur\\
+		\hline
+		$\bigtriangleup H_{i}$ & Entropieänderung der $i$-ten Reaktion \\
+		\hline
+		$r_{i}$ & Reaktionsrate der $i$-ten Reaktion\\
+		\hline
+		$\overline{H_{j}}$ & Molare Entropie des $j$-ten Teils der Batterie\\
+		\hline
+		$c_{j}$ & Ionenkonzentration im $j$-ten Teil\\
+		\hline
+		$v$ & Volumen\\
+		\hline
+		$X^{avg}$ & Entspricht der Durchschnittskonzentration in einem Teilvolumen\\
+		\bottomrule[1.5pt]
+	\end{tabularx}		
+\end{table}
+
+Der erste Term von Gleichung \ref{gl:cycleheatgeneration} auf der rechte Seite entspricht der ohm'schen Wärmeentstehung, kurz $\dot{Q}_{jou}$. Der zweite Term ist die reversible Entropiewärme oder Reaktionswärme, $\dot{Q}_{re}$. Der dritte Term ist die Wärme aus Nebenreaktionen, $\dot{Q}_{sr}$. Dieser beschreibt die Alterung der Batteriezelle und kann für wenige Testzyklen vernachlässigt werden\footcite[Vgl.][]{Forgez2010}. Der letzte Term, $\dot{Q}_{mix}$, entspricht der Wärme im Mischprozess der Batterie. Die Mischprozesswärme entsteht durch die Bildung und Entspannung von Zellkonzentrationsgradienten. Für dynamische Belastungsprofile ist sie daher signifikant und kann nicht vernachlässigt werden\footcite[Vgl.][]{Thomas2003}. \\
+Zusammengefasst verkürzt sich Gleichung \ref{gl:cycleheatgeneration} demnach zu Gleichung \ref{gl:cycleheatshort}.
+
+\begin{equation}\label{gl:cycleheatshort}
+	\dot{Q} = \dot{Q}_{jou} + \dot{Q}_{sr} + \dot{Q}_{mix}
+\end{equation}
+
+Nach Gleichung \ref{gl:cycleheatgeneration} ist die ohm'sche Wärme von dem Stromfluss und der Überpotential abhängig. Das Überpotential entsteht durch den Potentialverlust durch einen erhöhten inneren Widerstand der Batteriezelle.\\
+Folgend kann der innere Zellwiderstand $R_{in}$ nach Gleichung \ref{gl:innererWiderstand} definiert werden.\footnote{Vgl. Fußnote \ref{cite:Liu}, Lui et al. 2014}
+
+\begin{equation}\label{gl:innererWiderstand}
+	R_{in} = \frac{U_{OCV} - U_{t}}{I}
+\end{equation}
+
+Der innere Widerstand einer Lithium-Ionen-Batterie wird durch das State-Of-Charge (SOC), die Zellalterung und die Zelltemperatur beeinflusst. Im Allgemeinen sind die Kausalitäten bereits bekannt. Der Widerstand nimmt mit fallender Zelltemperatur zu. Außerdem variiert er mit dem SOC und steigt über die Lebensdauer mit dem Auftreten von Alterungsmechanismen.\footcite[Vgl.][]{Andre.2011}$\;$\footcite[Vgl.][]{Ecker.2012}\\
+Interessant ist auch, dass der Ladewiderstand kleiner als der Entladewiderstand ist. Daher wird während dem Ladeprozess weniger ohm'sche Wärme produziert als beim Entladeprozess. Andererseits beeinflusst die Zelldegradation den Ladewiderstand mehr als den Entladewiderstand, wodurch Alterungseffekte beim Berechnen der Wärmeentstehung während Ladezyklen signifikant sind.\\
+Bei der Reaktionswärme ist der dominierende Einfluss nach Liu et al. das SOC. In manchen SOC-Bereichen sollten Alterungseffekte berücksichtigt werden und der Temperatureinfluss ist nicht vernachlässigbar.\footnote{Vgl. Fußnote \ref{cite:Liu}, Liu et al. 2014}
 
 \newpage
 \subsection{Das Tesla-Patent}
@@ -361,9 +424,9 @@ C) verfolgt das gleiche Konzept wie a), jedoch ist hier die Auslegung der Nut sp
 
 \newpage
 
-\subsection{Die Simulationsumgebung - COMSOL Multiphysics\textsuperscript{\textregistered}\label{sub:comsol}}
+\subsection{Batteriesimulation\label{sub:SDTsimulation}}
 
-COMSOL Multiphysics\textsuperscript{\textregistered} wird seit 1998 vertrieben\footcite[Vgl.][S. 2]{COMSOL2020}. Das Programm stellt eine frei definierbare Physikumgebung für gekoppelte Simulationen zur Verfügung.
+
 
 
 

@@ -2193,10 +2193,13 @@
     <bcf:citekey order="11">DAHN1994</bcf:citekey>
     <bcf:citekey order="12">LionKnowledge2021Zylind</bcf:citekey>
     <bcf:citekey order="13">LionKnowledge2021Prisma</bcf:citekey>
-    <bcf:citekey order="14">Liu2014</bcf:citekey>
-    <bcf:citekey order="15">Waldmann2015</bcf:citekey>
-    <bcf:citekey order="16">TsurutaTesla2020</bcf:citekey>
-    <bcf:citekey order="17">COMSOL2020</bcf:citekey>
+    <bcf:citekey order="14">Waldmann2015</bcf:citekey>
+    <bcf:citekey order="15">Liu2014</bcf:citekey>
+    <bcf:citekey order="16">Forgez2010</bcf:citekey>
+    <bcf:citekey order="17">Thomas2003</bcf:citekey>
+    <bcf:citekey order="18">Andre.2011</bcf:citekey>
+    <bcf:citekey order="19">Ecker.2012</bcf:citekey>
+    <bcf:citekey order="20">TsurutaTesla2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -61,6 +61,70 @@
       \verb https://link.springer.com/article/10.1007/s00502-020-00812-x
       \endverb
     \endentry
+    \entry{Andre.2011}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e4e85402e1d1bc2429a46ad1bca78d3c}{%
+           family={Andre},
+           familyi={A\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86b7b1b74c08a84c2494ead79ff00b5b}{%
+           family={Meiler},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=041930669f9b4c6f449093b7c3806941}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9bd109d8439ec1e4e318065dfb8b795}{%
+           family={Wimmer},
+           familyi={W\bibinitperiod},
+           given={Ch.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e8e5b4b2c2bd0d837eb2fd84f6d7da8}{%
+           family={Soczka-Guth},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e2b0abe4609cc5fd68f62d9d8c1a251}{%
+           family={Sauer},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi U.},
+           giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff33cf71ed1ec9c1f269db66f6dc3c3f}
+      \strng{fullhash}{3edff9537b8e01b3680584f0136eaceb}
+      \strng{bibnamehash}{3edff9537b8e01b3680584f0136eaceb}
+      \strng{authorbibnamehash}{3edff9537b8e01b3680584f0136eaceb}
+      \strng{authornamehash}{ff33cf71ed1ec9c1f269db66f6dc3c3f}
+      \strng{authorfullhash}{3edff9537b8e01b3680584f0136eaceb}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03787753}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{number}{12}
+      \field{title}{Characterization of high-power lithium-ion batteries by electrochemical impedance spectroscopy. I. Experimental investigation}
+      \field{volume}{196}
+      \field{year}{2011}
+      \field{pages}{5334\bibrangedash 5341}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jpowsour.2010.12.102
+      \endverb
+      \verb{file}
+      \verb 78fd7c4e-5522-456c-baf6-28ba82010aa2:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\78fd7c4e-5522-456c-baf6-28ba82010aa2.pdf:pdf
+      \endverb
+    \endentry
     \entry{BeloitEDU2021}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=02b0699fb06e4ab20d64a6602f4450a2}{%
@@ -137,6 +201,9 @@
       \field{year}{1994}
       \field{pages}{265\bibrangedash 270}
       \range{pages}{6}
+      \verb{file}
+      \verb dc11ec37-3def-4925-801f-fd9d225c84b3:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\dc11ec37-3def-4925-801f-fd9d225c84b3.pdf:pdf
+      \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/0167273894904154
       \endverb
@@ -180,6 +247,134 @@
       \endverb
       \verb{url}
       \verb https://link.springer.com/content/pdf/10.1007/s35146-013-0014-9.pdf
+      \endverb
+    \endentry
+    \entry{Ecker.2012}{article}{}
+      \name{author}{7}{ul=2}{%
+        {{un=0,uniquepart=base,hash=ad5eb9d131143a4164257e9eea5bfd78}{%
+           family={Ecker},
+           familyi={E\bibinitperiod},
+           given={Madeleine},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad5364044697699d4d13c0a2b2b6c34a}{%
+           family={Gerschler},
+           familyi={G\bibinitperiod},
+           given={Jochen\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73595ec7595a80834a70a11ab2d6fb67}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d48dc631166b278fb798984e15d8962}{%
+           family={K{ä}bitz},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c47c496bca6c87480f9471a6e246909e}{%
+           family={Hust},
+           familyi={H\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc050a6c82690f07dee40fc34134aa44}{%
+           family={Dechent},
+           familyi={D\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfc0b0c038ce2330d66fc8d991e748e1}{%
+           family={Sauer},
+           familyi={S\bibinitperiod},
+           given={Dirk\bibnamedelima Uwe},
+           giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e523bcfc397939badc2a93ed02519d55}
+      \strng{fullhash}{4fd9521b9117362e5120ad2a4948c7bc}
+      \strng{bibnamehash}{4fd9521b9117362e5120ad2a4948c7bc}
+      \strng{authorbibnamehash}{4fd9521b9117362e5120ad2a4948c7bc}
+      \strng{authornamehash}{e523bcfc397939badc2a93ed02519d55}
+      \strng{authorfullhash}{4fd9521b9117362e5120ad2a4948c7bc}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03787753}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{title}{Development of a lifetime prediction model for lithium-ion batteries based on extended accelerated aging test data}
+      \field{volume}{215}
+      \field{year}{2012}
+      \field{pages}{248\bibrangedash 257}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.jpowsour.2012.05.012
+      \endverb
+      \verb{file}
+      \verb 14faffee-43d4-4ace-b6e4-1623858f33e7:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\14faffee-43d4-4ace-b6e4-1623858f33e7.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Forgez2010}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=aa745cdcd71311bfc31f8c5741cd6998}{%
+           family={Forgez},
+           familyi={F\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97cb0325d177d2700f4b78c37095a317}{%
+           family={{Vinh Do}},
+           familyi={V\bibinitperiod},
+           given={Dinh},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6932f036b9e945f20fa5655d6a9bc105}{%
+           family={Friedrich},
+           familyi={F\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c38683af1f5e81325d879ed5e21347e7}{%
+           family={Morcrette},
+           familyi={M\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=490acc569325146e335feb26ab4dd4fc}{%
+           family={Delacourt},
+           familyi={D\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bb262fd7ed137a9c24e5f23cad00e06}
+      \strng{fullhash}{d422e711fc9f14d5b0bd63794d4f826f}
+      \strng{bibnamehash}{d422e711fc9f14d5b0bd63794d4f826f}
+      \strng{authorbibnamehash}{d422e711fc9f14d5b0bd63794d4f826f}
+      \strng{authornamehash}{5bb262fd7ed137a9c24e5f23cad00e06}
+      \strng{authorfullhash}{d422e711fc9f14d5b0bd63794d4f826f}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03787753}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{number}{9}
+      \field{title}{Thermal modeling of a cylindrical LiFePO4/graphite lithium-ion battery}
+      \field{urlyear}{}
+      \field{volume}{195}
+      \field{year}{2010}
+      \field{pages}{2961\bibrangedash 2968}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jpowsour.2009.10.105
+      \endverb
+      \verb{file}
+      \verb cdf48922-bf13-46d1-8500-f64ae969bb67:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\cdf48922-bf13-46d1-8500-f64ae969bb67.pdf:pdf
       \endverb
     \endentry
     \entry{Hepperle2012}{misc}{}
@@ -334,27 +529,6 @@
       \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
       \endverb
     \endentry
-    \entry{COMSOL2020}{misc}{}
-      \list{institution}{1}{%
-        {COMSOL}%
-      }
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to COMSOL Multiphysics}
-      \field{urlyear}{}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{file}
-      \verb 3accdd3c-2be7-4b1d-ba00-65c5a3cf5cc0:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\3accdd3c-2be7-4b1d-ba00-65c5a3cf5cc0.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://cdn.comsol.com/doc/5.6/IntroductionToCOMSOLMultiphysics.de_DE.pdf
-      \endverb
-      \verb{url}
-      \verb https://cdn.comsol.com/doc/5.6/IntroductionToCOMSOLMultiphysics.de_DE.pdf
-      \endverb
-    \endentry
     \entry{Leuthner.2013}{incollection}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3631bc784c4895544a9a4e75c0e365ac}{%
@@ -398,6 +572,9 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1007/978-3-642-30653-2{\textunderscore }2
+      \endverb
+      \verb{file}
+      \verb 1f8d918f-9b8b-4074-9e99-3df6150de6ec:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\1f8d918f-9b8b-4074-9e99-3df6150de6ec.pdf:pdf
       \endverb
     \endentry
     \entry{Lilium}{misc}{}
@@ -538,6 +715,47 @@
       \endverb
       \verb{url}
       \verb https://www.batterieforum-deutschland.de/infoportal/lexikon/nickel-cadmium-batterien/
+      \endverb
+    \endentry
+    \entry{Thomas2003}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=21c216c022b3fed47f91b7a3759e7b6d}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Karen\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=887e883f31937e46bbf9eb74a2db896f}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ef84c90c499a3f418f64777e46d533b}
+      \strng{fullhash}{7ef84c90c499a3f418f64777e46d533b}
+      \strng{bibnamehash}{7ef84c90c499a3f418f64777e46d533b}
+      \strng{authorbibnamehash}{7ef84c90c499a3f418f64777e46d533b}
+      \strng{authornamehash}{7ef84c90c499a3f418f64777e46d533b}
+      \strng{authorfullhash}{7ef84c90c499a3f418f64777e46d533b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0013-4651}
+      \field{journaltitle}{Journal of The Electrochemical Society}
+      \field{number}{2}
+      \field{title}{Thermal Modeling of Porous Insertion Electrodes}
+      \field{urlyear}{}
+      \field{volume}{150}
+      \field{year}{2003}
+      \field{pages}{A176}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1149/1.1531194
+      \endverb
+      \verb{file}
+      \verb b5318a9c-f1b3-4503-b9d3-d1068632af2a:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\b5318a9c-f1b3-4503-b9d3-d1068632af2a.pdf:pdf
       \endverb
     \endentry
     \entry{Traub2011}{article}{}

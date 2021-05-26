@@ -21,18 +21,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Lithium-Ionen-Batterietechnologie}{2}{subsection.arabicsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Das Tesla-Patent}{7}{subsection.arabicsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Das Tesla-Patent}{8}{subsection.arabicsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Die Simulationsumgebung - COMSOL Multiphysics\textsuperscript {\textregistered }}{14}{subsection.arabicsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Batteriesimulation}{15}{subsection.arabicsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Methodik}{15}{section.arabicsection.4}%
+\contentsline {section}{\numberline {4}Methodik}{16}{section.arabicsection.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Auswertung}{16}{section.arabicsection.5}%
+\contentsline {section}{\numberline {5}Auswertung}{17}{section.arabicsection.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{17}{section.arabicsection.6}%
+\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{18}{section.arabicsection.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V}Literatur}{18}{section.V}%
+\contentsline {section}{\numberline {V}Literatur}{19}{section.V}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VI}Anhang}{19}{section.VI}%
+\contentsline {section}{\numberline {VI}Anhang}{21}{section.VI}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{20}{section.VII}%
+\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{22}{section.VII}%
