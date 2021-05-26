@@ -169,7 +169,13 @@ Liu et al. stellen Gleichung \ref{gl:cycleheatgeneration} für die Berechnung de
 \end{table}
 
 Der erste Term von Gleichung \ref{gl:cycleheatgeneration} auf der rechte Seite entspricht der ohm'schen Wärmeentstehung, kurz $\dot{Q}_{jou}$. Der zweite Term ist die reversible Entropiewärme oder Reaktionswärme, $\dot{Q}_{re}$. Der dritte Term ist die Wärme aus Nebenreaktionen, $\dot{Q}_{sr}$. Dieser beschreibt die Alterung der Batteriezelle und kann für wenige Testzyklen vernachlässigt werden\footcite[Vgl.][]{Forgez2010}. Der letzte Term, $\dot{Q}_{mix}$, entspricht der Wärme im Mischprozess der Batterie. Die Mischprozesswärme entsteht durch die Bildung und Entspannung von Zellkonzentrationsgradienten. Für dynamische Belastungsprofile ist sie daher signifikant und kann nicht vernachlässigt werden\footcite[Vgl.][]{Thomas2003}. \\
-Zusammengefasst verkürzt sich Gleichung \ref{gl:cycleheatgeneration} demnach zu Gleichung \ref{gl:cycleheatshort}.
+Zusammengefasst verkürzt sich Gleichung \ref{gl:cycleheatgeneration} demnach zu Gleichung \ref{gl:cycleheatshortened}, bzw. Gleichung \ref{gl:cycleheatshort}.
+
+\begin{equation}\label{gl:cycleheatshortened}
+	\dot{Q} = I \cdot (U_{OCV} - U_{t})
+	- I \cdot T \frac{\partial U_{OVC}}{\partial T}
+	- \int \sum_{i}^{ } (\overline{H_{j}} - \overline{H_{j}^{avg}})	\cdot \frac{\partial c_{j}}{\partial t} dv
+\end{equation}
 
 \begin{equation}\label{gl:cycleheatshort}
 	\dot{Q} = \dot{Q}_{jou} + \dot{Q}_{sr} + \dot{Q}_{mix}
