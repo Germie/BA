@@ -131,8 +131,8 @@ Liu et al. stellen Gleichung \ref{gl:cycleheatgeneration} für die Berechnung de
 \begin{equation}\label{gl:cycleheatgeneration}
 		\dot{Q} = I \cdot (U_{OCV} - U_{t}) 
 		- I \cdot T \frac{\partial U_{OVC}}{\partial T} 
-		- \sum_{i}^{ } \bigtriangleup H_{i}^{avg}r_{i}
-		- \int \sum_{i}^{ } (\overline{H_{j}} - \overline{H_{j}^{avg}})	\cdot \frac{\partial c_{j}}{\partial t} dv
+		- \sum_{i}^{ } \Delta S_{i}^{avg}r_{i}
+		- \int \sum_{i}^{ } (\overline{S_{j}} - \overline{S_{j}^{avg}})	\cdot \frac{\partial c_{j}}{\partial t} dv
 \end{equation}
 
 \begin{table}[h!]
@@ -153,11 +153,11 @@ Liu et al. stellen Gleichung \ref{gl:cycleheatgeneration} für die Berechnung de
 		\hline
 		$T$ & Batterietemperatur\\
 		\hline
-		$\bigtriangleup H_{i}$ & Entropieänderung der $i$-ten Reaktion \\
+		$\Delta S_{i}$ & Entropieänderung der $i$-ten Reaktion \\
 		\hline
 		$r_{i}$ & Reaktionsrate der $i$-ten Reaktion\\
 		\hline
-		$\overline{H_{j}}$ & Molare Entropie des $j$-ten Teils der Batterie\\
+		$\overline{S_{j}}$ & Molare Entropie des $j$-ten Teils der Batterie\\
 		\hline
 		$c_{j}$ & Ionenkonzentration im $j$-ten Teil\\
 		\hline
