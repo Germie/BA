@@ -227,7 +227,7 @@ Nach Gleichung \ref{gl:HeatResistance} ist die ohm'sche Erhitzung in [\textbf{W}
 Da der Widerstand \textbf{R} zwischen 5 und 20 mal kleiner ist als beim konventionelle Entwurf ist zu erwarten, dass beim innovativen Design die ohm'sche Wärmeproduktion signifikant reduziert ist.\\
 Die trotz der Maßnahmen entstehende Wärme kann effizienter abgeführt werden.
 \begin{equation}
-	\dot{Q} = \frac{k\cdot A\cdot (T_{2} - T_{1})}{d}
+	\dot{Q} = \frac{k\cdot A\cdot (T_{2} - T_{1})}{d} 
 	\label{gl:HeatTransferEquation}
 \end{equation}
 
@@ -324,7 +324,7 @@ Für einen möglichst guten Kontakt können wie in Abbildung \ref{fig:CapGrooved
 	\end{tabularx}		
 \end{table}
 
-Wie in Abbildung \ref{fig:BottomConnection} b) gezeigt kann die Verbindung zwischen Elektrode und Batteriegehäuse auch ohne eine spezielle $Cap$ hergestellt werden. Hierzu werden die leitenden Teile des Elektrodenwickels zum Teil miteinander oder direkt mit dem Gehäuse verbunden. \\
+Wie in Abbildung \ref{fig:BottomConnection} b) gezeigt kann die Verbindung zwischen Elektrode und Batteriegehäuse auch ohne eine spezielle $Cap$ hergestellt werden. Hierzu werden die leitenden Teile des \newline Elektrodenwickels zum Teil miteinander oder direkt mit dem Gehäuse verbunden. \\
 
 \begin{figure}[H]
 	\begin{center}
@@ -489,7 +489,7 @@ Eine allgemein anwendbare Vereinfachung ist die Annahme der Elektroneutralität 
 	\sum_{i} z_{i} c_{i} = 0
 \end{equation}
 
-Unter Annahme der Elektroneutralität und kleiner absoluter Konzentrationsgradienten des ladungstragenden Elektrolyten folgt der Elektrolytstrom Gleichung \ref{gl:ohmslawcomplex} nach Ohm mit Rücksicht auf eine näherungsweise konstante Leitfähigkeit (Gleichung \ref{gl:constantconductivity}).
+Unter Annahme der Elektroneutralität und kleiner absolute Konzentrationsgradienten des ladungstragenden Elektrolyten folgt der Elektrolytstrom Gleichung \ref{gl:ohmslawcomplex} nach Ohm mit Rücksicht auf eine näherungsweise konstante Leitfähigkeit (Gleichung \ref{gl:constantconductivity}).
 
 \begin{eqnarray}
 	-\nabla \cdot (\sigma_{soln} \nabla \varphi) = Q \label{gl:ohmslawcomplex} \\
@@ -520,7 +520,7 @@ Unter Annahme der Elektroneutralität und kleiner absoluter Konzentrationsgradie
 Nach Ohm entspricht das Verhältnis von Stromfluss zum elektrischen Feld der Leitfähigkeit. Größere Elektrolytkonzentration im Vergleich zur Reaktantkonzentration erhöht die Leitfähigkeit des Elektrolyten, wodurch das elektrische Feld für beliebige Stromstärken gegen Null tendiert. Daher wird, wenn eine große Menge an unterstützendem Elektrolyt vorhanden ist, die Konzentration dieses als ``effektiv unendlich`` angenommen. Das bedeutet, dass der Massentransport des Reaktants nur als Diffusion, oder an den relevanten Stellen als Konvektion stattfindet. Gleichung \ref{gl:FicksLaw} nach Fick beschreibt hier die Konvektion für ein inkompressible Strömung.\footnote{Vgl. S. 72 \ref{cite:Dickinson}, Dickinson et al. 2014}
 
 \begin{equation}\label{gl:FicksLaw}
-	\frac{\partial c_{i}}{\partial t} = D_{i} \nabla^{2} c_{i} - \mathbf{u} \cdot \nabla c_{i}
+	\frac{\partial c_{i}}{\partial t} = D_{i} \nabla^{2} c_{i} - \mathbf{u} \cdot \nabla c_{i} 
 \end{equation}
 
 \subsubsection*{COMSOL Multiphysics\textsuperscript{\textregistered}}\label{subsub:comsolMulti}
@@ -537,6 +537,8 @@ Klassisch werden in der Modellierung von elektrochemischen Energiespeichern die 
 In COMSOL\textsuperscript{\textregistered} existiert bereits ein mathematisches Modell einer Lithium-Ionen-Batterie. Dieses ist ausreichend für die Simulation, muss jedoch noch um den thermischen Aspekt erweitert werden.\\
 
 \subsubsection*{Modellierung einer Lithium-Ionen-Batterie in COMSOL\textsuperscript{\textregistered} mit thermischen Effekten}\label{subsub:modellthermalLIB}
+
+Kosta ist der shit
 
 
 
