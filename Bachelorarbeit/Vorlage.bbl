@@ -153,6 +153,32 @@
       \verb https://chemistry.beloit.edu/edetc/SlideShow/slides/energy/density.html
       \endverb
     \endentry
+    \entry{COMSOLWebsite2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=63df30518248cd891b118daa8454626b}{%
+           family={COMSOL},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{63df30518248cd891b118daa8454626b}
+      \strng{fullhash}{63df30518248cd891b118daa8454626b}
+      \strng{bibnamehash}{63df30518248cd891b118daa8454626b}
+      \strng{authorbibnamehash}{63df30518248cd891b118daa8454626b}
+      \strng{authornamehash}{63df30518248cd891b118daa8454626b}
+      \strng{authorfullhash}{63df30518248cd891b118daa8454626b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comsol Website}
+      \field{urlyear}{}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.comsol.com
+      \endverb
+      \verb{url}
+      \verb https://www.comsol.com
+      \endverb
+    \endentry
     \entry{DAHN1994}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=25f626569e641718a5723ea1f13d6196}{%
@@ -209,6 +235,51 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/0167273894904154
+      \endverb
+    \endentry
+    \entry{Dickinson.2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d9444e835cefb81c9f7b90a4791f8998}{%
+           family={Dickinson},
+           familyi={D\bibinitperiod},
+           given={Edmund\bibnamedelima J.F.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddc085981b80d500076e34c80ec640a4}{%
+           family={Ekstr{ö}m},
+           familyi={E\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=473afeb85dea1e5778fcf43c7f7abc2e}{%
+           family={Fontes},
+           familyi={F\bibinitperiod},
+           given={Ed},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc049265e2948a2d92210984f60caa29}
+      \strng{fullhash}{63fc8e9c95adccef2bc29dd9d74100e9}
+      \strng{bibnamehash}{63fc8e9c95adccef2bc29dd9d74100e9}
+      \strng{authorbibnamehash}{63fc8e9c95adccef2bc29dd9d74100e9}
+      \strng{authornamehash}{dc049265e2948a2d92210984f60caa29}
+      \strng{authorfullhash}{63fc8e9c95adccef2bc29dd9d74100e9}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13882481}
+      \field{journaltitle}{Electrochemistry Communications}
+      \field{title}{COMSOL Multiphysics{\circledR}: Finite element software for electrochemical analysis. A mini-review}
+      \field{volume}{40}
+      \field{year}{2014}
+      \field{pages}{71\bibrangedash 74}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.elecom.2013.12.020
+      \endverb
+      \verb{file}
+      \verb 0d062b95-8137-4813-b0bb-861c007c696b:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\0d062b95-8137-4813-b0bb-861c007c696b.pdf:pdf
       \endverb
     \endentry
     \entry{Ecker2013}{article}{}
@@ -529,6 +600,52 @@
       \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
       \endverb
     \endentry
+    \entry{Klymenko.2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6d106b0c84980526938890a896ccd660}{%
+           family={Klymenko},
+           familyi={K\bibinitperiod},
+           given={Oleksiy\bibnamedelima V.},
+           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c9a76df3087e25332a2dd8db23b8ae5}{%
+           family={Svir},
+           familyi={S\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=844ad4e7ac8732dde6e025dfb97095bc}{%
+           family={Amatore},
+           familyi={A\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a107e13d7c7d79dc012a7969477b4d2a}
+      \strng{fullhash}{f325532c81bbde9bb564155002066f59}
+      \strng{bibnamehash}{f325532c81bbde9bb564155002066f59}
+      \strng{authorbibnamehash}{f325532c81bbde9bb564155002066f59}
+      \strng{authornamehash}{a107e13d7c7d79dc012a7969477b4d2a}
+      \strng{authorfullhash}{f325532c81bbde9bb564155002066f59}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The validity and accuracy of our new numerical approach implemented in KISSA-1D software when applied to a theoretical study of different types of electrochemiluminescence (ECL) is established by comparison with existing analytical solutions and others specifically derived in this work, as well as with independent numerical solutions obtained by using commercial software. The efficiency and comprehensiveness of this approach are illustrated by using a representative series of published ECL reaction schemes taken as typical case studies when ECL is generated by a single electrode under amperometric or voltammetric conditions, even when rate constants used in the simulations far exceed any of their realistic experimental limits.}
+      \field{journaltitle}{Chemphyschem : a European journal of chemical physics and physical chemistry}
+      \field{number}{10}
+      \field{title}{A new approach for the simulation of electrochemiluminescence (ECL)}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{pages}{2237\bibrangedash 2250}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/cphc.201300126
+      \endverb
+      \verb{file}
+      \verb 030dd1d4-ce20-4e07-8b3f-42e3ddcdbe2c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\030dd1d4-ce20-4e07-8b3f-42e3ddcdbe2c.pdf:pdf
+      \endverb
+    \endentry
     \entry{Leuthner.2013}{incollection}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3631bc784c4895544a9a4e75c0e365ac}{%
@@ -686,6 +803,65 @@
       \endverb
       \verb{file}
       \verb 1539cac7-4783-4b7e-9201-d876314b5264:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\1539cac7-4783-4b7e-9201-d876314b5264.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Salvi.2010}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9b3f81e4e685b8071f5f5dcf0a4f6829}{%
+           family={Salvi},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0af8ad83685bd262b4a117e1cdd0de2c}{%
+           family={Boldor},
+           familyi={B\bibinitperiod},
+           given={Dorin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c25e659627382aacbd549771b58d6db8}{%
+           family={Ortego},
+           familyi={O\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=655a9ba25d054f4c68215f003521be5b}{%
+           family={Aita},
+           familyi={A\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d008c9f8a48b8d8c35c5ed868843772}{%
+           family={Sabliov},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e0ce880808f4ff367d2a57d8fafbffc4}
+      \strng{fullhash}{0fe58ecaba8e806027157ea801d44bce}
+      \strng{bibnamehash}{0fe58ecaba8e806027157ea801d44bce}
+      \strng{authorbibnamehash}{0fe58ecaba8e806027157ea801d44bce}
+      \strng{authornamehash}{e0ce880808f4ff367d2a57d8fafbffc4}
+      \strng{authorfullhash}{0fe58ecaba8e806027157ea801d44bce}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Numerical models were developed to simulate temperature profiles in Newtonian fluids during continuous flow microwave heating by one way coupling electromagnetism, fluid flow, and heat transport in ANSYS 8.0 and COMSOL Multiphysics v3.4. Comparison of the results from the COMSOL model with the results from a pre-developed and validated ANSYS model ensured accuracy of the COMSOL model. Prediction of power Loss by both models was in close agreement (5-13{\%} variation) and the predicted temperature profiles were similar. COMSOL provided a flexible model setup whereas ANSYS required coupling incompatible elements to transfer load between electromagnetic, fluid flow, and heat transport modules. Overall, both software packages provided the ability to solve multiphysics phenomena accurately.}
+      \field{issn}{0832-7823}
+      \field{journaltitle}{The Journal of microwave power and electromagnetic energy : a publication of the International Microwave Power Institute}
+      \field{number}{4}
+      \field{title}{Numerical modeling of continuous flow microwave heating: a critical comparison of COMSOL and ANSYS}
+      \field{volume}{44}
+      \field{year}{2010}
+      \field{pages}{187\bibrangedash 197}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1080/08327823.2010.11689787
+      \endverb
+      \verb{file}
+      \verb 834fe60a-77ff-4d31-93b6-0cec0598f769:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\834fe60a-77ff-4d31-93b6-0cec0598f769.pdf:pdf
       \endverb
     \endentry
     \entry{Sollmann2018}{misc}{}

@@ -2200,6 +2200,10 @@
     <bcf:citekey order="18">Andre.2011</bcf:citekey>
     <bcf:citekey order="19">Ecker.2012</bcf:citekey>
     <bcf:citekey order="20">TsurutaTesla2020</bcf:citekey>
+    <bcf:citekey order="21">COMSOLWebsite2021</bcf:citekey>
+    <bcf:citekey order="22">Dickinson.2014</bcf:citekey>
+    <bcf:citekey order="23">Klymenko.2013</bcf:citekey>
+    <bcf:citekey order="24">Salvi.2010</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

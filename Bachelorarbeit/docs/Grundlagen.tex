@@ -432,17 +432,111 @@ C) verfolgt das gleiche Konzept wie a), jedoch ist hier die Auslegung der Nut sp
 
 \subsection{Batteriesimulation\label{sub:SDTsimulation}}
 
+\subsubsection*{Das Simulationsprogramm}
 
+Um die prismatische Batterie zu modellieren und simulieren sind die Programme ANSYS\textsuperscript{\textregistered} und COMSOL Multiphysics\textsuperscript{\textregistered} geeignet.\\
+COMSOL Multiphysics\textsuperscript{\textregistered} (auch bekannt als FEMLAB vor 2005) ist ein kommerzielles \newline Simulationsprogramm auf Basis der Finite-Elemente-Methode\footcite[Vgl.\label{cite:comsolwebsite}][]{COMSOLWebsite2021}. Das Programm wird vermehrt in analytischer Elektrochemie eingesetzt\footcite[Vgl.\label{cite:Dickinson}][S.74]{Dickinson.2014}. Da COMSOL\textsuperscript{\textregistered} dem Benutzer erlaubt über ``physics interfaces`` direkt auf die partiellen Differentialgleichungen des Simulationsmodells Einfluss zu nehmen, ist es für Benutzer kontrollierte Physik-Konfigurationen gut geeignet. Nach Klymenko et al. sind die Resultate aus COMSOL\textsuperscript{\textregistered} mit entsprechender Benutzerexpertise von hohem Gütegrad\footcite[Vgl.][]{Klymenko.2013}.\\
+ANSYS\textsuperscript{\textregistered} stellt eine gute Alternative für die Simulation dar. Aufgrund seiner effizienten Solver ist es vor allem für industrielle Anwendungen geeignet, während COMSOL\textsuperscript{\textregistered} sich im Forschungsbereich als anwendungsfreundlicher erweist. Beide Programme eignen sich gut für die Simulation von Lithium-Ionen Batterien. Jedoch ermöglicht COMSOL Multiphysics\textsuperscript{\textregistered} im Vergleich zu Ansys\textsuperscript{\textregistered} einen flexibleren Modellaufbau, weshalb es für die Simulation in dieser Arbeit ausgewählt wurde.\footcite[Vgl.][S.196]{Salvi.2010}\\
 
+\subsubsection*{Mathematische Grundlage der Lithium-Ionen Batterie Simulation}
 
+Die Simulation von Lithium-Ionen-Batterien beruht auf verschiedenen elektrochemischen Phänomenen: \\ Die Kopplung der Erhaltung der Ladung und des Stromflusses im Elektrolyten und den Elektroden, die Massenerhaltung für die Lösungsspezies im Elektrolyten und die Impulserhaltung zusammen mit der gesamten Masse in einer Lösung oder Mischung. Diese Phänomene werden von partiellen Differentialgleichungen (PDE's) beschrieben. Für diese Gleichungen existiert keine analytische Lösung. Daher müssen sie mittels numerischer Annäherung gelöst werden.\footnote{Vgl. Fußnote \ref{cite:Dickinson}, Dickinson et al. 2014} \\
+Die Ladungserhaltung wird nach Gauss mit Gleichung \ref{gl:GaussLaw} beschrieben. Der Massentransport folgt nach Nernst-Planck mit Gleichung \ref{gl:Nernst-Planck}, ist aber auch von der Massenerhaltung nach Gleichung \ref{gl:masscontinuity} abhängig.
 
+\begin{eqnarray}
+	- \nabla \cdot (\varepsilon \nabla \varphi) = \rho \label{gl:GaussLaw} \\
+	\mathbf{N_{i}} = -D_{i} \nabla c_{i} - z_{i} u_{i} c_{i} \nabla \varphi + c_{i}\mathbf{u} \label{gl:Nernst-Planck} \\
+	\frac{\partial c_{i}}{\partial t} + \nabla \cdot \mathbf{N_{i}} = R_{i} \label{gl:masscontinuity}
+\end{eqnarray}
 
+Die Gleichung \ref{gl:GaussLaw} bis \ref{gl:masscontinuity} ergeben zusammen die Nernst-Planck-Poisson Gleichungen. Diese beschreiben die Ladungs- und Massentransportseigenschaften einer unendlich verdünnten Elektrolytlösung. Die Ein- und Auslagerung von Lithium-Ionen in die Aktivschicht kann mittels geeigneter Randbedingungen modelliert werden.\footnote{Vgl. S. 72 Fußnote \ref{cite:Dickinson}, Dickinson et al. 2014}
 
+\begin{table}[H]
+	\caption{Variablen aus Gleichungen \ref{gl:GaussLaw} bis \ref{gl:masscontinuity}}
+	\label{tab:pdevariables_Gauss_Nernst_Mass}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|X|  }
+		\toprule[1.5pt]
+		\textbf{Nummer} & \textbf{Beschreibung} & \textbf{Einheit}\\
+		\hline\hline
+		$\varepsilon$ & Dielektrizitätskonstante & $F \cdot m^{-1}$ \\
+		\hline
+		$\varphi$ & Potential & $V$\\
+		\hline
+		$\rho$ & Ladungsdichte & $C \cdot m^{-3}$\\
+		\hline
+		$c_{i}$ & Konzentration der Spezies i & $mol \cdot m^{-3}$\\
+		\hline
+		$\mathbf{N_{i}}$ & Fluss der Spezies i & $mol \cdot m^{-2} \cdot s^{-1}$\\
+		\hline
+		$D_{i}$ & Diffusionskoeffizient der Spezies i & $m^{2} \cdot s^{-1}$\\
+		\hline
+		$z_{i}$ & Ladezahl der Spezies i & $[-]$\\
+		\hline
+		$u_{i}$ & Mobilität der Spezies i & $m^{2} \cdot V^{-1} \cdot s^{-1}$\\
+		\hline
+		$\mathbf{u}$ & Geschwindigkeit & $m \cdot s^{-1}$\\
+		\hline
+		$R_{i}$ & Massenquelle der Spezies i & $mol \cdot m^{-3} \cdot s^{-1}$\\ 
+		\bottomrule[1.5pt]
+	\end{tabularx}		
+\end{table}
 
+Die Nernst-Planck-Poisson Gleichungen sind stark nichtlinear und weisen mehrere Zeit- und Längendimensionen aus. Daher ist die vollständige Lösung dieser Gleichungen unter realistischen Bedingungen in der Praxis nicht gut umzusetzen. Um trotzdem verwertbare Simulationsergebnisse zu erhalten können Vereinfachungen angenommen werden:\\
+Eine allgemein anwendbare Vereinfachung ist die Annahme der Elektroneutralität auf Skalen größer als Nanometer (Gleichung \ref{gl:electroneutrality}).\footnote{Vgl. S. 72 \ref{cite:Dickinson}, Dickinson et al. 2014}
 
+\begin{equation}\label{gl:electroneutrality}
+	\sum_{i} z_{i} c_{i} = 0
+\end{equation}
 
+Unter Annahme der Elektroneutralität und kleiner absoluter Konzentrationsgradienten des ladungstragenden Elektrolyten folgt der Elektrolytstrom Gleichung \ref{gl:ohmslawcomplex} nach Ohm mit Rücksicht auf eine näherungsweise konstante Leitfähigkeit (Gleichung \ref{gl:constantconductivity}).
 
+\begin{eqnarray}
+	-\nabla \cdot (\sigma_{soln} \nabla \varphi) = Q \label{gl:ohmslawcomplex} \\
+	\sigma_{soln} \approx F \cdot \sum_{i} z^{2}_i u_{i} c_{i} \label{gl:constantconductivity}
+\end{eqnarray}
 
+\begin{table}[H]
+	\caption{Variablen aus Gleichungen \ref{gl:ohmslawcomplex} und \ref{gl:constantconductivity}}
+	\label{tab:Variablesohmscomplex_constantcond}
+	\vspace{0.2cm}	
+	\begin{tabularx}{\textwidth}{ |X|X|X|  }
+		\toprule[1.5pt]
+		\textbf{Nummer} & \textbf{Beschreibung} & \textbf{Einheit}\\
+		\hline\hline
+		$\sigma$ & Leitfähigkeit & $S \cdot m^{-1}$ \\
+		\hline
+		$Q$ & Ladequelle & $A \cdot m^{-3}$\\
+		\hline
+		$F$ & Faraday Konstante & $[Ah \cdot mol^{-1}]$\\
+		\hline
+		$R$ & Gaskonstante & $J \cdot K^{-1} \cdot mol^{-1}$\\
+		\hline
+		$T$ & Temperatur & $K$\\
+		\bottomrule[1.5pt]
+	\end{tabularx}		
+\end{table}
+
+Nach Ohm entspricht das Verhältnis von Stromfluss zum elektrischen Feld der Leitfähigkeit. Größere Elektrolytkonzentration im Vergleich zur Reaktantkonzentration erhöht die Leitfähigkeit des Elektrolyten, wodurch das elektrische Feld für beliebige Stromstärken gegen Null tendiert. Daher wird, wenn eine große Menge an unterstützendem Elektrolyt vorhanden ist, die Konzentration dieses als ``effektiv unendlich`` angenommen. Das bedeutet, dass der Massentransport des Reaktants nur als Diffusion, oder an den relevanten Stellen als Konvektion stattfindet. Gleichung \ref{gl:FicksLaw} nach Fick beschreibt hier die Konvektion für ein inkompressible Strömung.\footnote{Vgl. S. 72 \ref{cite:Dickinson}, Dickinson et al. 2014}
+
+\begin{equation}\label{gl:FicksLaw}
+	\frac{\partial c_{i}}{\partial t} = D_{i} \nabla^{2} c_{i} - \mathbf{u} \cdot \nabla c_{i}
+\end{equation}
+
+\subsubsection*{COMSOL Multiphysics\textsuperscript{\textregistered}}\label{subsub:comsolMulti}
+
+Der Term ``Multiphysics`` beschreibt die Zusammenführung und Kopplung verschiedener physikalischer Phänomene. In Praxis ist es die Zusammenstellung diverser partieller Differentialgleichungen in einem Modell. \\
+Beispielsweise kombiniert die Analyse von Brennstoffzellen Strömungsmechanik, Massentransport, Wärmeübertragung und Ladungsübertragung. In COMSOL\textsuperscript{\textregistered} werden die benötigten Differentialgleichungen in ``physics interfaces`` implementiert. Diese bestehen aus verfügbaren Packeten von physikalischen Gleichungen. Die Randbedingungen können auch in den Interfaces gewählt werden.\\
+Klassisch werden in der Modellierung von elektrochemischen Energiespeichern die folgenden Interfaces eingebunden:\footnote{Vgl. S. 72 \ref{cite:Dickinson}, Dickinson et al. 2014}
+
+\begin{itemize}
+	\item Primary/Secondary/Tertiary Current Distribution
+	\item Electroanalysis
+\end{itemize}
+
+In COMSOL\textsuperscript{\textregistered} existiert bereits ein mathematisches Modell einer Lithium-Ionen-Batterie. Dieses ist ausreichend für die Simulation, muss jedoch noch um den thermischen Aspekt erweitert werden.\\
+
+\subsubsection*{Modellierung einer Lithium-Ionen-Batterie in COMSOL\textsuperscript{\textregistered} mit thermischen Effekten}\label{subsub:modellthermalLIB}
 
 
 
