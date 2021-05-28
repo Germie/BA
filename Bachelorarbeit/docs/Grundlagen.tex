@@ -559,7 +559,7 @@ Das elektronische Potential $\Phi_{ele}$ wird mit Hilfe der Erhaltungsgleichung 
 	\frac{\partial (\rho_{c} c_{p,c} T)}{\partial t} + \nabla \cdot \vec{\dot{q}} = -\vec{i}_{ele} \cdot \nabla \Phi_{ele} \label{gl:Energiegleichung}
 \end{equation}
 
-Gleichung \ref{gl:Stromflussdichte} beschreibt hier die Stromdichte, Gleichung \ref{gl:Energiegleichung} die Energiebalance.
+Gleichung \ref{gl:Stromflussdichte} beschreibt hier die Stromdichte, Gleichung \ref{gl:Energiegleichung} die Energiegleichung.
 
 \begin{equation}
 	\vec{\dot{q}} = \ \lambda_{c} T \label{gl:Waermeleitungsstrom}
@@ -595,8 +595,9 @@ Der Wärmeleitstrom wird in Gleichung \ref{gl:Waermeleitungsstrom} aufgestellt.\
 	\label{fig:LayermodelFink}
 \end{figure}
 
-\underline{Reaktionszone}\\
+\underline{Reaktionszone - ET-Modell}\\
 \\
+
 
 Die Reaktionszone besteht wie in Abbildung \ref{fig:LayermodelFink} gezeigt aus positiver und negativer Elektrode und einem Separator. \\
 Im elektrothermischen Modell (ET) sind die drei Teile zu einer Aktivschicht vereint. Hier befindet sich im Modell eine Wärmequelle. Die Reaktionsstromdichte wird in dem Interface Aktivschicht/Stromabnehmer aus einer empirischen Gleichung berechnet. Die Energiegleichung in der Aktivschicht ist in Gleichung \ref{gl:AktivschichtET} beschrieben.
@@ -611,10 +612,66 @@ Der Wärmeleitstrom folgt nach Gleichung \ref{gl:Waermeleitungsstrom} mit Gleich
 	\vec{\dot{q}} = - \left( \begin{array}{ccc} \lambda_{al,x} & 0 & 0\\ 0 & \lambda_{al,y} & 0 \\ 0 & 0 & \lambda_{al,z}\\ \end{array} \right) \nabla T \label{gl:WaermeleitungsstromExplizit}
 \end{equation}
  
- Die Variablen $i_{emp}$ und $V_{oc,emp}$ werden aus den Interfaceverbindungsgleichungen nach Fink und Kaltenegger berechnet.\footnote{Vgl. Fußnote \ref{cite:fink}, Fink und Kaltenegger 2014,  S. 110}
+Die Variablen $i_{emp}$ und $V_{oc,emp}$ werden aus den Interfaceverbindungsgleichungen nach Fink und Kaltenegger berechnet.\footnote{Vgl. Fußnote \ref{cite:fink}, Fink und Kaltenegger 2014,  S. 110}\\
+$\Delta \Phi_{ele}$ ist die lokale Potentialdifferenz zwischen positiver und negativer Elektrode und $L_{al}$ ist die Dicke der Aktivschicht.\\
  
- 
- 
+\underline{Reaktionszone - EC-Modell}\\
+\\
+
+Mit Hilfe der Ladungserhaltungsgleichungen \ref{gl:Ladungserhaltung} werden die elektrischen und ionischen Potentiale im Elektrolyt gelöst.
+
+\begin{equation}
+	\nabla \cdot \vec{i}_{ele} = - i_{r} a_{s} \; , \; \nabla \cdot \vec{i}_{ion} = i_{r} a_{s} \label{gl:Ladungserhaltung}
+\end{equation}
+
+Die elektrischen und ionischen Stromdichten werden nach Gleichung \ref{gl:eleundionStromdichten} bestimmt.
+
+\begin{equation}
+	\vec{i}_{ele} = - \sigma_{s} \varepsilon_{s} \nabla \Phi_{ele} \; , \; \vec{i}_{ion} = - \kappa \varepsilon^{q}_{e} \left( \nabla \Phi_{ion} - \frac{2\cdot RT (1-t^{+})\nabla c_{e}}{F c_{e}} \right) \label{gl:eleundionStromdichten}
+\end{equation}
+
+Die ionische Leitfähigkeit $\kappa$ ist von der Lithium-Salz-Konzentration und der Temperatur abhängig, nach Gleichung \ref{gl:ionLeitfaehigkeit}
+
+\begin{equation}
+	\kappa = \kappa_{ref} (c_{e}) \cdot exp \left[ \frac{E_{act,\kappa}}{R} \cdot \left( \frac{1}{T_{ref}} - \frac{1}{T} \right) \right] \label{gl:ionLeitfaehigkeit}
+\end{equation}
+
+Die Reaktionsstromdichte $i_{r}$ aus Gleichung \ref{gl:Ladungserhaltung} erhält man aus der Butler-Volmer-Gleichung (Gleichung \ref{gl:ButlerVolmer})
+
+\begin{equation}
+	i_{r} = r_{0} \left[ exp \left( \frac{k_{a} F}{RT} \eta_{act} \right) - exp\left( -\frac{k_{c}F}{RT} \eta_{act} \right) \right] \label{gl:ButlerVolmer}
+\end{equation} 
+
+mit dem Aktivierungsüberpotential $\eta_{act}$ aus Gleichung \ref{gl:Aktivierungspot} und der Austauschstromdichte $i_{0}$ aus Gleichung \ref{gl:Austauschstromdichte}.
+
+\begin{equation}
+	\eta_{act} = \Phi_{ele} - \Phi_{ion} - \Phi_{oc} \label{gl:Aktivierungspot}
+\end{equation}
+
+\begin{equation}
+	i_{0} = i_{0,ini} \left( \frac{c_{e}}{c_{e,ini}} \right)^{k_{a}} \left( \frac{c_{s,max} - c_{se}}{c_{s,max} - c_{s,ini}}\right)^{k_{a}} \left( \frac{c_{se}}{c_{s,ini}} \right)^{k_{c}} exp\left[ \frac{E_{act,i_{0}}}{R} \cdot \left( \frac{1}{T_{ref}} - \frac{1}{T}\right) \right] \label{gl:Austauschstromdichte}
+\end{equation}
+
+[][][][] !!!! Hier Weitermachen wenn es benötigt wird für die Simulation !!!! [][][][] (S. 108 FINK 2018 bei Gleichung 9)
+
+\newpage
+\subsection{Wärmeübertragungsmechanismen}\label{sub:waermeuebertragung}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
 
