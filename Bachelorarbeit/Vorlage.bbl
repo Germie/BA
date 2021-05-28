@@ -282,6 +282,49 @@
       \verb 0d062b95-8137-4813-b0bb-861c007c696b:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\0d062b95-8137-4813-b0bb-861c007c696b.pdf:pdf
       \endverb
     \endentry
+    \entry{Doyle.1996}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38258310fc96ead3fd35ba62c5390947}{%
+           family={Doyle},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=030b2531b6b9f5580cc0eabb6d8cc405}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e79d3ce0112831ca56cc0ca87ef4108}
+      \strng{fullhash}{4e79d3ce0112831ca56cc0ca87ef4108}
+      \strng{bibnamehash}{4e79d3ce0112831ca56cc0ca87ef4108}
+      \strng{authorbibnamehash}{4e79d3ce0112831ca56cc0ca87ef4108}
+      \strng{authornamehash}{4e79d3ce0112831ca56cc0ca87ef4108}
+      \strng{authorfullhash}{4e79d3ce0112831ca56cc0ca87ef4108}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0013-4651}
+      \field{journaltitle}{Journal of The Electrochemical Society}
+      \field{number}{6}
+      \field{title}{Comparison of Modeling Predictions with Experimental Data from Plastic Lithium Ion Cells}
+      \field{volume}{143}
+      \field{year}{1996}
+      \field{pages}{1890\bibrangedash 1903}
+      \range{pages}{14}
+      \verb{file}
+      \verb 3291828f-60f7-4442-9b8e-85d44c6643ca:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\3291828f-60f7-4442-9b8e-85d44c6643ca.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1149/1.1836921
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1149/1.1836921
+      \endverb
+    \endentry
     \entry{Ecker2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=433184bfc43aeda8f48d50e519908aed}{%
@@ -387,6 +430,49 @@
       \endverb
       \verb{file}
       \verb 14faffee-43d4-4ace-b6e4-1623858f33e7:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\14faffee-43d4-4ace-b6e4-1623858f33e7.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Fink.2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=997fea632dbdec216221115e63dab791}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c570cd902868b535a362f71887fc118f}{%
+           family={Kaltenegger},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77c8aabe3e9fabcb9900ae9b7d366916}
+      \strng{fullhash}{77c8aabe3e9fabcb9900ae9b7d366916}
+      \strng{bibnamehash}{77c8aabe3e9fabcb9900ae9b7d366916}
+      \strng{authorbibnamehash}{77c8aabe3e9fabcb9900ae9b7d366916}
+      \strng{authornamehash}{77c8aabe3e9fabcb9900ae9b7d366916}
+      \strng{authorfullhash}{77c8aabe3e9fabcb9900ae9b7d366916}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ECS Trans.}
+      \field{number}{27}
+      \field{title}{Electrothermal and Electrochemical Modeling of Lithium-ion Batteries: 3D Simulation with Experimental Validation}
+      \field{urlyear}{}
+      \field{volume}{61}
+      \field{year}{2014}
+      \field{pages}{105\bibrangedash 124}
+      \range{pages}{20}
+      \verb{file}
+      \verb 084c6c78-b4c1-4314-8a87-18862879b30f:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\084c6c78-b4c1-4314-8a87-18862879b30f.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1149/06127.0105ecst/pdf
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1149/06127.0105ecst/pdf
       \endverb
     \endentry
     \entry{Forgez2010}{article}{}
@@ -805,6 +891,46 @@
       \verb 1539cac7-4783-4b7e-9201-d876314b5264:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\1539cac7-4783-4b7e-9201-d876314b5264.pdf:pdf
       \endverb
     \endentry
+    \entry{Nasar.1982}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=40437984d8cb617ec409780b98a795d0}{%
+           family={Nasar},
+           familyi={N\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b24fbabc0006d2692231e9fea81ae817}{%
+           family={Unnewehr},
+           familyi={U\bibinitperiod},
+           given={L.\bibnamedelimi E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {The road to knowledge}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \strng{namehash}{284b988d3aae5912ce4a4d3f6280926d}
+      \strng{fullhash}{284b988d3aae5912ce4a4d3f6280926d}
+      \strng{bibnamehash}{284b988d3aae5912ce4a4d3f6280926d}
+      \strng{authorbibnamehash}{284b988d3aae5912ce4a4d3f6280926d}
+      \strng{authornamehash}{284b988d3aae5912ce4a4d3f6280926d}
+      \strng{authorfullhash}{284b988d3aae5912ce4a4d3f6280926d}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electric Vehicel Technology}
+      \field{year}{1982}
+      \verb{urlraw}
+      \verb https://trid.trb.org/view/178418
+      \endverb
+      \verb{url}
+      \verb https://trid.trb.org/view/178418
+      \endverb
+    \endentry
     \entry{Salvi.2010}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9b3f81e4e685b8071f5f5dcf0a4f6829}{%
@@ -862,6 +988,40 @@
       \endverb
       \verb{file}
       \verb 834fe60a-77ff-4d31-93b6-0cec0598f769:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\834fe60a-77ff-4d31-93b6-0cec0598f769.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Shepherd.1965}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff116ca4d290dfe9d5cc91eab078e376}{%
+           family={Shepherd},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff116ca4d290dfe9d5cc91eab078e376}
+      \strng{fullhash}{ff116ca4d290dfe9d5cc91eab078e376}
+      \strng{bibnamehash}{ff116ca4d290dfe9d5cc91eab078e376}
+      \strng{authorbibnamehash}{ff116ca4d290dfe9d5cc91eab078e376}
+      \strng{authornamehash}{ff116ca4d290dfe9d5cc91eab078e376}
+      \strng{authorfullhash}{ff116ca4d290dfe9d5cc91eab078e376}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0013-4651}
+      \field{journaltitle}{Journal of The Electrochemical Society}
+      \field{number}{7}
+      \field{title}{Design of Primary and Secondary Cells}
+      \field{volume}{112}
+      \field{year}{1965}
+      \field{pages}{657}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1149/1.2423659
+      \endverb
+      \verb{file}
+      \verb db0b2c07-fcee-423f-a201-2c5b3514a228:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\db0b2c07-fcee-423f-a201-2c5b3514a228.pdf:pdf
       \endverb
     \endentry
     \entry{Sollmann2018}{misc}{}

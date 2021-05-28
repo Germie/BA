@@ -2204,6 +2204,10 @@
     <bcf:citekey order="22">Dickinson.2014</bcf:citekey>
     <bcf:citekey order="23">Klymenko.2013</bcf:citekey>
     <bcf:citekey order="24">Salvi.2010</bcf:citekey>
+    <bcf:citekey order="25">Shepherd.1965</bcf:citekey>
+    <bcf:citekey order="26">Nasar.1982</bcf:citekey>
+    <bcf:citekey order="27">Fink.2014</bcf:citekey>
+    <bcf:citekey order="28">Doyle.1996</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

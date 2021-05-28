@@ -288,7 +288,7 @@ Zwischen die beiden Elektroden wird eine Trennschicht eingebracht (\textbf{4}). 
 
 \subsubsection*{Der Kontakt zwischen Elektrodenwickel und Cap}\label{subsub:JellyrollCapContact}
 
-Damit der leitende Teil der Elektrode Kontakt zum entsprechenden Pol des Batteriegehäuses hat, wird ein Ende des Batteriezylinders mit einer $Cap$ versehen. Das $Cap$ besteht aus einem leitenden Material, zum Beispiel einer Nickel-Legierung\footnote{Vgl. Fußnote \ref{cite:TeslaPatent} S. 1, Tsuruta et al. 2020}.\\
+Damit der leitende Teil der Elektrode Kontakt zum entsprechenden Pol des Batteriegehäuses hat, wird ein Ende des Batteriezylinders mit einer $Cap$ versehen. Das $Cap$ besteht aus einem leitenden Material, zum Beispiel einer Nickel-Legierung\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020, S. 1}.\\
 Dieser Deckel kann für eine optimierte Anbindung des Elektrodenwickels in verschiedenen Konfigurationen vorhanden sein. Diese Modifikationen der $Cap$ können unter anderem Nuten, Erhebungen und Aussparungen, sowie andere nicht beschriebene Merkmale sein.\\
 Der Kontakt zwischen Elektrodenwickel und $Cap$ kann mit mehreren Konzepten verwirklicht werden. Einer davon ist eine Pressverbindung, bei der das $Cap$ und die Kathode oder Anode durch Druck miteinander in Berührung kommen.\\
 Damit der Verbindung zwischen $Cap$ und Kathode, bzw. Anode mehr Oberfläche verfügbar ist, kann das $Cap$ so ausgelegt sein, dass es mit dem leitenden Teil der Elektrode (Abbildung \ref{fig:JellyRoll} (\textbf{1})) einen möglichst schlüssigen Kontakt hat. Um die benötigte Presskraft aufzubringen kann oberhalb des Elektrodenwickels ein isolierendes Material eingebracht werden, welches die Elektrode gegen die $Cap$ presst. Die Verbindung kann auch durch Anschwellen der Anode durch den Elektrolyten oder durch Laser- oder Ultraschallschweißen realisiert werden.\\
@@ -369,7 +369,7 @@ Wie in Abbildung \ref{fig:BottomConnection} b) gezeigt kann die Verbindung zwisc
 	\end{tabularx}	
 \end{table}
 
-Imperfektionen können durch Fehler im Herstellungsprozess entstehen. Leitendes Material kann über sich selbst gefaltet sein und dadurch den Kontakt zwischen Elektrodenwickel und $Cap$, bzw. Gehäuse negativ beeinflussen. Um diesen Effekten entgegen zu wirken können  wie in Abbildung \ref{fig:BottomConnectorTypes} gezeigt ist Abschnitte des leitenden Teils der Elektrode entfernt werden. Mögliche Vorgehensweisen sind die Entfernung von Material in festen Abständen (Abbildung \ref{fig:ConductivePortionTypes} a) ) oder in größer werdenden Abständen (Abbildung \ref{fig:ConductivePortionTypes} b) ). Bei b) kann die Anordnung so gewählt werden, dass nach der Wicklung der Elektrode die leitenden Teile ein rotationssymmetrisches Muster bilden.\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, S. 5, Tsuruta et al. 2020}\\
+Imperfektionen können durch Fehler im Herstellungsprozess entstehen. Leitendes Material kann über sich selbst gefaltet sein und dadurch den Kontakt zwischen Elektrodenwickel und $Cap$, bzw. Gehäuse negativ beeinflussen. Um diesen Effekten entgegen zu wirken können  wie in Abbildung \ref{fig:BottomConnectorTypes} gezeigt ist Abschnitte des leitenden Teils der Elektrode entfernt werden. Mögliche Vorgehensweisen sind die Entfernung von Material in festen Abständen (Abbildung \ref{fig:ConductivePortionTypes} a) ) oder in größer werdenden Abständen (Abbildung \ref{fig:ConductivePortionTypes} b) ). Bei b) kann die Anordnung so gewählt werden, dass nach der Wicklung der Elektrode die leitenden Teile ein rotationssymmetrisches Muster bilden.\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020, S. 5}\\
 
 \begin{figure}[H]
 	\begin{center}
@@ -438,7 +438,7 @@ Um die prismatische Batterie zu modellieren und simulieren sind die Programme AN
 COMSOL Multiphysics\textsuperscript{\textregistered} (auch bekannt als FEMLAB vor 2005) ist ein kommerzielles \newline Simulationsprogramm auf Basis der Finite-Elemente-Methode\footcite[Vgl.\label{cite:comsolwebsite}][]{COMSOLWebsite2021}. Das Programm wird vermehrt in analytischer Elektrochemie eingesetzt\footcite[Vgl.\label{cite:Dickinson}][S.74]{Dickinson.2014}. Da COMSOL\textsuperscript{\textregistered} dem Benutzer erlaubt über ``physics interfaces`` direkt auf die partiellen Differentialgleichungen des Simulationsmodells Einfluss zu nehmen, ist es für Benutzer kontrollierte Physik-Konfigurationen gut geeignet. Nach Klymenko et al. sind die Resultate aus COMSOL\textsuperscript{\textregistered} mit entsprechender Benutzerexpertise von hohem Gütegrad\footcite[Vgl.][]{Klymenko.2013}.\\
 ANSYS\textsuperscript{\textregistered} stellt eine gute Alternative für die Simulation dar. Aufgrund seiner effizienten Solver ist es vor allem für industrielle Anwendungen geeignet, während COMSOL\textsuperscript{\textregistered} sich im Forschungsbereich als anwendungsfreundlicher erweist. Beide Programme eignen sich gut für die Simulation von Lithium-Ionen Batterien. Jedoch ermöglicht COMSOL Multiphysics\textsuperscript{\textregistered} im Vergleich zu Ansys\textsuperscript{\textregistered} einen flexibleren Modellaufbau, weshalb es für die Simulation in dieser Arbeit ausgewählt wurde.\footcite[Vgl.][S.196]{Salvi.2010}\\
 
-\subsubsection*{Mathematische Grundlage der Lithium-Ionen Batterie Simulation}
+\subsubsection*{Mathematische Grundlage der Lithium-Ionen Batterie Simulation EVENTUELL RAUSNEHMEN}
 
 Die Simulation von Lithium-Ionen-Batterien beruht auf verschiedenen elektrochemischen Phänomenen: \\ Die Kopplung der Erhaltung der Ladung und des Stromflusses im Elektrolyten und den Elektroden, die Massenerhaltung für die Lösungsspezies im Elektrolyten und die Impulserhaltung zusammen mit der gesamten Masse in einer Lösung oder Mischung. Diese Phänomene werden von partiellen Differentialgleichungen (PDE's) beschrieben. Für diese Gleichungen existiert keine analytische Lösung. Daher müssen sie mittels numerischer Annäherung gelöst werden.\footnote{Vgl. Fußnote \ref{cite:Dickinson}, Dickinson et al. 2014} \\
 Die Ladungserhaltung wird nach Gauss mit Gleichung \ref{gl:GaussLaw} beschrieben. Der Massentransport folgt nach Nernst-Planck mit Gleichung \ref{gl:Nernst-Planck}, ist aber auch von der Massenerhaltung nach Gleichung \ref{gl:masscontinuity} abhängig.
@@ -449,7 +449,7 @@ Die Ladungserhaltung wird nach Gauss mit Gleichung \ref{gl:GaussLaw} beschrieben
 	\frac{\partial c_{i}}{\partial t} + \nabla \cdot \mathbf{N_{i}} = R_{i} \label{gl:masscontinuity}
 \end{eqnarray}
 
-Die Gleichung \ref{gl:GaussLaw} bis \ref{gl:masscontinuity} ergeben zusammen die Nernst-Planck-Poisson Gleichungen. Diese beschreiben die Ladungs- und Massentransportseigenschaften einer unendlich verdünnten Elektrolytlösung. Die Ein- und Auslagerung von Lithium-Ionen in die Aktivschicht kann mittels geeigneter Randbedingungen modelliert werden.\footnote{Vgl. S. 72 Fußnote \ref{cite:Dickinson}, Dickinson et al. 2014}
+Die Gleichung \ref{gl:GaussLaw} bis \ref{gl:masscontinuity} ergeben zusammen die Nernst-Planck-Poisson Gleichungen. Diese beschreiben die Ladungs- und Massentransportseigenschaften einer unendlich verdünnten Elektrolytlösung. Die Ein- und Auslagerung von Lithium-Ionen in die Aktivschicht kann mittels geeigneter Randbedingungen modelliert werden.\footnote{Vgl. Fußnote \ref{cite:Dickinson}, Dickinson et al. 2014 , S. 72}
 
 \begin{table}[H]
 	\caption{Variablen aus Gleichungen \ref{gl:GaussLaw} bis \ref{gl:masscontinuity}}
@@ -482,8 +482,8 @@ Die Gleichung \ref{gl:GaussLaw} bis \ref{gl:masscontinuity} ergeben zusammen die
 	\end{tabularx}		
 \end{table}
 
-Die Nernst-Planck-Poisson Gleichungen sind stark nichtlinear und weisen mehrere Zeit- und Längendimensionen aus. Daher ist die vollständige Lösung dieser Gleichungen unter realistischen Bedingungen in der Praxis nicht gut umzusetzen. Um trotzdem verwertbare Simulationsergebnisse zu erhalten können Vereinfachungen angenommen werden:\\
-Eine allgemein anwendbare Vereinfachung ist die Annahme der Elektroneutralität auf Skalen größer als Nanometer (Gleichung \ref{gl:electroneutrality}).\footnote{Vgl. S. 72 \ref{cite:Dickinson}, Dickinson et al. 2014}
+Die Nernst-Planck-Poisson Gleichungen sind nichtlinear und weisen mehrere Zeit- und Längendimensionen auf. Daher ist die vollständige Lösung dieser Gleichungen unter realistischen Bedingungen in der Praxis nicht gut umzusetzen. Um trotzdem verwertbare Simulationsergebnisse zu erhalten können Vereinfachungen angenommen werden:\\
+Eine allgemein anwendbare Vereinfachung ist die Annahme der Elektroneutralität auf Skalen größer als Nanometer (Gleichung \ref{gl:electroneutrality}).\footnote{Vgl. Fußnote \ref{cite:Dickinson}, Dickinson et al. 2014, S. 72}
 
 \begin{equation}\label{gl:electroneutrality}
 	\sum_{i} z_{i} c_{i} = 0
@@ -517,7 +517,7 @@ Unter Annahme der Elektroneutralität und kleiner absolute Konzentrationsgradien
 	\end{tabularx}		
 \end{table}
 
-Nach Ohm entspricht das Verhältnis von Stromfluss zum elektrischen Feld der Leitfähigkeit. Größere Elektrolytkonzentration im Vergleich zur Reaktantkonzentration erhöht die Leitfähigkeit des Elektrolyten, wodurch das elektrische Feld für beliebige Stromstärken gegen Null tendiert. Daher wird, wenn eine große Menge an unterstützendem Elektrolyt vorhanden ist, die Konzentration dieses als ``effektiv unendlich`` angenommen. Das bedeutet, dass der Massentransport des Reaktants nur als Diffusion, oder an den relevanten Stellen als Konvektion stattfindet. Gleichung \ref{gl:FicksLaw} nach Fick beschreibt hier die Konvektion für ein inkompressible Strömung.\footnote{Vgl. S. 72 \ref{cite:Dickinson}, Dickinson et al. 2014}
+Nach Ohm entspricht das Verhältnis von Stromfluss zum elektrischen Feld der Leitfähigkeit. Größere Elektrolytkonzentration im Vergleich zur Reaktantkonzentration erhöht die Leitfähigkeit des Elektrolyten, wodurch das elektrische Feld für beliebige Stromstärken gegen Null tendiert. Daher wird, wenn eine große Menge an unterstützendem Elektrolyt vorhanden ist, die Konzentration dieses als ``effektiv unendlich`` angenommen. Das bedeutet, dass der Massentransport des Reaktants nur als Diffusion, oder an den relevanten Stellen als Konvektion stattfindet. Gleichung \ref{gl:FicksLaw} nach Fick beschreibt hier die Konvektion für ein inkompressible Strömung.\footnote{Vgl. Fußnote  \ref{cite:Dickinson}, Dickinson et al. 2014, S. 72}
 
 \begin{equation}\label{gl:FicksLaw}
 	\frac{\partial c_{i}}{\partial t} = D_{i} \nabla^{2} c_{i} - \mathbf{u} \cdot \nabla c_{i} 
@@ -527,7 +527,7 @@ Nach Ohm entspricht das Verhältnis von Stromfluss zum elektrischen Feld der Lei
 
 Der Term ``Multiphysics`` beschreibt die Zusammenführung und Kopplung verschiedener physikalischer Phänomene. In Praxis ist es die Zusammenstellung diverser partieller Differentialgleichungen in einem Modell. \\
 Beispielsweise kombiniert die Analyse von Brennstoffzellen Strömungsmechanik, Massentransport, Wärmeübertragung und Ladungsübertragung. In COMSOL\textsuperscript{\textregistered} werden die benötigten Differentialgleichungen in ``physics interfaces`` implementiert. Diese bestehen aus verfügbaren Packeten von physikalischen Gleichungen. Die Randbedingungen können auch in den Interfaces gewählt werden.\\
-Klassisch werden in der Modellierung von elektrochemischen Energiespeichern die folgenden Interfaces eingebunden:\footnote{Vgl. S. 72 \ref{cite:Dickinson}, Dickinson et al. 2014}
+Klassisch werden in der Modellierung von elektrochemischen Energiespeichern die folgenden Interfaces eingebunden:\footnote{Vgl. Fußnote  \ref{cite:Dickinson}, Dickinson et al. 2014, S. 72}
 
 \begin{itemize}
 	\item Primary/Secondary/Tertiary Current Distribution
@@ -538,12 +538,83 @@ In COMSOL\textsuperscript{\textregistered} existiert bereits ein mathematisches 
 
 \subsubsection*{Modellierung einer Lithium-Ionen-Batterie in COMSOL\textsuperscript{\textregistered} mit thermischen Effekten}\label{subsub:modellthermalLIB}
 
-Kosta ist der shit
+Um Lithium-Ionen-Batterien zu simulieren, müssen thermische und elektrochemische Vorgänge simultan berechnet werden. Aufbauend von den Modellen von Shepherd\footcite[Vgl.][]{Shepherd.1965} und Nasar und Unnewehr\footcite[Vgl.][]{Nasar.1982}, welche nur Ladezyklen mit konstantem Stromfluss abbilden können, beschreiben Fink und Kaltenegger ein elektrothermisches Modell (ET) das die dynamische Entspannung und das zeitabhängige Verhalten der Batterie aufgrund von Stromimpulsen beschreiben kann.\footcite[Vgl.\label{cite:fink}][S. 105-124]{Fink.2014} \\
+Das elektrochemische Modell der Batterie bauen Fink und Kaltenegger auf dem ein-dimensionalen Modell von Doyle\footcite[Vgl.][S. 1890-1903]{Doyle.1996} auf. Das Modell kann die zeitliche Ausbildung und räumliche Verteilung von elektronischen und ionischen Potentialen, Lithiumkonzentrationen in Feststoffen und dem Elektrolyten, sowie die Temperatur für arbiträre Lastprofile abbilden.\footnote{Vgl. Fußnote \ref{cite:fink}, Fink und Kaltenegger 2014, S. 106}\\
+Im Folgenden wird zunächst ein Überblick über die mathematischen Modelle gegeben. Die Simulationsumgebung, Randbedingung, Materialien und Parameter werden in Kapitel [][][]REFERENZ SIMULATIONSKAPITEL %\ref{section:simulation}SIMULATIONKAPITEL 
+ausgeführt.\newline
 
+\underline{Stromabnehmer}\\
+\\
+Das elektronische Potential $\Phi_{ele}$ wird mit Hilfe der Erhaltungsgleichung elektrischer Ladung, Gleichung \ref{gl:conservationOfCharge}, in beiden Modellen (ET und EC) berechnet.
 
+\begin{equation}
+	\nabla \cdot \vec{i}_{ele} = 0 \label{gl:conservationOfCharge}
+\end{equation}
 
+\begin{equation}
+	\vec{i}_{ele} = - \sigma_{c} \nabla \Phi_{ele} \label{gl:Stromflussdichte}
+\end{equation}
 
+\begin{equation}
+	\frac{\partial (\rho_{c} c_{p,c} T)}{\partial t} + \nabla \cdot \vec{\dot{q}} = -\vec{i}_{ele} \cdot \nabla \Phi_{ele} \label{gl:Energiegleichung}
+\end{equation}
 
+Gleichung \ref{gl:Stromflussdichte} beschreibt hier die Stromdichte, Gleichung \ref{gl:Energiegleichung} die Energiebalance.
 
+\begin{equation}
+	\vec{\dot{q}} = \ \lambda_{c} T \label{gl:Waermeleitungsstrom}
+\end{equation}
 
+Der Wärmeleitstrom wird in Gleichung \ref{gl:Waermeleitungsstrom} aufgestellt.\\
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=14 cm]{figs/LayerStructureECETModel.eps}
+			\put(160,16){Reaktionszone}
+			\put(160,74){Reaktionszone}
+			\put(160,133){Reaktionszone}
+			%\put(10,120){Aktivschicht}
+			\put(10,74){Aktivschicht}
+			\put(10,16){Aktivschicht}
+			\put(10,103){\textbf{-} Stromabnahme}
+			\put(10,45){\textbf{+} Stromabnahme}
+			\put(306,103){\textbf{-} Stromabnahme}
+			\put(306,45){\textbf{+} Stromabnahme}
+			\put(306,90){\textbf{-} Elektrode}
+			\put(306,58){\textbf{+} Elektrode}
+			\put(306,74){Separator}
+			\put(306,31){\textbf{+} Elektrode}
+			\put(306,15){Separator}
+			\put(306,116){\textbf{-} Elektrode}
+		\end{overpic}
+	\end{center}
+	
+	
+	\caption[Schichtenmodell der ET und EC Modelle nach Fink 2014]{Vgl. Schichtenmodell der EC- und ET-Modelle nach Fink 2014}
+	
+	\label{fig:LayermodelFink}
+\end{figure}
+
+\underline{Reaktionszone}\\
+\\
+
+Die Reaktionszone besteht wie in Abbildung \ref{fig:LayermodelFink} gezeigt aus positiver und negativer Elektrode und einem Separator. \\
+Im elektrothermischen Modell (ET) sind die drei Teile zu einer Aktivschicht vereint. Hier befindet sich im Modell eine Wärmequelle. Die Reaktionsstromdichte wird in dem Interface Aktivschicht/Stromabnehmer aus einer empirischen Gleichung berechnet. Die Energiegleichung in der Aktivschicht ist in Gleichung \ref{gl:AktivschichtET} beschrieben.
+
+\begin{equation}
+	\frac{\partial (\rho_{al} c_{p,al} T)}{\partial t} + \nabla \cdot \vec{\dot{q}} = \frac{i_{emp} ( V_{oc,emp} - \Delta \Phi_{ele} )}{L_{al}} \label{gl:AktivschichtET}
+\end{equation} 
+
+Der Wärmeleitstrom folgt nach Gleichung \ref{gl:Waermeleitungsstrom} mit Gleichung \ref{gl:WaermeleitungsstromExplizit}.
+
+\begin{equation}
+	\vec{\dot{q}} = - \left( \begin{array}{ccc} \lambda_{al,x} & 0 & 0\\ 0 & \lambda_{al,y} & 0 \\ 0 & 0 & \lambda_{al,z}\\ \end{array} \right) \nabla T \label{gl:WaermeleitungsstromExplizit}
+\end{equation}
  
+ Die Variablen $i_{emp}$ und $V_{oc,emp}$ werden aus den Interfaceverbindungsgleichungen nach Fink und Kaltenegger berechnet.\footnote{Vgl. Fußnote \ref{cite:fink}, Fink und Kaltenegger 2014,  S. 110}
+ 
+ 
+ 
+ 
+ 
+
