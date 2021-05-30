@@ -153,6 +153,47 @@
       \verb https://chemistry.beloit.edu/edetc/SlideShow/slides/energy/density.html
       \endverb
     \endentry
+    \entry{Bockh.2017}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8c18b48a51e2c13bd9e4fc93967c44e7}{%
+           family={B{ö}ckh},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=178015ad096e4d93b68c14b3e8a6321c}{%
+           family={Wetzel},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{60ba3525e2e54635c2c3ecc6431ec82f}
+      \strng{fullhash}{60ba3525e2e54635c2c3ecc6431ec82f}
+      \strng{bibnamehash}{60ba3525e2e54635c2c3ecc6431ec82f}
+      \strng{authorbibnamehash}{60ba3525e2e54635c2c3ecc6431ec82f}
+      \strng{authornamehash}{60ba3525e2e54635c2c3ecc6431ec82f}
+      \strng{authorfullhash}{60ba3525e2e54635c2c3ecc6431ec82f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-55479-1}
+      \field{title}{W{ä}rme{ü}bertragung}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/978-3-662-55480-7
+      \endverb
+      \verb{file}
+      \verb 8122ae27-87fb-447d-a6d2-60e492641bb0:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\8122ae27-87fb-447d-a6d2-60e492641bb0.pdf:pdf
+      \endverb
+    \endentry
     \entry{COMSOLWebsite2021}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=63df30518248cd891b118daa8454626b}{%
