@@ -568,13 +568,72 @@ mit dem Aktivierungsüberpotential $\eta_{act}$ aus Gleichung \ref{gl:Aktivierun
 	i_{0} = i_{0,ini} \left( \frac{c_{e}}{c_{e,ini}} \right)^{k_{a}} \left( \frac{c_{s,max} - c_{se}}{c_{s,max} - c_{s,ini}}\right)^{k_{a}} \left( \frac{c_{se}}{c_{s,ini}} \right)^{k_{c}} exp\left[ \frac{E_{act,i_{0}}}{R} \cdot \left( \frac{1}{T_{ref}} - \frac{1}{T}\right) \right] \label{gl:Austauschstromdichte}
 \end{equation}
 
-[][][][] !!!! Hier Weitermachen wenn es benötigt wird für die Simulation !!!! [][][][] (S. 108 FINK 2018 bei Gleichung 9)
+Mit der Annahme, dass die Elektrodenpartikel sphärisch mit einem durchschnittlichen Radius $r_{s}$ sind, folgt die Partikeloberfäche pro Volumen $a_{s}$ nach Gleichung \ref{gl:surfacepervolume}.
+
+\begin{equation}
+	a_{s} = \frac{3\cdot \varepsilon_{s}}{r_{s}} = \frac{3 \cdot (1 - \varepsilon_{e} - \varepsilon_{f})}{r_{s}} \label{gl:surfacepervolume}
+\end{equation}
+
+Um die Lithiumkonzentration in den Feststoffpartikeln $c_{s}$ und die Lithium-Salz-Konzentration $c_{e}$ im Elektrolyten zu berechnen werden die Transportgleichungen \ref{gl:transport1} und \ref{gl:transport2} verwendet.
+
+\begin{equation}
+	\frac{\partial c_{s}}{\partial t} - \frac{\partial}{\partial r}\cdot \left( D_{s} \frac{\partial c_{s}}{\partial r} \right) - \frac{2}{r} \cdot D_{s} \cdot \frac{\partial c_{s}}{\partial r} = 0 \label{gl:transport1}
+\end{equation}
+
+\begin{equation}
+	\frac{\partial (\varepsilon_{e}c_{e})}{\partial t} + \nabla \cdot \vec{j_{e}} = \frac{(1-t^{+}) i_{r} a_{s}}{F} \label{gl:transport2}
+\end{equation}
+
+Die Diffusionskoeffizienten $D_{s}$ und $D_{e}$ und der Lithium-Salz-Diffusionsstrom $\vec{j_{e}}$ folgen aus Gleichungen \ref{gl:diffusionsstrom_li} bis \ref{gl:diffusionskoeffizient_E}.
+
+\begin{equation}
+	\vec{j_{e}} = -D_{e} \varepsilon^{q}_{e} \nabla c_{e} \label{gl:diffusionsstrom_li}
+\end{equation}
+
+\begin{equation}
+	D_{s} = D_{s,ref} \cdot exp \left[ \frac{E_{act,D_{s}}}{R} \cdot \left( \frac{1}{T_{ref}} - \frac{1}{T} \right) \right] \label{gl:diffusionskoeffizient_S}
+\end{equation}
+
+\begin{equation}
+	D_{e} = D_{e,ref} + \delta_{1} (T- T_{ref}) + \delta_{2} (T- T_{ref})^{2} + \delta_{3} (T-T_{ref})^{3} \label{gl:diffusionskoeffizient_E}
+\end{equation}
+
+Weiter werden für das EC-Modell das State-Of-Charge (SoC) und die mittlere Stöchiometrie $\Theta$ benötigt. Das SoC ist eine Zahl zwischen null und eins und referenziert die verfügbare Kapazität bezogen auf die maximale Kapazität der Batterie. Es wird nach Gleichung \ref{gl:SOCDef} definiert. 
+
+\begin{equation}
+	\mathbf{SoC} = \frac{\Theta - \Theta_{0}}{\Theta_{1} - \Theta_{0}} \label{gl:SOCDef}
+\end{equation}
+
+Die mittlere Stöchiometrie folgt mit der durchschnittlichen Lithiumkonzentration im Partikel $\overline{c_{s}}$ aus Gleichung \ref{gl:averageLIConcentration} nach Gleichung \ref{gl:durchschnittStoechiometrie}.
+
+\begin{equation}
+	\Theta = \frac{\overline{c_{s}}}{c_{s,max}} \label{gl:durchschnittStoechiometrie}
+\end{equation}
+
+\begin{equation}
+	\overline{c_{s}} = \frac{1}{r_{s}} \int_{0}^{r_{s}} c_{s}(r,t) dr \label{gl:averageLIConcentration}
+\end{equation}
+
+Die maximale Kapazität jeder Elektrode werden aus elektrochemischen und geometrischen Parametern nach Gleichung \ref{gl:maxKapazität} bestimmt.
+
+\begin{equation}
+	Q^{+}_{max} = \mathbf{\varepsilon}^{+}_{s}\cdot V^{+} \cdot c_{s,max}^{+} \cdot (\Theta^{+}_{0} - \Theta^{+}_{1}) \cdot F \; , \; Q^{-}_{max} =  \mathbf{\varepsilon}^{-}_{s}\cdot V^{-}\cdot c^{-}_{s,max}\cdot (\Theta^{-}_{0} - \Theta^{-}_{1}) \cdot F \label{gl:maxKapazität}
+\end{equation}
+
+Es wird angenommen, dass die Elektrodenpartikel und der Elektrolyt in thermischem Gleichgewicht stehen. Die Energiegleichung für dieses Gleichgewicht folgt nach Gleichung \ref{gl:energieGleichgewichtElektrodeElektrolyt} mit dem phasengemittelten Wärmestrom $\overline{\vec{\dot{q}}} = -\overline{\lambda} \nabla T$.\footnote{Vgl. Fußnote \ref{cite:fink}, Fink und Kaltenegger 2014, S. 108-110}
+
+\begin{equation}
+	\frac{\partial (\overline{\rho c_{p}} T)}{\partial t} = \nabla \cdot \overline{\vec{\dot{q}}} = - \vec{i}_{ele} \cdot \nabla \phi_{ele} - \vec{i}_{ion} \cdot \nabla \phi_{ion} + i_{r} a_{s} \eta_{act} \label{gl:energieGleichgewichtElektrodeElektrolyt}
+\end{equation}
+
+
+ES FEHLEN NOCH BOUNDARY UND COUPLING CONDITIONS, EINFÚGEN INSOFERN ES BENOETIGT WIRD 909090909()()()()()
 
 \newpage
 \subsection{Wärmeübertragungsmechanismen}\label{sub:waermeuebertragung}
 
 Im folgenden Abschnitt werden die für die Simulation und den Entwurf der Batteriezelle benötigten Grundlagen der Wärmeübertragung erläutert. \\
-Nach Böckh und Wetzel wird die Wärmeübertragung in zwei primäre Klassen unterteilt:\footcite[Vgl.][S. 4]{Bockh.2017} \\
+Nach Böckh und Wetzel wird die Wärmeübertragung in zwei primäre Klassen unterteilt:\footcite[Vgl.\label{cite:bockh}][S. 4]{Bockh.2017} \\
 
 \underline{Wärmeleitung in Stoffen}\\
 \\
@@ -599,15 +658,72 @@ Je größer der Temperaturgradient, desto mehr Wärme fließt in Richtung der ni
 	\label{fig:Waermeleitungsimple}
 \end{figure}
 
+Um die Nomenklatur zu vereinfachen, wird hier analog zu Böckh und Wetzel\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 5} $\vartheta$ für die Temperatur in Celsius und für die absolute Temperatur $T$ verwendet.\\
 
+\underline{Warmeleitung - Wärmestrom und Wärmestromdichte}
+\\
 
+Wärmeströme $\dot{Q}$ werden in Watt [\textbf{W}] angegeben. Sie sind ein Maß dafür, wie viel Wärme pro Zeiteinheit übertragen wird. Bezieht man den Wärmestrom auf die Fläche durch den er fließt wird daraus die Wärmestromdichte $\dot{q}$ in [$\mathbf{W/m^{2}}$].\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 5}\\
 
+\underline{Wärmeleitung - Wärmeübergangszahl $\alpha$}
 
+Die Wärmeübergangszahl wird in der Einheit [$W/m^{2}K$] angegeben und beschreibt den Wärmestrom der pro Flächeneinheit und Grad Temperaturdifferenz übertragen wird.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 6}\\
 
+\underline{Wärmeleitung - Wärmeleitfähigkeit $\lambda$}
+\\
 
+Die Wärmeleitfähigkeit $\lambda$ gibt den Wärmestrom, der pro Längeneinheit entlang des Wärmegradienten und pro Grad Temperaturdifferenz in einem Material übertragen werden kann. Sie wird in der Dimension [$\mathbf{W/mK}$] angegeben. In Feststoffen kann die Druckabhängigkeit der Wärmeleitfähigkeit meist vernachlässigt werden. \\
+Für diese Arbeit ist auch relevant, dass gute elektrische Leiter meist auch gute Wärmeleiter sind.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 10} \\
 
+\underline{Instationäre Wärmeleitung}
+\\
 
+Böckh und Wetzel\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 50} leiten am Beispiel der unendlich großen, ebenen Platte die partielle Differentialgleichung der instationären, dreidimensionalen Wärmeleitung in Gleichung \ref{gl:instatWaermeleitung} her.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 52}
 
+\begin{equation}
+	\frac{\partial \vartheta}{\partial t} = a \cdot \frac{\partial^{2} \vartheta}{\partial r^{2}} = a \cdot \nabla^{2} \vartheta \label{gl:instatWaermeleitung}
+\end{equation}
+
+Dabei ist a die \textit{Temperaturleitfähigkeit} des Materials mit der Dimension [$\mathbf{m^{2}/s}$]. Sie hängt nach Gleichung \ref{gl:Temperaturleitfaehigkeit} von der Wärmeleitfähikgeit $\lambda$, der Dichte $\rho$ und der spezifischen Wärmekapazität $c_{p}$ des Materials ab.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 51}
+
+\begin{equation}
+	a = \frac{\lambda}{\rho c_{p}} \label{gl:Temperaturleitfaehigkeit}
+\end{equation}
+
+Eine wichtige Kennzahl für Wärmeübertragungsprobleme ist die Biot-Zahl (\textbf{Bi}). Sie gibt nach Gleichung \ref{gl:BiotDef} das Verhältnis der inneren zu der äußeren Wärmeübergangszahl eines Körpers an.
+
+\begin{equation}
+	Bi = \frac{\alpha \cdot s}{\lambda} \label{gl:BiotDef}
+\end{equation}
+
+Mit Hilfe der mittleren Temperatur kann auch die über einen Zeitraum zugeführte oder entfernte Wärme bestimmt werden. Die Enthalpie wird mit der mittleren und der Anfangstemperatur berechnet:\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 56}
+
+\begin{equation}
+	Q = H_{a} - \overline{H} = m \cdot (h_{a} - \overline{h}) = m \cdot c_{p} \cdot (\vartheta_{A} - \overline{\vartheta}) \label{gl:gesamtWaermeUebertragen}
+\end{equation}
+
+\underline{Wärmeübertragung zwischen zwei Festkörpern (Gekoppelte Systeme)}
+\\
+
+Miteinander im Kontakt stehende Festkörper unterschiedlicher Temperaturen weisen nach beliebig kurzer Zeit an den sich berührenden Oberflächen die Konkakttemperatur $\vartheta_{K}$ auf.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 66} \\
+Lässt man den Wärmestrom in beiden Körpern nach den Gesetzen der Energieerhaltung gleich sein, folgt mit den Gleichungen für den Wärmestrom an der Oberfläche eines Festkörpers nach Böckh und Wetzel 2017, S. 66 (Gleichung 2.77), Gleichung \ref{gl:kontaktGleichungFestkörper}.
+
+\begin{equation}
+	\sqrt{\lambda_{1} \cdot \rho_{1} \cdot c_{p,1}} \cdot (\vartheta_{A1} - \vartheta_{K}) = \sqrt{\lambda_{2} \cdot \rho_{2} \cdot c_{p,2}} \cdot (\vartheta_{K} - \vartheta_{A2}) \label{gl:kontaktGleichungFestkörper}
+\end{equation}
+
+Gleichung \ref{gl:kontaktGleichungFestkörper} kann man nach $\vartheta_{K}$ umstellen und erhält Gleichung \ref{gl:Kontakttemperatur}.
+
+\begin{equation}
+	\vartheta_{K} = \left( \vartheta_{A1} + \sqrt{\frac{\lambda_{2} \cdot \rho_{2} \cdot c_{p,2}}{\lambda_{1} \cdot \rho_{1} \cdot c_{p,1}}} \cdot \vartheta_{A2} \right) \cdot \left( 1 + \sqrt{\frac{\lambda_{2} \cdot \rho_{2} \cdot c_{p,2}}{\lambda_{1} \cdot \rho_{1} \cdot c_{p,1}}} \right)^{-1} \label{gl:Kontakttemperatur}
+\end{equation}
  
- 
+\underline{Lösung der instationären, dreidimensionalen Wärmeleitungsgleichung}
+\\
 
+Momentan ist Gleichung \ref{gl:instatWaermeleitung} nur numerisch lösbar. Daher muss Gleichung \ref{gl:instatWaermeleitung} zuerst diskretisiert werden. Diskretisierung ist der Vorgang, bei dem ein kontinuierliches, reales System in viele individuelle Punkte unterteilt wird. Zwischen diesen Punkten können dann die Differenzen der gesuchten physikalischen Größen mit weniger Rechenaufwand ermittelt werden. \\
+Mit Hilfe der Taylor-Reihe aus Gleichung \ref{gl:Taylor} kann man die Differentialgleichung zu einer Differenzengleichung annähern.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 77}
+
+\begin{equation}
+	f(\xi + \Delta \xi) = \sum_{n=0}^{\infty} \left.\frac{\partial^{n} f}{\partial \xi^{n}}\right\vert_{\xi} \frac{(\Delta \xi)^{n}}{n!} \label{gl:Taylor}
+\end{equation}
