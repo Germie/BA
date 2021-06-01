@@ -727,3 +727,6 @@ Mit Hilfe der Taylor-Reihe aus Gleichung \ref{gl:Taylor} kann man die Differenti
 \begin{equation}
 	f(\xi + \Delta \xi) = \sum_{n=0}^{\infty} \left.\frac{\partial^{n} f}{\partial \xi^{n}}\right\vert_{\xi} \frac{(\Delta \xi)^{n}}{n!} \label{gl:Taylor}
 \end{equation}
+
+Wenn man für die benachbarten Punkte eines beliebigen Punktes $P(i,j,k)$ im Raum zum Zeitpunkt $t$ die Tayler-Reihen aufschreibt und dann die entstehenden Gleichungen ineinander einsetzt, erhält man eine diskretisierte Differenzengleichung. \\
+Dieses Verfahren bildet jeweils zentrale Differenzen, weshalb es auch als FTCS-Verfahren (Forward Time Center Space) bezeichnet wird.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh und Wetzel 2017, S. 80} \\
