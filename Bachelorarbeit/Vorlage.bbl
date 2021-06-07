@@ -352,6 +352,7 @@
       \field{journaltitle}{Journal of The Electrochemical Society}
       \field{number}{6}
       \field{title}{Comparison of Modeling Predictions with Experimental Data from Plastic Lithium Ion Cells}
+      \field{urlyear}{}
       \field{volume}{143}
       \field{year}{1996}
       \field{pages}{1890\bibrangedash 1903}
@@ -970,6 +971,51 @@
       \endverb
       \verb{url}
       \verb https://trid.trb.org/view/178418
+      \endverb
+    \endentry
+    \entry{Petzl.2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7302a63c76bb3014661b6a441592da3b}{%
+           family={Petzl},
+           familyi={P\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a42da1888514673c50047c7d59c2004}{%
+           family={Kasper},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50d2189dc1789e75e19b0006b4c694de}{%
+           family={Danzer},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc7b4f65e7c528e42822622b2b34c092}
+      \strng{fullhash}{5eb4c5d2c080e10204e4629a3825c75f}
+      \strng{bibnamehash}{5eb4c5d2c080e10204e4629a3825c75f}
+      \strng{authorbibnamehash}{5eb4c5d2c080e10204e4629a3825c75f}
+      \strng{authornamehash}{bc7b4f65e7c528e42822622b2b34c092}
+      \strng{authorfullhash}{5eb4c5d2c080e10204e4629a3825c75f}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03787753}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{title}{Lithium plating in a commercial lithium-ion battery -- A low-temperature aging study}
+      \field{volume}{275}
+      \field{year}{2015}
+      \field{pages}{799\bibrangedash 807}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jpowsour.2014.11.065
+      \endverb
+      \verb{file}
+      \verb 4ead6634-4f8c-4e16-889d-7a0e13e1af24:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\4ead6634-4f8c-4e16-889d-7a0e13e1af24.pdf:pdf
       \endverb
     \endentry
     \entry{Salvi.2010}{article}{}

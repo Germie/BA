@@ -3,17 +3,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {I}Inhaltsverzeichnis}{i}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II}Formelzeichen und Abkürzungen}{ii}{section.2}%
+\contentsline {section}{\numberline {II}Formelzeichen und Abkürzungen}{iii}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {III}Abbildungsverzeichnis}{iv}{section.3}%
+\contentsline {section}{\numberline {III}Abbildungsverzeichnis}{vi}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {IV}Tabellenverzeichnis}{v}{section.4}%
+\contentsline {section}{\numberline {IV}Tabellenverzeichnis}{vii}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Einleitung}{vi}{section.arabicsection.1}%
+\contentsline {section}{\numberline {1}Einleitung}{viii}{section.arabicsection.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Abstract}{vi}{subsection.arabicsection.1.1}%
+\contentsline {subsection}{\numberline {1.1}Abstract}{viii}{subsection.arabicsection.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Aufbau der Arbeit}{vi}{subsection.arabicsection.1.2}%
+\contentsline {subsection}{\numberline {1.2}Aufbau der Arbeit}{viii}{subsection.arabicsection.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Motivation}{1}{section.arabicsection.2}%
 \defcounter {refsection}{0}\relax 
@@ -21,20 +21,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Lithium-Ionen-Batterietechnologie}{2}{subsection.arabicsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Das Tesla-Patent}{8}{subsection.arabicsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Das Tesla-Patent}{9}{subsection.arabicsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Batteriesimulation}{15}{subsection.arabicsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Batteriesimulation}{16}{subsection.arabicsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Grundlagen der Wärmeübertragungsmechanismen}{20}{subsection.arabicsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Grundlagen der Wärmeübertragungsmechanismen}{21}{subsection.arabicsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Methodik}{24}{section.arabicsection.4}%
+\contentsline {section}{\numberline {4}Methodik}{25}{section.arabicsection.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Auswertung}{25}{section.arabicsection.5}%
+\contentsline {section}{\numberline {5}Auswertung}{26}{section.arabicsection.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{26}{section.arabicsection.6}%
+\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{27}{section.arabicsection.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V}Literatur}{27}{section.V}%
+\contentsline {section}{\numberline {V}Literatur}{28}{section.V}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VI}Anhang}{29}{section.VI}%
+\contentsline {section}{\numberline {VI}Anhang}{30}{section.VI}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{30}{section.VII}%
+\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{31}{section.VII}%
