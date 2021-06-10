@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Vorlage.blg'
-[100] biber-MSWIN64:322> INFO - === 
-[123] Biber.pm:415> INFO - Reading 'Vorlage.bcf'
-[302] Biber.pm:943> INFO - Found 30 citekeys in bib section 0
-[327] Biber.pm:4256> INFO - Processing section 0
-[327] Utils.pm:75> INFO - Globbing data source 'refs/references.bib'
-[339] Utils.pm:91> INFO - Globbed data source 'refs/references.bib' to refs/references.bib
-[356] Biber.pm:4455> INFO - Looking for bibtex format file 'refs/references.bib' for section 0
-[361] bibtex.pm:1653> INFO - LaTeX decoding ...
-[442] bibtex.pm:1471> INFO - Found BibTeX data source 'refs/references.bib'
-[714] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[714] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[714] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[714] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[777] bbl.pm:652> INFO - Writing 'Vorlage.bbl' with encoding 'UTF-8'
-[806] bbl.pm:755> INFO - Output to Vorlage.bbl
+[111] biber-MSWIN64:322> INFO - === 
+[151] Biber.pm:415> INFO - Reading 'Vorlage.bcf'
+[343] Biber.pm:943> INFO - Found 30 citekeys in bib section 0
+[369] Biber.pm:4256> INFO - Processing section 0
+[370] Utils.pm:75> INFO - Globbing data source 'refs/references.bib'
+[394] Utils.pm:91> INFO - Globbed data source 'refs/references.bib' to refs/references.bib
+[423] Biber.pm:4455> INFO - Looking for bibtex format file 'refs/references.bib' for section 0
+[428] bibtex.pm:1653> INFO - LaTeX decoding ...
+[518] bibtex.pm:1471> INFO - Found BibTeX data source 'refs/references.bib'
+[832] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[832] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[832] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[833] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[917] bbl.pm:652> INFO - Writing 'Vorlage.bbl' with encoding 'UTF-8'
+[950] bbl.pm:755> INFO - Output to Vorlage.bbl
