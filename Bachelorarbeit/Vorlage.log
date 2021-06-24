@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  10 JUN 2021 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  24 JUN 2021 11:53
 entering extended mode
 **./Vorlage.tex
 (Vorlage.tex
@@ -1364,7 +1364,12 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 85
  [6]
 Package tocbasic Info: character protrusion at lot deactivated on input line 89
 .
- (Vorlage.lot)
+ (Vorlage.lot
+
+LaTeX Warning: Reference `fig:JellyRollSize' on page vii undefined on input lin
+e 20.
+
+)
 \tf@lot=\write7
 \openout7 = `Vorlage.lot'.
 
@@ -1409,7 +1414,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/LIB_Aufbau_Schematic-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<figs/LIB_Aufbau_Schematic-eps-converted-to.pdf, id=172, 326.21875pt x 192.72pt
+<figs/LIB_Aufbau_Schematic-eps-converted-to.pdf, id=184, 326.21875pt x 192.72pt
 >
 File: figs/LIB_Aufbau_Schematic-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/LIB_Aufbau_Schematic-eps-converted-to.pdf>
@@ -1465,7 +1470,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/Prismatische_und_Zylindrische_Zelle-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf, id=243, 233.873
+<figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf, id=255, 233.873
 75pt x 168.63pt>
 File: figs/Prismatische_und_Zylindrische_Zelle-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1520,7 +1525,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/JellyRollTeslaPatent-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<figs/JellyRollTeslaPatent-eps-converted-to.pdf, id=354, 293.095pt x 225.84375p
+<figs/JellyRollTeslaPatent-eps-converted-to.pdf, id=366, 293.095pt x 225.84375p
 t>
 File: figs/JellyRollTeslaPatent-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/JellyRollTeslaPatent-eps-converted-to.pdf>
@@ -1554,7 +1559,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/CapGroovedTeslaPatent-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<figs/CapGroovedTeslaPatent-eps-converted-to.pdf, id=377, 356.33125pt x 202.757
+<figs/CapGroovedTeslaPatent-eps-converted-to.pdf, id=389, 356.33125pt x 202.757
 5pt>
 File: figs/CapGroovedTeslaPatent-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/CapGroovedTeslaPatent-eps-converted-to.pdf>
@@ -1582,7 +1587,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/BottomElectrodeConnector-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<figs/BottomElectrodeConnector-eps-converted-to.pdf, id=380, 344.28625pt x 223.
+<figs/BottomElectrodeConnector-eps-converted-to.pdf, id=392, 344.28625pt x 223.
 83624pt>
 File: figs/BottomElectrodeConnector-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1611,7 +1616,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/ConducticePortionTypes-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<figs/ConducticePortionTypes-eps-converted-to.pdf, id=395, 336.25626pt x 200.75
+<figs/ConducticePortionTypes-eps-converted-to.pdf, id=407, 336.25626pt x 200.75
 pt>
 File: figs/ConducticePortionTypes-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/ConducticePortionTypes-eps-converted-to.pdf>
@@ -1635,7 +1640,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/BottomConnectorTypes-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<figs/BottomConnectorTypes-eps-converted-to.pdf, id=408, 391.4625pt x 247.92625
+<figs/BottomConnectorTypes-eps-converted-to.pdf, id=420, 391.4625pt x 247.92625
 pt>
 File: figs/BottomConnectorTypes-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/BottomConnectorTypes-eps-converted-to.pdf>
@@ -1690,7 +1695,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/LayerStructureECETModel-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<figs/LayerStructureECETModel-eps-converted-to.pdf, id=471, 372.39125pt x 150.5
+<figs/LayerStructureECETModel-eps-converted-to.pdf, id=483, 372.39125pt x 150.5
 625pt>
 File: figs/LayerStructureECETModel-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1813,7 +1818,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figs/Waermeleitung_Simple-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<figs/Waermeleitung_Simple-eps-converted-to.pdf, id=575, 147.55125pt x 174.6525
+<figs/Waermeleitung_Simple-eps-converted-to.pdf, id=587, 147.55125pt x 174.6525
 pt>
 File: figs/Waermeleitung_Simple-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Waermeleitung_Simple-eps-converted-to.pdf>
@@ -1875,18 +1880,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 742--744
 
  []
 
-[23]) [24] (docs/Methodik.tex [25]
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[23]) [24] (docs/Methodik.tex
+Overfull \hbox (53.87068pt too wide) in paragraph at lines 3--4
+\OT1/phv/m/n/10.95 (-20) W[]arme[]ubertragungsmechanismen die ef-fek-tivs-te Va
+-ria-ti-on der in-no-va-ti-ven Bat-te-rie-ge-stal-tungsm[]oglichkeiten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [26] (docs/Auswertung.tex) [27] (docs/Zusammenfassung.tex) [28]
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+Package epstopdf Info: Source file: <figs/JellyRollPositionSchematic.eps>
+(epstopdf)                    date: 2021-06-24 11:49:44
+(epstopdf)                    size: 466950 bytes
+(epstopdf)             Output file: <figs/JellyRollPositionSchematic-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2021-06-24 11:51:06
+(epstopdf)                    size: 14696 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/JellyRollPositionSchem
+atic-eps-converted-to.pdf figs/JellyRollPositionSchematic.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/JellyRollPositionSchematic-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+<figs/JellyRollPositionSchematic-eps-converted-to.pdf, id=656, 226.8475pt x 130
+.4875pt>
+File: figs/JellyRollPositionSchematic-eps-converted-to.pdf Graphic file (type p
+df)
+<use figs/JellyRollPositionSchematic-eps-converted-to.pdf>
+Package pdftex.def Info: figs/JellyRollPositionSchematic-eps-converted-to.pdf  
+used on input line 11.
+(pdftex.def)             Requested size: 341.43306pt x 196.40173pt.
+
+LaTeX Warning: Reference `fig:dimensionsCase' on page 25 undefined on input lin
+e 27.
+
+
+LaTeX Warning: Reference `fig:dimensionsCase' on page 25 undefined on input lin
+e 32.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\OT1/phv/m/n/10.95 (+20) Entfernung zwi-schen An-
+ []
+
+
+Overfull \hbox (18.02365pt too wide) in paragraph at lines 32--54
+[][] [][] [] 
+ []
+
+[25 <./figs/JellyRollPositionSchematic-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:JellyRollSize' on page 26 undefined on input line
+ 58.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+
+ []
+
+
+LaTeX Warning: Reference `fig:JellyRollSize' on page 26 undefined on input line
+ 65.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Overfull \hbox (17.56422pt too wide) in paragraph at lines 89--93
+\OT1/phv/m/n/10.95 (-20) In den Bat-te-rie-packs mit pris-ma-ti-schen Lithium-I
+onen-Batterien bie-tet sich die Boden-Kontaktk[]uhlung
+ []
+
+[26] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+) [28] (docs/Auswertung.tex) [29] (docs/Zusammenfassung.tex) [30]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
 (biblatex)                Using 'family-given' now.
 
-[29] [30] (docs/Anhang.tex) [31] (docs/Erklaerung.tex
+[31] [32] [33] (docs/Anhang.tex) [34] (docs/Erklaerung.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 12.
 
@@ -1901,25 +1994,29 @@ Overfull \hbox (0.43408pt too wide) in paragraph at lines 29--33
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [32]
+ [35]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (Vorlage.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `Vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'Vorlage.run.xml'.
 \openout1 = `Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29062 strings out of 480801
- 591554 string characters out of 2905436
- 1399339 words of memory out of 3000000
- 44147 multiletter control sequences out of 15000+200000
- 595852 words of font info for 294 fonts, out of 3000000 for 9000
+ 29133 strings out of 480801
+ 593250 string characters out of 2905436
+ 1399463 words of memory out of 3000000
+ 44192 multiletter control sequences out of 15000+200000
+ 595965 words of font info for 296 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,20n,86p,10169b,3012s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,20n,86p,10169b,3010s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1931,9 +2028,9 @@ sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 /Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Vorlage.pdf (42 pages, 1304333 bytes).
+Output written on Vorlage.pdf (45 pages, 1335617 bytes).
 PDF statistics:
- 823 PDF objects out of 1000 (max. 8388607)
- 225 named destinations out of 1000 (max. 500000)
- 51411 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 900 PDF objects out of 1000 (max. 8388607)
+ 247 named destinations out of 1000 (max. 500000)
+ 51440 words of extra memory for PDF output out of 51595 (max. 10000000)
 

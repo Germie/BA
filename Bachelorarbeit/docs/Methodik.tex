@@ -1,11 +1,109 @@
 \section{Innovative Batteriezellkonzepte}\label{sec:innovativeBattery}
 
+In diesem Kapitel werden zuerst die Inhalte des Tesla Patents nach Tsuruta et al. auf eine prismatische Zelle mit querliegenden Elektrodenwickel erweitert. Dann wird Anhand von Wärmeübertragungsmechanismen die effektivste Variation der innovativen Batteriegestaltungsmöglichkeiten für die Simulation ausgewählt.\\
+
+\subsection{Lage des Elektrodenwickels}\label{sub:lageElektrode}
+
+In der prismatischen Zelle kann der Elektrodenwickel waagerecht oder senkrecht installiert werden. Da die Stromabnahme an der Oberseite des Batteriegehäuses stattfindet, ist es von Vorteil die Flachwickeleletrode oder die Stapelelektrode waagerecht, wie in Abbildung \ref{fig:LageElektrodenwickel} dargestellt ist, in dem Batteriegehäuse einzubringen um die Distanz von Elektroden-Tab zum Anschluss zu minimieren.\footnote{Vgl. Fußnote \ref{cite:woehrle}, Wöhrle 2013}\\
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=12cm]{figs/JellyRollPositionSchematic.eps}
+		
+		
+		\end{overpic}
+	
+		\caption{Orientierung des Elektrodenwickels in der prismatischen Zelle}
+	
+		\label{fig:LageElektrodenwickel}
+	\end{center}
+\end{figure}
+
+
+\subsection{Batteriegeometrie}\label{sub:batterygeometry}
+
+Die Batteriegeometrie wird nach DIN 91252 dimensioniert.\footcite[Vgl. \label{cite:din91252}][]{DIN91252}\\
+Für die Maße des Batteriegehäuses werden die Maße für die \textbf{BEV-1}-Batteriezelle gewählt, da die Batteriezellen aus dem Tesla Patent nach Tsuruta et al. für Batterieelektrische Fahrzeuge ausgelegt ist.\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020} \\
+In Abbildung \ref{fig:dimensionsCase} ist das Gehäuse der Batteriezelle abgebildet. Die Maße sind in Tabelle \ref{tab:caseDimensions} aufgeführt.
+
+%%insert figure here
+
+\begin{table}[H]
+	\caption{Maße des Batteriegehäuses aus Abbildung} \ref{fig:dimensionsCase}
+	\label{tab:caseDimensions}
+	\vspace{0.2cm}
+	\begin{tabularx}{\textwidth}{ |X|X|X|  }
+		\toprule[1.5pt]
+		\textbf{Bezeichung} & \textbf{Maß in [mm]} & \textbf{Umschreibung}\\
+		\hline\hline
+		A & 173 & Zelllänge \\
+		\hline
+		B & 32 & Zellbreite\\
+		\hline
+		C & 115 &  Zellhöhe ohne Anschlüsse\\
+		\hline
+		D & $\leq$ 123 & Zellhöhe mit Anschlüssen\\
+		\hline
+		E & 133 (sym) & Entfernung zwischen Anschlüssen\\
+		\hline
+		F & $\leq$ 24 & Anschlusslänge\\
+		\hline
+		G & $\leq$ 18,4 & Anschlussbreite\\
+		\bottomrule[1.5pt]
+	\end{tabularx}
+\end{table}
+
+Das Gehäuse wird aus Aluminium oder Edelstahl hergestellt. Zusammen mit den Separatoren, Stromableitern und dem Elektrolyt stellt das Gehäuse die passivene Anteile der Batterie dar.\footnote{Vgl. Fußnote \ref{cite:woehrle}, Wöhrle 2013, S. 111}\\
+Für diese Arbeit wird für das Gehäuse Aluminium verwendet, da es aufgrund seiner geringeren Dichte einen Gewichtsvorteil gegenüber Edelstahl darstellt.\footcite[Vgl.][]{Edelstahlrohrshop.2021}\\
+Der Elektrodenwickel wird so dimensioniert, dass bei der konventionellen und innovativen Batteriezelle die äußere Separatorschicht das Batteriegehäuse an den Seiten und der Unterseite berührt um eine maximale Kontaktkühlfläche zu gewährleisten. Die genauen Maße sind in Abbildung \ref{fig:JellyRollSize} mit Tabelle \ref{tab:JellyRollSizeDescription} dargestellt.\\
+
+%%FIGURE
+FIGURE
+
+x\\
+\begin{table}[H]
+	\caption{Maße des Elektrodenwickels der konventionellen Zelle aus Abbildung \ref{fig:JellyRollSize}}
+	\label{tab:JellyRollSizeDescription}
+	\vspace{0.2cm}
+	\begin{tabularx}{\textwidth}{ |X|X|X|  }
+		\toprule[1.5pt]
+		\textbf{Bezeichung} & \textbf{Maß in [mm]} & \textbf{Umschreibung}\\
+		\hline\hline
+		$A_{j}$ & 140 & Elektrodenwickellänge\\
+		\hline
+		$B_{j}$ & 22 & Elektrodenwickelbreite\\
+		\hline
+		$C_{j}$ & 100 &  Elektrodenwickelhöhe\\
+		\hline
+		$D_{j}$ & 8 & Stromableitertabbreite\\
+		\hline
+		$E_{j}$ & 8 & Stromableitertabhöhe\\
+		\hline
+		\bottomrule[1.5pt]
+	\end{tabularx}
+\end{table}
+
+Um den Strom zu den Anschlüssen zu leiten wird eine Aluminiumkonstruktion benutzt. Zwar hat Kupfer gegenüber Aluminium eine bessere Wärme- und Stromleitfähigkeit, besitzt jedoch eine größere Dichte und ist teurer in der Anschaffung.\footcite[Vgl.][]{Industr..2021}\\
+
+
+xa\\%%insert this somewhere else
+Lithium-Ionen Batterien werden in der Anwendunge durch verschiedene Methoden gekühlt. Under anderem kommen Phasenwechselmaterialien, Luft- und Flüssigkühlung und Wärmerohre zum Einsatz.\footcite[Vgl.][S. 1,2]{Mohammed.2018}\\
+In den Batteriepacks mit prismatischen Lithium-Ionen-Batterien bietet sich die Boden-Kontaktkühlung an, da die Batteriezellen aufgrund ihrer Form platzsparend nebeneinandner geschachtelt werde können. Zum Einsatz kommen Kühlplatten, auf denen die Batteriezellen stehen. %% QUelle finden!
+Dadurch wird mit Hilfe der Kontaktkühlung auch das Jelly-Roll gekühlt, jedoch bildet sich aufgrund der einseitigen Kühlung ein Wärmegradient in der Zelle und dem Elektrodenwickel aus.\footcite[Vgl.][S. 2107]{Inui.2007}
+
+\subsection{Ausarbeitung der innovativen Konzepte auf Zellebene}\label{sub:ausarbeitungKonzept}
+
+
+
+
 \newpage
 \section{Simulationsvorbereitung}\label{sec:SimulationPREP}
 
-in diesem Kapitel wird zuerst das Referenzmodell der prismatischen Lithium-Ionen-Batterie erarbeitet. Danach wird das in Kapitel \ref{sec:innovativeBattery} ausgewählte innovative Konzept als Simulationsmodell erstellt. Im Anschluss werden beide Batterietypen anhand eines Lastprofils in COMSOL Multiphysics simuliert.\\
+in diesem Kapitel wird zuerst das Referenzmodell der prismatischen Lithium-Ionen-Batterie erarbeitet. Danach wird das in Kapitel \ref{sec:innovativeBattery} ausgewählte innovative Konzept als Simulationsmodell erstellt. Im Anschluss werden beide Batterietypen anhand eines Lastprofils in COMSOL Multiphysics\textsuperscript{\textregistered} simuliert.\\
 
 
+
+Der Elektrodenwickel im Inneren des Batteriegehäuses wird so dimensioniert, dass die äußere Separatorschicht die Innenwände des Gehäuses berührt.
 
 Hier fange ich an über das Referenzmodell zu schreiben
 

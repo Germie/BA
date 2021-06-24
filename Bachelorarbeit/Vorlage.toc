@@ -29,14 +29,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Innovative Batteriezellkonzepte}{25}{section.arabicsection.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Simulationsvorbereitung}{26}{section.arabicsection.5}%
+\contentsline {subsection}{\numberline {4.1}Lage des Elektrodenwickels}{25}{subsection.arabicsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Auswertung}{27}{section.arabicsection.6}%
+\contentsline {subsection}{\numberline {4.2}Batteriegeometrie}{25}{subsection.arabicsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Zusammenfassung und Ausblick}{28}{section.arabicsection.7}%
+\contentsline {subsection}{\numberline {4.3}Ausarbeitung der innovativen Konzepte auf Zellebene}{27}{subsection.arabicsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V}Literatur}{29}{section.V}%
+\contentsline {section}{\numberline {5}Simulationsvorbereitung}{28}{section.arabicsection.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VI}Anhang}{31}{section.VI}%
+\contentsline {section}{\numberline {6}Auswertung}{29}{section.arabicsection.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{32}{section.VII}%
+\contentsline {section}{\numberline {7}Zusammenfassung und Ausblick}{30}{section.arabicsection.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V}Literatur}{31}{section.V}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {VI}Anhang}{34}{section.VI}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {VII}Eidesstattliche Versicherung}{35}{section.VII}%

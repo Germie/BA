@@ -474,6 +474,38 @@
       \verb 14faffee-43d4-4ace-b6e4-1623858f33e7:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\14faffee-43d4-4ace-b6e4-1623858f33e7.pdf:pdf
       \endverb
     \endentry
+    \entry{Edelstahlrohrshop.2021}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{title}{Edelstahl Dichte}
+      \field{urlyear}{}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.edelstahlrohrshop.com/blog/service/edelstahl-dichte.html
+      \endverb
+      \verb{url}
+      \verb https://www.edelstahlrohrshop.com/blog/service/edelstahl-dichte.html
+      \endverb
+    \endentry
+    \entry{DIN91252}{misc}{}
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Deutsches Institut fuer Normung e. V.}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{number}{91252}
+      \field{title}{Elektrische Stra{ß}enfahrzeuge - Batteriesysteme: Anforderungen an die Gestaltung von Lithium-Ionen Batteriezellen}
+      \field{volume}{43.120}
+      \field{year}{November 2016}
+      \verb{file}
+      \verb a5b41488-9016-4eb9-91d0-622d41484748:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\a5b41488-9016-4eb9-91d0-622d41484748.pdf:pdf
+      \endverb
+    \endentry
     \entry{Fink.2014}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=997fea632dbdec216221115e63dab791}{%
@@ -728,6 +760,64 @@
       \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
       \endverb
     \endentry
+    \entry{Inui.2007}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=cc229f2f90a29aa70b02db47341fdc9d}{%
+           family={Inui},
+           familyi={I\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bc23383a124e57292daf63b5c0c4cdd}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac9ca9f0599e092383fe27cc5f97f84a}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af817e04d852145fe95edadbc12408a4}{%
+           family={Watase},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2ada2b477ca680b02bcbe575ca18db3}{%
+           family={Kitamura},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0794ebf7abc90aa78c8ec3d63984f3a}
+      \strng{fullhash}{1d55ea5127ce71886453ba8e89513a15}
+      \strng{bibnamehash}{1d55ea5127ce71886453ba8e89513a15}
+      \strng{authorbibnamehash}{1d55ea5127ce71886453ba8e89513a15}
+      \strng{authornamehash}{c0794ebf7abc90aa78c8ec3d63984f3a}
+      \strng{authorfullhash}{1d55ea5127ce71886453ba8e89513a15}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01968904}
+      \field{journaltitle}{Energy Conversion and Management}
+      \field{number}{7}
+      \field{title}{Simulation of temperature distribution in cylindrical and prismatic lithium ion secondary batteries}
+      \field{volume}{48}
+      \field{year}{2007}
+      \field{pages}{2103\bibrangedash 2109}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.enconman.2006.12.012
+      \endverb
+      \verb{file}
+      \verb Inui2007_Simulationoftemperaturedistributionincylindricalandprismaticlithiumionsecondarybatteries.pdf
+      \endverb
+    \endentry
     \entry{Klymenko.2013}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6d106b0c84980526938890a896ccd660}{%
@@ -772,6 +862,20 @@
       \endverb
       \verb{file}
       \verb 030dd1d4-ce20-4e07-8b3f-42e3ddcdbe2c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\030dd1d4-ce20-4e07-8b3f-42e3ddcdbe2c.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Industr..2021}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeltitlesource}{title}
+      \field{title}{Kupfer oder Aluminium?}
+      \field{urlyear}{}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.industr.com/de/kupfer-oder-aluminium-283589
+      \endverb
+      \verb{url}
+      \verb https://www.industr.com/de/kupfer-oder-aluminium-283589
       \endverb
     \endentry
     \entry{Leuthner.2013}{incollection}{}
@@ -931,6 +1035,81 @@
       \endverb
       \verb{file}
       \verb 1539cac7-4783-4b7e-9201-d876314b5264:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\1539cac7-4783-4b7e-9201-d876314b5264.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Mohammed.2018}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=9a2f65a1f9cd8703b0f66fafd14af93b}{%
+           family={Mohammed},
+           familyi={M\bibinitperiod},
+           given={Abdul\bibnamedelima Haq},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2959865b367ea17234410a807f646947}{%
+           family={Alhadri},
+           familyi={A\bibinitperiod},
+           given={Muapper},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d2eaa6b9c2b4ef34641334d93a764bf}{%
+           family={Zakri},
+           familyi={Z\bibinitperiod},
+           given={Waleed},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=048a7a103f386706a1be336a5ec83870}{%
+           family={Aliniagerdroudbari},
+           familyi={A\bibinitperiod},
+           given={Haniph},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0fe7822fb10734565a7f5d1aeb4c207}{%
+           family={Esmaeeli},
+           familyi={E\bibinitperiod},
+           given={Roja},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5eb2af10abad269e66f8b45d1b35ca9}{%
+           family={Hashemi},
+           familyi={H\bibinitperiod},
+           given={Seyed\bibnamedelima Reza},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e02f7fda95d12815f57aaf019d859799}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={Gopal},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b978b5865c9a4242e6ed89e3e4f3490}{%
+           family={Farhad},
+           familyi={F\bibinitperiod},
+           given={Siamak},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAE International400 Commonwealth Drive, Warrendale, PA, United States}%
+      }
+      \strng{namehash}{8602ce4a5dae9ccc94e6aa09c9757067}
+      \strng{fullhash}{54f8e2f1fed5fe70a61f8400c77332fa}
+      \strng{bibnamehash}{54f8e2f1fed5fe70a61f8400c77332fa}
+      \strng{authorbibnamehash}{54f8e2f1fed5fe70a61f8400c77332fa}
+      \strng{authornamehash}{8602ce4a5dae9ccc94e6aa09c9757067}
+      \strng{authorfullhash}{54f8e2f1fed5fe70a61f8400c77332fa}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SAE Technical Paper Series}
+      \field{series}{SAE Technical Paper Series}
+      \field{title}{Design and Comparison of Cooling Plates for a Prismatic Lithium-ion Battery for Electrified Vehicles}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.4271/2018-01-1188
+      \endverb
+      \verb{file}
+      \verb Mohammed2018_DesignandComparisonofCoolingPlatesforaprismaticLIBforBEV.pdf
       \endverb
     \endentry
     \entry{Nasar.1982}{book}{}

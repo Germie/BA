@@ -2210,6 +2210,11 @@
     <bcf:citekey order="28">Fink.2014</bcf:citekey>
     <bcf:citekey order="29">Doyle.1996</bcf:citekey>
     <bcf:citekey order="30">Bockh.2017</bcf:citekey>
+    <bcf:citekey order="31">DIN91252</bcf:citekey>
+    <bcf:citekey order="32">Edelstahlrohrshop.2021</bcf:citekey>
+    <bcf:citekey order="33">Industr..2021</bcf:citekey>
+    <bcf:citekey order="34">Mohammed.2018</bcf:citekey>
+    <bcf:citekey order="35">Inui.2007</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
