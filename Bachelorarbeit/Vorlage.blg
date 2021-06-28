@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Vorlage.blg'
-[102] biber-MSWIN64:322> INFO - === 
+[104] biber-MSWIN64:322> INFO - === 
 [128] Biber.pm:415> INFO - Reading 'Vorlage.bcf'
-[310] Biber.pm:943> INFO - Found 35 citekeys in bib section 0
-[336] Biber.pm:4256> INFO - Processing section 0
-[336] Utils.pm:75> INFO - Globbing data source 'refs/references.bib'
-[353] Utils.pm:91> INFO - Globbed data source 'refs/references.bib' to refs/references.bib
-[371] Biber.pm:4455> INFO - Looking for bibtex format file 'refs/references.bib' for section 0
-[377] bibtex.pm:1653> INFO - LaTeX decoding ...
-[475] bibtex.pm:1471> INFO - Found BibTeX data source 'refs/references.bib'
-[683] Utils.pm:304> WARN - year field 'November 2016' in entry 'DIN91252' is not an integer - this will probably not sort properly.
-[778] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[778] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[778] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[779] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[854] bbl.pm:652> INFO - Writing 'Vorlage.bbl' with encoding 'UTF-8'
-[889] bbl.pm:755> INFO - Output to Vorlage.bbl
-[891] Biber.pm:128> INFO - WARNINGS: 1
+[309] Biber.pm:943> INFO - Found 36 citekeys in bib section 0
+[335] Biber.pm:4256> INFO - Processing section 0
+[335] Utils.pm:75> INFO - Globbing data source 'refs/references.bib'
+[348] Utils.pm:91> INFO - Globbed data source 'refs/references.bib' to refs/references.bib
+[366] Biber.pm:4455> INFO - Looking for bibtex format file 'refs/references.bib' for section 0
+[372] bibtex.pm:1653> INFO - LaTeX decoding ...
+[469] bibtex.pm:1471> INFO - Found BibTeX data source 'refs/references.bib'
+[686] Utils.pm:304> WARN - year field 'November 2016' in entry 'DIN91252' is not an integer - this will probably not sort properly.
+[784] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[784] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[784] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[784] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[860] bbl.pm:652> INFO - Writing 'Vorlage.bbl' with encoding 'UTF-8'
+[894] bbl.pm:755> INFO - Output to Vorlage.bbl
+[896] Biber.pm:128> INFO - WARNINGS: 1

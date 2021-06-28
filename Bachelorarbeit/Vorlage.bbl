@@ -1438,6 +1438,33 @@
       \verb e4f49546-8696-4394-9929-2e9372534677:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\e4f49546-8696-4394-9929-2e9372534677.pdf:pdf
       \endverb
     \endentry
+    \entry{VDI2206.June2004}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5a2ab41bf72b9a619486c2ca6e2b27d}{%
+           family={{VDI 2206}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {VDI-Richtlinien}%
+      }
+      \strng{namehash}{d5a2ab41bf72b9a619486c2ca6e2b27d}
+      \strng{fullhash}{d5a2ab41bf72b9a619486c2ca6e2b27d}
+      \strng{bibnamehash}{d5a2ab41bf72b9a619486c2ca6e2b27d}
+      \strng{authorbibnamehash}{d5a2ab41bf72b9a619486c2ca6e2b27d}
+      \strng{authornamehash}{d5a2ab41bf72b9a619486c2ca6e2b27d}
+      \strng{authorfullhash}{d5a2ab41bf72b9a619486c2ca6e2b27d}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2206}
+      \field{title}{VDI 2206 - Entwicklungsmethodik f{ü}r mechatronische Systeme}
+      \field{volume}{03.100.40; 31.220}
+      \field{year}{2004}
+      \verb{file}
+      \verb bc1b2d19-d75a-4cd4-9614-4bbc7e95e8be:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\bc1b2d19-d75a-4cd4-9614-4bbc7e95e8be.pdf:pdf
+      \endverb
+    \endentry
     \entry{Waldmann2015}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=53072ea3cca46684a4f18101495664b1}{%

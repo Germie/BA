@@ -129,17 +129,69 @@ Der Elektrodenwickel wird so dimensioniert, dass bei der konventionellen und inn
 Um den Strom zu den Anschlüssen zu leiten wird eine Aluminiumkonstruktion benutzt. Zwar hat Kupfer gegenüber Aluminium eine bessere Wärme- und Stromleitfähigkeit, besitzt jedoch eine größere Dichte und ist teurer in der Anschaffung.\footcite[Vgl.][]{Industr..2021}\\
 
 
-xa\\%%insert this somewhere else
-Lithium-Ionen Batterien werden in der Anwendunge durch verschiedene Methoden gekühlt. Under anderem kommen Phasenwechselmaterialien, Luft- und Flüssigkühlung und Wärmerohre zum Einsatz.\footcite[Vgl.][S. 1,2]{Mohammed.2018}\\
-In den Batteriepacks mit prismatischen Lithium-Ionen-Batterien bietet sich die Boden-Kontaktkühlung an, da die Batteriezellen aufgrund ihrer Form platzsparend nebeneinandner geschachtelt werde können. Zum Einsatz kommen Kühlplatten, auf denen die Batteriezellen stehen. %% QUelle finden!
-Dadurch wird mit Hilfe der Kontaktkühlung auch das Jelly-Roll gekühlt, jedoch bildet sich aufgrund der einseitigen Kühlung ein Wärmegradient in der Zelle und dem Elektrodenwickel aus.\footcite[Vgl.][S. 2107]{Inui.2007}
 
 \subsection{Ausarbeitung der innovativen Konzepte auf Zellebene}\label{sub:ausarbeitungKonzept}
 
 \subsubsection{Aufstellen des Vorgehens nach VDI 2206}\label{subsub:vorgehennachVDI}
 
+Um effizientes Vorgehen bei dem Entwurf der innovativen Batteriezellkonzepte zu ermöglichen, wird die VDI Richtlinie 2206 herangezogen. Die Richtlinie hat den Namen \textbf{Entwicklungsmethodik für mechatronische Systeme} und wurde 2004 vom VDI-Ausschuss A127 erarbeitet.\footcite[Vgl.\label{cite:vdi2206}][S. 3]{VDI2206.June2004}\\
+Die Motivation der VDI 2206 ist das Entwickeln von produktionsreifen Systemen, jedoch handelt diese Arbeit von einer Konzeptentwicklung und -bewertung. Daher werden nur bestimmte Aspekte der Richtlinie in betracht gezogen.\\
+
+\subsubsection*{Das V-Modell}
+
+Dsa V-Modell beschreibt eine allgemeine Vorgehensweise beim Entwurf von Systemen, welches für jede individuelle Problemstellung entsprechend leicht angepasst werden muss.\\
+Es ist gegliedert in 6 Unterpunkte, die zusammen ein iteratives Entwicklungsvorgehen beschreiben. Den Ausgangspunkt bilden die Systemanforderungen. Die Anforderungen sind auch der spätere Bewertungsmaßstab der Entwicklung.\\
+Im Systementwurf findet die Festlegung eines domänenübergreifenden Lösungskonzeptes statt. Um die logischen und physikalischen Mechanismen des Systems zu beschreiben, wird die Gesamtfunktion des Systems in Teilfunktionen zerlegt.\\
+Diese Teilfunktionen werden dann im domänenspezifischen Entwurf ausgelegt. Danach werden die Teilfunktionen in der Systemintegration wieder zu dem Gesamtsystem integriert. Während dem Entwurf und der Systemintegration muss anhand der Eigenschaftsabsicherung fortlaufend der Entwurfsfortschritt mit den Anforderungen abgeglichen werden.\\
+Über die Modellbildung und -analyse ist das Endergebnis des durchlaufenen Makrozyklus das Endprodukt oder -system. Meist sind für das Endprodukt mehrere Durchläufe dieses Zyklus nötig.\footnote{Vgl. Fußnote \ref{cite:vdi2206}, VDI 2206 - Entwicklungsmethodik für mechatronische Systeme, S. 29-30}\\
+In Abbildung \ref{fig:VModel} ist das V-Modell abgebildet. Die benötigten Schritte für den Entwurf der innovativen Konzepte und das angepasste V-Modell werden im Folgenden beschrieben.
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{figs/VModelAdjustedForBA.eps}
+			\put(30,304){\textbf{Anforderungen}}
+			\put(330, 304){\textbf{Innovatives Konzept}}
+			\put(158,4){\textbf{Modellbildung und -analyse}}
+			\put(162,185){\textbf{Eigenschaftsabsicherung}}
+			\put(180,57){\textbf{Domänenspezifischer}}
+			\put(215,45){\textbf{Entwurf}}
+			\put(85,200){\rotatebox{282.23}{\textbf{Systementwurf}}}
+			\put(342,130){\rotatebox{77.77}{\textbf{Systemintegration}}}
+		\end{overpic}
+		
+		\caption{Vgl. V-Modell nach VDI 2206}
+		
+		\label{fig:VModel}
+	\end{center}
+\end{figure}
+
+\underline{Anforderungen an das innovative Konzept}\\
+\\
+
+Im Vergleich zur konventionellen Rundzelle beschreiben Tsuruta et al. in ihrem Patent einen geringeren Wärmegradienten in der neuen Zelle und dem Elektrodenwickel, zusammen mit einer verbesserten Kühlung der Lithium-Ionen Batterie.\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}\\
+Die Anforderungen an das innovative Konzept in der prismatischen Zelle gestalten sich ähnlich. Konkret sollte das Konzept größere Wärmeleitung innerhalb der Batteriezelle und dem Elektrodenwickel ermöglichen. Hierdurch soll mit entsprechender Kühlung der Wärmegradient reduziert und somit die Alterungsmechanismen im Wickel vermindert werden.\\
+Zudem soll durch die effizientere Wärmedissipation eine höhere Leistungsabnahme ermöglicht werden.\\
+Zuletzt werden die ökonomischen Aspekte des Konzepts betrachtet. Die Herstellungskosten und Herstellungsprozesskomplexität der innovativen prismatischen Batteriezelle sollten gleich zur konventionellen Batteriezelle bleiben oder verringert werden, jedoch sind geringe Anstiege der beiden Herstellungsparameter auch vertretbar insofern das innovative Konzept diese negativen Effekte durch seine verbesserten thermischen Eigenschaften ausgleicht.\\
+
+\underline{Entwurf der innovativen Konzepte}\\
+\\
 
 
+
+
+
+
+
+
+
+
+
+\newpage
+------------------------------\\
+xa\\%%insert this somewhere else
+Lithium-Ionen Batterien werden in der Anwendunge durch verschiedene Methoden gekühlt. Under anderem kommen Phasenwechselmaterialien, Luft- und Flüssigkühlung und Wärmerohre zum Einsatz.\footcite[Vgl.][S. 1,2]{Mohammed.2018}\\
+In den Batteriepacks mit prismatischen Lithium-Ionen-Batterien bietet sich die Boden-Kontaktkühlung an, da die Batteriezellen aufgrund ihrer Form platzsparend nebeneinandner geschachtelt werde können. Zum Einsatz kommen Kühlplatten, auf denen die Batteriezellen stehen. %% QUelle finden!
+Dadurch wird mit Hilfe der Kontaktkühlung auch das Jelly-Roll gekühlt, jedoch bildet sich aufgrund der einseitigen Kühlung ein Wärmegradient in der Zelle und dem Elektrodenwickel aus.\footcite[Vgl.][S. 2107]{Inui.2007}
 
 \newpage
 \section{Simulationsvorbereitung}\label{sec:SimulationPREP}
