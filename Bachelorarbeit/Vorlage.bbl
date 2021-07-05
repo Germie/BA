@@ -52,7 +52,7 @@
       \field{pages}{136\bibrangedash 146}
       \range{pages}{11}
       \verb{file}
-      \verb a8585d78-3adb-4b45-88f8-f2be0f59966e:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\a8585d78-3adb-4b45-88f8-f2be0f59966e.pdf:pdf
+      \verb 2020_WirtschaftlicheundoekologischeAspektederEletromobilitaet.pdf
       \endverb
       \verb{urlraw}
       \verb https://link.springer.com/article/10.1007/s00502-020-00812-x
@@ -122,7 +122,7 @@
       \verb 10.1016/j.jpowsour.2010.12.102
       \endverb
       \verb{file}
-      \verb 78fd7c4e-5522-456c-baf6-28ba82010aa2:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\78fd7c4e-5522-456c-baf6-28ba82010aa2.pdf:pdf
+      \verb Andre2011_Characterisationofhighpowerlithiumionbatteriesbyelechtrochemicalimpedancespectroscopy.pdf
       \endverb
     \endentry
     \entry{BeloitEDU2021}{misc}{}
@@ -144,7 +144,7 @@
       \field{title}{Energy Density Table}
       \field{urlyear}{}
       \verb{file}
-      \verb 7a66539b-ffad-49be-9889-d48b4404387d:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\7a66539b-ffad-49be-9889-d48b4404387d.png:png
+      \verb EnergyDensity.png
       \endverb
       \verb{urlraw}
       \verb https://chemistry.beloit.edu/edetc/SlideShow/slides/energy/density.html
@@ -191,7 +191,7 @@
       \verb 10.1007/978-3-662-55480-7
       \endverb
       \verb{file}
-      \verb 8122ae27-87fb-447d-a6d2-60e492641bb0:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\8122ae27-87fb-447d-a6d2-60e492641bb0.pdf:pdf
+      \verb Böckh2017_Waermeuebertragung.pdf
       \endverb
     \endentry
     \entry{COMSOLWebsite2021}{misc}{}
@@ -269,13 +269,70 @@
       \field{pages}{265\bibrangedash 270}
       \range{pages}{6}
       \verb{file}
-      \verb dc11ec37-3def-4925-801f-fd9d225c84b3:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\dc11ec37-3def-4925-801f-fd9d225c84b3.pdf:pdf
+      \verb Dahn1994_SolicStateIonics.pdf
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/0167273894904154
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/0167273894904154
+      \endverb
+    \endentry
+    \entry{Darcovich.2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=40c8f30795a825834ef192ed988d7463}{%
+           family={Darcovich},
+           familyi={D\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9a801aa7289c9efbdbab687ac09789d}{%
+           family={MacNeil},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2d88c5d513c1fe02dfedffdd8ff8400}{%
+           family={Recoskie},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13737e9297dad05bb9e6b89041c72db1}{%
+           family={Cadic},
+           familyi={C\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecee803da50ade8987d3790e439fbfad}{%
+           family={Ilinca},
+           familyi={I\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{432a338cdcfe0fce74c0bcf7b9d8a7ee}
+      \strng{fullhash}{269bbab9ef681d2c7402e037cc2c9c93}
+      \strng{bibnamehash}{269bbab9ef681d2c7402e037cc2c9c93}
+      \strng{authorbibnamehash}{269bbab9ef681d2c7402e037cc2c9c93}
+      \strng{authornamehash}{432a338cdcfe0fce74c0bcf7b9d8a7ee}
+      \strng{authorfullhash}{269bbab9ef681d2c7402e037cc2c9c93}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13594311}
+      \field{journaltitle}{Applied Thermal Engineering}
+      \field{title}{Comparison of cooling plate configurations for automotive battery pack thermal management}
+      \field{volume}{155}
+      \field{year}{2019}
+      \field{pages}{185\bibrangedash 195}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.applthermaleng.2019.03.146
+      \endverb
+      \verb{file}
+      \verb 4fa82ac7-0bd9-4a68-8054-b2f948a966a3:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\4fa82ac7-0bd9-4a68-8054-b2f948a966a3.pdf:pdf
       \endverb
     \endentry
     \entry{Dickinson.2014}{article}{}
@@ -320,7 +377,7 @@
       \verb 10.1016/j.elecom.2013.12.020
       \endverb
       \verb{file}
-      \verb 0d062b95-8137-4813-b0bb-861c007c696b:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\0d062b95-8137-4813-b0bb-861c007c696b.pdf:pdf
+      \verb Dickinson2014_ComsolMultiphysicsFEASoftwareforelechtrochemicalanalysis.pdf
       \endverb
     \endentry
     \entry{Doyle.1996}{article}{}
@@ -358,7 +415,7 @@
       \field{pages}{1890\bibrangedash 1903}
       \range{pages}{14}
       \verb{file}
-      \verb 3291828f-60f7-4442-9b8e-85d44c6643ca:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\3291828f-60f7-4442-9b8e-85d44c6643ca.pdf:pdf
+      \verb Doyle1993_ModelingofGalvanostaticChargeandDischargeoftheLithiumCell.pdf
       \endverb
       \verb{urlraw}
       \verb https://iopscience.iop.org/article/10.1149/1.1836921
@@ -396,7 +453,7 @@
       \field{pages}{66\bibrangedash 70}
       \range{pages}{5}
       \verb{file}
-      \verb 80b67c50-3b6a-49ee-8f21-5e72edadf545:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\80b67c50-3b6a-49ee-8f21-5e72edadf545.pdf:pdf
+      \verb Ecker-Sauer2013_Article_8BatterietechnikLithium-Ionen.pdf
       \endverb
       \verb{urlraw}
       \verb https://link.springer.com/content/pdf/10.1007/s35146-013-0014-9.pdf
@@ -471,7 +528,7 @@
       \verb 10.1016/j.jpowsour.2012.05.012
       \endverb
       \verb{file}
-      \verb 14faffee-43d4-4ace-b6e4-1623858f33e7:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\14faffee-43d4-4ace-b6e4-1623858f33e7.pdf:pdf
+      \verb Ecker2012_Developingofalifetimepredictionmodelforlithiumionbatteriesbasedonextendedacceleratedagingtestdata.pdf
       \endverb
     \endentry
     \entry{Edelstahlrohrshop.2021}{misc}{}
@@ -540,7 +597,7 @@
       \field{pages}{105\bibrangedash 124}
       \range{pages}{20}
       \verb{file}
-      \verb 084c6c78-b4c1-4314-8a87-18862879b30f:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\084c6c78-b4c1-4314-8a87-18862879b30f.pdf:pdf
+      \verb Fink2014_ElectrothermalandElectrochemicalModelingofLithiumionBatteries_3DSimulationwithExperimentalValidation.pdf
       \endverb
       \verb{urlraw}
       \verb https://iopscience.iop.org/article/10.1149/06127.0105ecst/pdf
@@ -605,7 +662,7 @@
       \verb 10.1016/j.jpowsour.2009.10.105
       \endverb
       \verb{file}
-      \verb cdf48922-bf13-46d1-8500-f64ae969bb67:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\cdf48922-bf13-46d1-8500-f64ae969bb67.pdf:pdf
+      \verb Forgez2010_Thermalmodelingofacylindricallithiumionbattery.pdf
       \endverb
     \endentry
     \entry{Hepperle2012}{misc}{}
@@ -638,7 +695,7 @@
       \field{year}{2012}
       \field{dateera}{ce}
       \verb{file}
-      \verb 009592c2-9ab5-4f02-b5b1-eee7059b91f9:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\009592c2-9ab5-4f02-b5b1-eee7059b91f9.pdf:pdf
+      \verb Hepperle_ElectricFlight.pdf
       \endverb
       \verb{urlraw}
       \verb https://elib.dlr.de/78726/1/MP-AVT-209-09.pdf
@@ -757,7 +814,7 @@
       \field{urlyear}{}
       \field{year}{2017}
       \verb{file}
-      \verb 863830c5-7e4a-4648-b267-f05937d55f6c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\863830c5-7e4a-4648-b267-f05937d55f6c.pdf:pdf
+      \verb Allianz_Batterie_Zellformate_Studie.pdf
       \endverb
     \endentry
     \entry{Inui.2007}{article}{}
@@ -861,7 +918,7 @@
       \verb 10.1002/cphc.201300126
       \endverb
       \verb{file}
-      \verb 030dd1d4-ce20-4e07-8b3f-42e3ddcdbe2c:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\030dd1d4-ce20-4e07-8b3f-42e3ddcdbe2c.pdf:pdf
+      \verb Klymenko2013_ANewApproachfortheSimulationofElectrochemiluminescence.pdf
       \endverb
     \endentry
     \entry{Industr..2021}{misc}{}
@@ -923,7 +980,7 @@
       \verb 10.1007/978-3-642-30653-2{\textunderscore }2
       \endverb
       \verb{file}
-      \verb 1f8d918f-9b8b-4074-9e99-3df6150de6ec:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\1f8d918f-9b8b-4074-9e99-3df6150de6ec.pdf:pdf
+      \verb Leuthner2013_UebersichtzuLithiumIonenBatterien.pdf
       \endverb
     \endentry
     \entry{Lilium}{misc}{}
@@ -1034,7 +1091,7 @@
       \verb 10.1007/s10973-013-3599-9
       \endverb
       \verb{file}
-      \verb 1539cac7-4783-4b7e-9201-d876314b5264:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\1539cac7-4783-4b7e-9201-d876314b5264.pdf:pdf
+      \verb Liu2014_Analysisoftheheatgenerationoflithiumionbatteryduringcharginganddischargingconsideringdifferentinfluencingfactors.pdf
       \endverb
     \endentry
     \entry{Mohammed.2018}{inproceedings}{}
@@ -1194,7 +1251,7 @@
       \verb 10.1016/j.jpowsour.2014.11.065
       \endverb
       \verb{file}
-      \verb 4ead6634-4f8c-4e16-889d-7a0e13e1af24:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\4ead6634-4f8c-4e16-889d-7a0e13e1af24.pdf:pdf
+      \verb Petzl2015_Lithiumplatinginacommerciallithiumionbattery.pdf
       \endverb
     \endentry
     \entry{Salvi.2010}{article}{}
@@ -1253,7 +1310,7 @@
       \verb 10.1080/08327823.2010.11689787
       \endverb
       \verb{file}
-      \verb 834fe60a-77ff-4d31-93b6-0cec0598f769:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\834fe60a-77ff-4d31-93b6-0cec0598f769.pdf:pdf
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/21721467
       \endverb
     \endentry
     \entry{Shepherd.1965}{article}{}
@@ -1287,7 +1344,7 @@
       \verb 10.1149/1.2423659
       \endverb
       \verb{file}
-      \verb db0b2c07-fcee-423f-a201-2c5b3514a228:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\db0b2c07-fcee-423f-a201-2c5b3514a228.pdf:pdf
+      \verb Shepherd1965_DesignofPrimaryandSecondaryCells.pdf
       \endverb
     \endentry
     \entry{Sollmann2018}{misc}{}
@@ -1318,6 +1375,20 @@
       \verb{url}
       \verb https://www.batterieforum-deutschland.de/infoportal/lexikon/nickel-cadmium-batterien/
       \endverb
+    \endentry
+    \entry{Parker.2021}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{title}{Thermally Conductive Pads}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://ph.parker.com/us/en/thermally-conductive-pads?cm_mmc=Google%20PPC-_-SLG_CHO-_-ppc%20campaign-_-parker%20chomerics&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlL3SDksoogg3a3xqxxmsdza9s7EFT2pku5IfwqvhirrBC1COG0N154aAq3NEALw_wcB
+      \endverb
+      \verb{url}
+      \verb https://ph.parker.com/us/en/thermally-conductive-pads?cm_mmc=Google%20PPC-_-SLG_CHO-_-ppc%20campaign-_-parker%20chomerics&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlL3SDksoogg3a3xqxxmsdza9s7EFT2pku5IfwqvhirrBC1COG0N154aAq3NEALw_wcB
+      \endverb
+      \warn{\item Entry 'Parker.2021' (refs/references.bib): Invalid format '05.07.2021' of date field 'urldate' - ignoring}
     \endentry
     \entry{Thomas2003}{article}{}
       \name{author}{2}{}{%
@@ -1357,7 +1428,7 @@
       \verb 10.1149/1.1531194
       \endverb
       \verb{file}
-      \verb b5318a9c-f1b3-4503-b9d3-d1068632af2a:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\b5318a9c-f1b3-4503-b9d3-d1068632af2a.pdf:pdf
+      \verb Thomas2003_Thermalmodelingofporousinsertionelectrodes.pdf
       \endverb
     \endentry
     \entry{Traub2011}{article}{}
@@ -1388,7 +1459,7 @@
       \field{pages}{703\bibrangedash 707}
       \range{pages}{5}
       \verb{file}
-      \verb ef40b386-c151-4a50-98f9-fb8a900cbdd6:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\ef40b386-c151-4a50-98f9-fb8a900cbdd6.pdf:pdf
+      \verb Traub2011_RangeAndEnduranceEstimatesForBatteryBatteryPoweredAircraft.pdf
       \endverb
       \verb{urlraw}
       \verb https://arc.aiaa.org/doi/abs/10.2514/1.C031027
@@ -1435,7 +1506,7 @@
       \field{title}{Cell with a tabless electrode}
       \field{year}{2020}
       \verb{file}
-      \verb e4f49546-8696-4394-9929-2e9372534677:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\e4f49546-8696-4394-9929-2e9372534677.pdf:pdf
+      \verb Tesla_TablessBatteryCellPatent.pdf
       \endverb
     \endentry
     \entry{VDI2206.June2004}{misc}{}
@@ -1462,7 +1533,7 @@
       \field{volume}{03.100.40; 31.220}
       \field{year}{2004}
       \verb{file}
-      \verb bc1b2d19-d75a-4cd4-9614-4bbc7e95e8be:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\bc1b2d19-d75a-4cd4-9614-4bbc7e95e8be.pdf:pdf
+      \verb VDI 2206.pdf
       \endverb
     \endentry
     \entry{Waldmann2015}{article}{}
@@ -1539,7 +1610,7 @@
       \verb 10.1149/2.0561506jes
       \endverb
       \verb{file}
-      \verb 633312e7-90ec-48e8-bdaf-b169bbff4ce1:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\633312e7-90ec-48e8-bdaf-b169bbff4ce1.pdf:pdf
+      \verb Waldmann2015_InfluenceofCellDesignonTemperaturesandTemperatureGradientsinLithiumIonCells.pdf
       \endverb
       \verb{urlraw}
       \verb https://iopscience.iop.org/article/10.1149/2.0561506jes/meta?casa_token=YyURX4TdT6sAAAAA:7vFDNuPpN-zy-9En8I0fBih6DkbfiBvsSaRnpvu5VvmtSkUZdHSv-yN5-DPXK3KsvUbZN7BMdA
@@ -1577,7 +1648,7 @@
       \field{urlyear}{}
       \field{year}{2013}
       \verb{file}
-      \verb eec62f2a-31c3-4aff-994a-331e0e4ed272:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1egpz6ivgbh1408arfrmfjyjxzho8a3qx7mm64vzfjftiu6eb\\Citavi Attachments\\eec62f2a-31c3-4aff-994a-331e0e4ed272.pdf:pdf
+      \verb Woehrle2013_LithiumIonenBatterien.pdf
       \endverb
       \verb{urlraw}
       \verb https://link.springer.com/chapter/10.1007/978-3-642-30653-2_9

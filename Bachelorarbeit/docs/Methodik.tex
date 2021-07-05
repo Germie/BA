@@ -167,6 +167,7 @@ In Abbildung \ref{fig:VModel} ist das V-Modell abgebildet. Die benötigten Schri
 	\end{center}
 \end{figure}
 
+\newpage 
 \underline{Anforderungen an das innovative Konzept}\\
 \\
 
@@ -208,13 +209,44 @@ Außerdem werden hier die entwickelten Lösungsansätze vertieft und detailliert
 Hier werden die domänenspezifische Lösungsansätze wieder zu einem Gesamtsystem zusammengefügt. Gleichzeitig wird durchgehend die Eigenschaftsabsicherung der Lösungsansätze durchgeführt um die Anforderungen des Gesamtsystems zu erfüllen.\\
 Des weiteren wird hier ein innovatives Konzept anhand des Erfüllungsgrad der Anforderungen ausgewählt und weiterführend als Simulationsmodell aufgebaut. Dieses wird anschließend mit der Simulation der konventionellen Zelle verglichen.\\
 
+\subsubsection{Kühlkonzepte auf Batteriepaketebene}\label{subsub:coolingforBatterypacks}
+
+Im diesem Kapitel werden die beiden dominanten Kühlkonzepte für prismatische Batteriezellen auf Akkumulatorebene vorgestellt.\\
+Nach Darcovich et al. gibt es zwei dominante Kühlkonzepte auf Batteriepaketebene. Das sogenannte ``ice-plate`` Kühlkonzept, weiterhin das \textbf{IP}-Konzept, bei dem die Kühlplatten zwischen die prismatischen Zellen eingefügt werden und so die Seite des Batteriegehäuses kühlen, und das ``cold-plate`` Kühlkonzept, weiterhin das \textbf{CP}-Konzept, bei dem die Platte auf der die Batteriezellen stehen gekühlt wird.\footcite[Vgl.\label{cite:darcovich2019}][S. 186-187]{Darcovich.2019}\\
+Das IP-Konzept erreicht im Vergleich mit CP-Konzept einen geringeren Temperaturgradienten innerhalb der Zelle. Jedoch ist es in der Herstellung komplizierter und ermöglicht geringere Kühlmittelströme durch die Platte. Um das IP-Konzept zu verwirklichen, muss die Kühlmittelströmung durch die Platte optimiert werden. Jedoch ist das IP-Konzept im Allgemeinen wirksamer als das CP-Konzept.\footnote{Vgl. Fußnote \ref{cite:darcovich2019}, Darcovich et al. 2019, S. 185}\\
+Da das CP-Konzept einfacher umzusetzen ist, werden die Batteriezellkonzepte vorerst für diese Kühlmethode ausgelegt. Die vorgestellten Zelländerungen können allerdings an das IP-Konzept angepasst werden. \\
+
+
 \subsubsection{Innovative Batteriezellkonzepte}\label{subsub:innovativeBatteriezellkonzepte}
 
+Da bei der CP-Kühlmethode die Unterseite der Batteriezelle gekühlt wird und die Höhe des Batteriezellgehäuses nach DIN 91252 größer als die Breite ist, findet nach Gleichung \ref{gl:HeatTransferEquation} weniger Wärmeübertragung aus der Batteriezelle statt\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}. Die Unterseitenfläche des Gehäuses ist kleiner als die Seitenfläche, die Höhe größer als die Breite, wodurch die Übertragungsdistanz  $d$ im Nenner und die Fläche $A$ in Gleichung \ref{gl:HeatTransferEquationInnovativ} beim CP-Konzept größer, bzw. kleiner sind und die Wärmeleitung $\dot{Q}$ innerhalb der Zelle bei gleichbleibendem Wärmeübergangskoeffizienten $k$ und Temperaturgradient $(T_{2} - T_{1})$ verringert ist. Nach Böckh ist durch die kleinere Kontaktfläche auch die Wärmeübertragung von dem Batteriezellgehäuse zur Kühlplatte bei dem CP-Konzept verringert.\footnote{Vgl. Fußnote \ref{cite:bockh}, Böckh 2017}\\
 
+\begin{equation}
+	\dot{Q} = \frac{k * A * ( T_{2} - T_{1})}{d}
+	\label{gl:HeatTransferEquationInnovativ}
+\end{equation}
 
+Da jedoch nach Darcovich et al. das CP-Konzept einfacher und kostengünstiger zu implementieren ist, ist es das Ziel der innovativen Konzepte diesen Nachteil gegenüber des IP-Konzeptes, mit weniger ökonomischem Aufwand als das IP-Konzept darstellt, auszugleichen.\\
+Daher ist das der erste Schritt der Konzeptentwicklung das Sicherstellen von besserer Wärmeleitung innerhalb der Batteriezelle. Für die Alterung und Degradierung der Batteriezelle sind Temperaturgradienten innerhalb des Elektrodenwickels, zusammen mit Hot-Spots im Wickel, die primären Auslöser.\footnote{Vgl. Fußnote \ref{cite:Waldmann2015}, Waldmann et al. 2015}\\
 
+\subsubsection*{Entwurf der innovativen Konzepte}
 
+Im Folgenden werden anhand von Wärmeübertragungsmechanismen und den Anforderungen aus Kapitel \ref{subsub:vorgehennachVDI} die innovativen Konzepte ausgearbeitet.\\
+Da die Batteriezellen über Kontaktkühlung gekühlt sind, kann Wärme über das Gehäuse dissipiert werden. Ein Problem ist, dass der Elektrodenwickel und die Stromanschlüsse vor Kurzschlüssen geschützt werden müssen. Daher ist es notwendig, dass jegliches Anlehnung an das Tesla Patent von Tsuruta et al. von dem Gehäuse durch eine isolierende Schicht getrennt ist.\\
+Nimmt man als Beispiel eine isolierende Schicht von Parker\textsuperscript{\textregistered} mit einer Durchschlagfestigkeit von $200\;VAC/mil$ und einer Dicke von $1,016\;mm$ kann man mit Gleichungen \ref{gl:UmrechnungVACMILtoSI} und \ref{gl:Durchschlagfestigkeit} die Durchschlagfestigkeit dieser Schicht zu $V_{b} \approx 8000 V$ berechnen.\footcite[Vgl.\label{cite:ParkerPads}][]{Parker.2021}
 
+\begin{equation}
+	1 \frac{VAC}{mil} = 3,94 * 10^{4} \frac{V}{m}
+	\label{gl:UmrechnungVACMILtoSI}
+\end{equation}
+
+\begin{equation}
+	V_{b} = d * E_{ds}
+	\label{gl:Durchschlagfestigkeit}
+\end{equation}
+
+Da Lithium-Ionen Batteriezellen mit Spannungen deutlich unter $V = 8000 V$ arbeiten, kann daher mit einer solchen Schicht die Isolation zwischen leitenden Teilen und Gehäuse sichergestellt werden. Die isolierende Schicht hat weiterhin eine Wärmeleitfähigkeit von $6,5 \frac{W}{m * K}$, wodurch das Abführen der Wärme aus der Batteriezelle an das Gehäuse gewährleistet wird.\footnote{Vgl. Fußnote \ref{cite:ParkerPads}, Thermally Conductive Pads von Parker} Um die Wärme innerhalb des Gehäuses zu leiten bieten sich Aluminium oder Kupfer als Materialien an. Da Aluminium leichter und kostengünstiger ist stellt es die bessere Alternative dar.\\
+Nach Tsuruta et al. wird die entstehende Wärme aus dem Elektrodenwickel durch die Elektroden an das Gehäuse geleitet. Im zylindrischen Design findet dies im Patent nur an einer der beiden Elektroden statt\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}. In der prismatischen Zelle bieten sich nach Abbildung \ref{fig:LageElektrodenwickel} jedoch die Kathode und die Anode an um die Wärme aus dem Elektrodenwickel an das Gehäuse und damit zum Kühlmechanismus zu Übertragen.
 
 
 
@@ -224,7 +256,7 @@ Des weiteren wird hier ein innovatives Konzept anhand des Erfüllungsgrad der An
 \newpage
 ------------------------------\\
 xa\\%%insert this somewhere else
-Lithium-Ionen Batterien werden in der Anwendunge durch verschiedene Methoden gekühlt. Under anderem kommen Phasenwechselmaterialien, Luft- und Flüssigkühlung und Wärmerohre zum Einsatz.\footcite[Vgl.][S. 1,2]{Mohammed.2018}\\
+Lithium-Ionen Batterien werden in der Anwendunge durch verschiedene Methoden gekühlt. Unter anderem kommen Phasenwechselmaterialien, Luft- und Flüssigkühlung und Wärmerohre zum Einsatz.\footcite[Vgl.][S. 1,2]{Mohammed.2018}\\
 In den Batteriepacks mit prismatischen Lithium-Ionen-Batterien bietet sich die Boden-Kontaktkühlung an, da die Batteriezellen aufgrund ihrer Form platzsparend nebeneinandner geschachtelt werde können. Zum Einsatz kommen Kühlplatten, auf denen die Batteriezellen stehen. %% QUelle finden!
 Dadurch wird mit Hilfe der Kontaktkühlung auch das Jelly-Roll gekühlt, jedoch bildet sich aufgrund der einseitigen Kühlung ein Wärmegradient in der Zelle und dem Elektrodenwickel aus.\footcite[Vgl.][S. 2107]{Inui.2007}
 
