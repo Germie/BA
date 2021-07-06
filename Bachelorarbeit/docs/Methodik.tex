@@ -278,7 +278,19 @@ Der Stromkollektor kann im Prinzip frei dimensioniert werden, allerdings darf er
 Mit gleichbleibender Wirkweise können nur wenige Parameter variiert werden. \\
 Um die Herstellungskomplexität eines massiven Aluminiumkollektors zu senken, kann die $Cap$ separat von der L-Form produziert werden. Dann kommt die isolierende Schicht zwischen Rückseite der $Cap$ und dem Gehäuse. Somit würde das Gehäuse selbst die Wärme aus der Batteriezelle leiten, anstatt eines separaten Bauteils im Inneren der Batterie. Die benötigte Anpresskraft kann durch die Isolierschicht eingebracht werden. Somit wird auch die Komplexität der Bauteile innerhalb des Batteriegehäuses reduziert und der Herstellungsprozess vereinfacht.\\
 Eine weitere Variation wäre anstatt des Aluminiums innerhalb der Zelle Kupfer zu verwenden. Die Wärmeleitfähigkeit von Kupfer liegt für Handelsware zwischen 240 und 380 $\frac{W}{m \cdot K}$\footcite[Vgl.][]{Myers.2009}. Da Aluminium in der Anschaffung um den Faktor 10 günstiger ist als Kupfer, die Wärmeleitfähigkeit von Kupfer jedoch weniger als doppelt so groß ist, stellt Kupfer keine relevante Alternative dar\footcite[Vgl.][]{Doduco.2021}.\\
+Als letztes kann noch die $Cap$ selbst verändert werden. Nach dem Patent von Tsuruta et al. können einseitige Nuten mit scharfen Kanten eingesetzt werden um den Kontakt zwischen Elektroden und $Cap$ zu vergrößern. Dadurch kann mehr Wärme aus den Elektroden über die $Cap$ abgeführt werden.
 
+\subsubsection*{Auswahl des innovativen Konzeptes für die Simulation}
+
+Nach den Anforderungen aus Kapitel \ref{subsub:vorgehennachVDI} wird nun ein Konzept für die Simulation ausgewählt.\\
+Um möglichst viel Wärme aus dem Elektrodenwickel zu leiten, sollte der Kontakt zwischen $Cap$ und Elektrode möglichst groß gestaltet werden. Um die Wärme von der $Cap$ zum Kühlmechanismus zu leiten wird möglichst viel thermische Masse mit wenig vermindert wärmeleitenden Materialen zwischen den metallischen Elementen benötigt.\\ 
+Daher wird für die Simulation folgende Variante ausgewählt:\\
+
+\begin{itemize}
+	\item Eine $Cap$ versehen mit Nuten wie in Abbildung \ref{fig:BottomConnectorTypes} \textbf{a)}
+	\item Die $Cap$ wird durch die Isolierschicht nach Parker\footnote{Vgl. Fußnote \ref{cite:ParkerPads}, Parker} direkt von der Innenseite des Gehäuses getrennt.
+	\item Durch das Batteriegehäuse aus Aluminium wird dann die Wärme aus dem Elektrodenwickel zum Kühlmechanismus, bzw. Kühlpad geleitet.
+\end{itemize}
 
 
 
