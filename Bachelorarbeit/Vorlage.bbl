@@ -1169,6 +1169,38 @@
       \verb Mohammed2018_DesignandComparisonofCoolingPlatesforaprismaticLIBforBEV.pdf
       \endverb
     \endentry
+    \entry{Myers.2009}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93fadb2996f6f0036f91da322f44d12e}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {[Place of publication not identified]}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{93fadb2996f6f0036f91da322f44d12e}
+      \strng{fullhash}{93fadb2996f6f0036f91da322f44d12e}
+      \strng{bibnamehash}{93fadb2996f6f0036f91da322f44d12e}
+      \strng{authorbibnamehash}{93fadb2996f6f0036f91da322f44d12e}
+      \strng{authornamehash}{93fadb2996f6f0036f91da322f44d12e}
+      \strng{authorfullhash}{93fadb2996f6f0036f91da322f44d12e}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-79296-3}
+      \field{title}{Werkstoffkunde}
+      \field{year}{2009}
+      \verb{file}
+      \verb http://www.worldcat.org/oclc/946258403
+      \endverb
+    \endentry
     \entry{Nasar.1982}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=40437984d8cb617ec409780b98a795d0}{%
@@ -1536,6 +1568,20 @@
       \verb VDI 2206.pdf
       \endverb
     \endentry
+    \entry{Doduco.2021}{misc}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labeltitlesource}{title}
+      \field{title}{Vergleich zwischen Aluminium und Kupfer}
+      \field{urlyear}{}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.alcunnect.de/Vergleich-Aluminium-und-Kupfer
+      \endverb
+      \verb{url}
+      \verb https://www.alcunnect.de/Vergleich-Aluminium-und-Kupfer
+      \endverb
+    \endentry
     \entry{Waldmann2015}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=53072ea3cca46684a4f18101495664b1}{%
@@ -1617,6 +1663,20 @@
       \endverb
       \verb{url}
       \verb https://iopscience.iop.org/article/10.1149/2.0561506jes/meta?casa_token=YyURX4TdT6sAAAAA:7vFDNuPpN-zy-9En8I0fBih6DkbfiBvsSaRnpvu5VvmtSkUZdHSv-yN5-DPXK3KsvUbZN7BMdA
+      \endverb
+    \endentry
+    \entry{SchweizerFN.2021}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{title}{W{ä}rmeleitf{ä}higkeit Metalle}
+      \field{urlyear}{}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.schweizer-fn.de/stoff/wleit_metall/wleit_metall.php
+      \endverb
+      \verb{url}
+      \verb https://www.schweizer-fn.de/stoff/wleit_metall/wleit_metall.php
       \endverb
     \endentry
     \entry{Wohrle2013}{book}{}

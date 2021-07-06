@@ -211,8 +211,9 @@ Des weiteren wird hier ein innovatives Konzept anhand des Erfüllungsgrad der An
 
 \subsubsection{Kühlkonzepte auf Batteriepaketebene}\label{subsub:coolingforBatterypacks}
 
+Lithium-Ionen Batterien werden in der Anwendung durch verschiedene Methoden gekühlt. Unter anderem kommen Phasenwechselmaterialien, Luft- und Flüssigkühlung und Wärmerohre zum Einsatz.\footcite[Vgl.][S. 1,2]{Mohammed.2018}\\
 Im diesem Kapitel werden die beiden dominanten Kühlkonzepte für prismatische Batteriezellen auf Akkumulatorebene vorgestellt.\\
-Nach Darcovich et al. gibt es zwei dominante Kühlkonzepte auf Batteriepaketebene. Das sogenannte ``ice-plate`` Kühlkonzept, weiterhin das \textbf{IP}-Konzept, bei dem die Kühlplatten zwischen die prismatischen Zellen eingefügt werden und so die Seite des Batteriegehäuses kühlen, und das ``cold-plate`` Kühlkonzept, weiterhin das \textbf{CP}-Konzept, bei dem die Platte auf der die Batteriezellen stehen gekühlt wird.\footcite[Vgl.\label{cite:darcovich2019}][S. 186-187]{Darcovich.2019}\\
+Nach Darcovich et al. gibt es das sogenannte ``ice-plate`` Kühlkonzept, weiterhin das \textbf{IP}-Konzept, bei dem die Kühlplatten zwischen die prismatischen Zellen eingefügt werden und so die Seite des Batteriegehäuses kühlen, und das ``cold-plate`` Kühlkonzept, weiterhin das \textbf{CP}-Konzept, bei dem die Platte auf der die Batteriezellen stehen gekühlt wird.\footcite[Vgl.\label{cite:darcovich2019}][S. 186-187]{Darcovich.2019}\\
 Das IP-Konzept erreicht im Vergleich mit CP-Konzept einen geringeren Temperaturgradienten innerhalb der Zelle. Jedoch ist es in der Herstellung komplizierter und ermöglicht geringere Kühlmittelströme durch die Platte. Um das IP-Konzept zu verwirklichen, muss die Kühlmittelströmung durch die Platte optimiert werden. Jedoch ist das IP-Konzept im Allgemeinen wirksamer als das CP-Konzept.\footnote{Vgl. Fußnote \ref{cite:darcovich2019}, Darcovich et al. 2019, S. 185}\\
 Da das CP-Konzept einfacher umzusetzen ist, werden die Batteriezellkonzepte vorerst für diese Kühlmethode ausgelegt. Die vorgestellten Zelländerungen können allerdings an das IP-Konzept angepasst werden. \\
 
@@ -233,7 +234,7 @@ Daher ist das der erste Schritt der Konzeptentwicklung das Sicherstellen von bes
 
 Im Folgenden werden anhand von Wärmeübertragungsmechanismen und den Anforderungen aus Kapitel \ref{subsub:vorgehennachVDI} die innovativen Konzepte ausgearbeitet.\\
 Da die Batteriezellen über Kontaktkühlung gekühlt sind, kann Wärme über das Gehäuse dissipiert werden. Ein Problem ist, dass der Elektrodenwickel und die Stromanschlüsse vor Kurzschlüssen geschützt werden müssen. Daher ist es notwendig, dass jegliches Anlehnung an das Tesla Patent von Tsuruta et al. von dem Gehäuse durch eine isolierende Schicht getrennt ist.\\
-Nimmt man als Beispiel eine isolierende Schicht von Parker\textsuperscript{\textregistered} mit einer Durchschlagfestigkeit von $200\;VAC/mil$ und einer Dicke von $1,016\;mm$ kann man mit Gleichungen \ref{gl:UmrechnungVACMILtoSI} und \ref{gl:Durchschlagfestigkeit} die Durchschlagfestigkeit dieser Schicht zu $V_{b} \approx 8000 V$ berechnen.\footcite[Vgl.\label{cite:ParkerPads}][]{Parker.2021}
+Nimmt man als Beispiel eine isolierende Schicht von Parker\textsuperscript{\textregistered} mit einer Durchschlagfestigkeit von $E_{ds} = 200\;VAC/mil$ und einer Dicke von $d = 1,016\;mm$ kann man mit Gleichungen \ref{gl:UmrechnungVACMILtoSI} und \ref{gl:Durchschlagfestigkeit} die Durchschlagfestigkeit dieser Schicht zu $V_{b} \approx 8000 V$ berechnen.\footcite[Vgl.\label{cite:ParkerPads}][]{Parker.2021}
 
 \begin{equation}
 	1 \frac{VAC}{mil} = 3,94 * 10^{4} \frac{V}{m}
@@ -246,9 +247,37 @@ Nimmt man als Beispiel eine isolierende Schicht von Parker\textsuperscript{\text
 \end{equation}
 
 Da Lithium-Ionen Batteriezellen mit Spannungen deutlich unter $V = 8000 V$ arbeiten, kann daher mit einer solchen Schicht die Isolation zwischen leitenden Teilen und Gehäuse sichergestellt werden. Die isolierende Schicht hat weiterhin eine Wärmeleitfähigkeit von $6,5 \frac{W}{m * K}$, wodurch das Abführen der Wärme aus der Batteriezelle an das Gehäuse gewährleistet wird.\footnote{Vgl. Fußnote \ref{cite:ParkerPads}, Thermally Conductive Pads von Parker} Um die Wärme innerhalb des Gehäuses zu leiten bieten sich Aluminium oder Kupfer als Materialien an. Da Aluminium leichter und kostengünstiger ist stellt es die bessere Alternative dar.\\
-Nach Tsuruta et al. wird die entstehende Wärme aus dem Elektrodenwickel durch die Elektroden an das Gehäuse geleitet. Im zylindrischen Design findet dies im Patent nur an einer der beiden Elektroden statt\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}. In der prismatischen Zelle bieten sich nach Abbildung \ref{fig:LageElektrodenwickel} jedoch die Kathode und die Anode an um die Wärme aus dem Elektrodenwickel an das Gehäuse und damit zum Kühlmechanismus zu Übertragen.
+Nach Tsuruta et al. wird die entstehende Wärme aus dem Elektrodenwickel durch die Elektroden an das Gehäuse geleitet. Im zylindrischen Design findet dies im Patent nur an einer der beiden Elektroden statt\footnote{Vgl. Fußnote \ref{cite:TeslaPatent}, Tsuruta et al. 2020}. In der prismatischen Zelle bieten sich nach Abbildung \ref{fig:LageElektrodenwickel} jedoch die Kathode und die Anode an um die Wärme aus dem Elektrodenwickel an das Gehäuse und damit zum Kühlmechanismus zu Übertragen. Aufgrund der relativen Symmetrie der Batteriezelle ist es möglich auf beiden Seiten des Elektrodenwickels die gleichen Bauteile anzubringen.\\
 
+\underline{Wärmeleitung innerhalb der Zelle}\\
+\\
 
+Wie im Tesla Patent sollen auch im Konzept für die prismatische Zelle die Anode und Kathode im Elektrodenwickel verlängert werden um eine Verbindung zu einer $Cap$ die als Stromkollektor dient zu ermöglichen. Analog zum Patent gibt es mehrere Möglichkeiten dies zu ermöglichen. Wie in Abbildung \ref{fig:CapGrooved} können in die $Cap$ Nuten gefräst werden, in welchen die leitenden Teile der Elektroden wie in Abbildung \ref{fig:BottomConnection} \textbf{a)} durch Anpresskraft oder Ultraschallschweißen eingebracht werden.\\
+Von der $Cap$ aus soll nun durch Wärmeleitung zur Unterseite des Batteriegehäuses die Wärme zum Kühlmechanismus abgeführt werden. Hierfür kommt ein Verbindungsstück aus Aluminium in Frage. Um die Herstellungskomplexität zu verringern, kann das gesamte Stromabnehmerteil aus einem Stück Metall hergestellt werden. Mit einer L-Form nach Abbildung \ref{fig:CurrentCollectorInno} kann dies realisiert werden.\\
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{figs/LShapeConnectorInnovative.eps}
+			\put(138,346){Nuten}
+			\put(280,38){Wärmeleitender Teil zur Unterseite}
+		\end{overpic}
+		
+		\caption{L-Form des Stromkollektors}
+		
+		\label{fig:CurrentCollectorInno}
+	\end{center}
+\end{figure}
+
+Für das IP-Konzept kann der wärmeleitende Teil an den Seiten der $Cap$ befestigt sein. Das Prinzip der Wärmeleitung aus der Zelle bleibt hierbei gleich. \\
+Aluminium hat eine mit zunehmender Temperatur abnehmende Wärmeleitfähigkeit\footcite[Vgl.][]{SchweizerFN.2021}. Jedoch ist im relevanten Temperaturbereich von -20 $\degreeCelsius$ bis 60 $\degreeCelsius$ die Wärmeleitfähigkeit $\lambda_{al} \approx 220 \frac{W}{m \cdot K}$ wesentlich höher als die der isolierenden Zwischenschicht. Daher ergibt es Sinn, den Stromkollektor mit so viel Fläche wie möglich an der unteren Seite des Gehäuses mit der Isolierschicht in Verbindung zu bringen. Würde der Stromkollektor aus zwei Teilen bestehen oder an dem Knick der L-Form getrennt, würde eine Engstelle entstehen. In dieser Engstelle kann aufgrund der Isolierschicht weniger Wärme übertragen werden. Daher sind Variationen mit diesen Baueigenschaften nicht wünschenswert.\\
+Der Stromkollektor kann im Prinzip frei dimensioniert werden, allerdings darf er nicht den Platz des Elektrodenwickels einschränken, da dies Kapazitätsverluste verursacht.\\
+
+\underline{Variationen des vorgestellten Konzepts}\\
+\\
+
+Mit gleichbleibender Wirkweise können nur wenige Parameter variiert werden. \\
+Um die Herstellungskomplexität eines massiven Aluminiumkollektors zu senken, kann die $Cap$ separat von der L-Form produziert werden. Dann kommt die isolierende Schicht zwischen Rückseite der $Cap$ und dem Gehäuse. Somit würde das Gehäuse selbst die Wärme aus der Batteriezelle leiten, anstatt eines separaten Bauteils im Inneren der Batterie. Die benötigte Anpresskraft kann durch die Isolierschicht eingebracht werden. Somit wird auch die Komplexität der Bauteile innerhalb des Batteriegehäuses reduziert und der Herstellungsprozess vereinfacht.\\
+Eine weitere Variation wäre anstatt des Aluminiums innerhalb der Zelle Kupfer zu verwenden. Die Wärmeleitfähigkeit von Kupfer liegt für Handelsware zwischen 240 und 380 $\frac{W}{m \cdot K}$\footcite[Vgl.][]{Myers.2009}. Da Aluminium in der Anschaffung um den Faktor 10 günstiger ist als Kupfer, die Wärmeleitfähigkeit von Kupfer jedoch weniger als doppelt so groß ist, stellt Kupfer keine relevante Alternative dar\footcite[Vgl.][]{Doduco.2021}.\\
 
 
 
@@ -256,7 +285,7 @@ Nach Tsuruta et al. wird die entstehende Wärme aus dem Elektrodenwickel durch d
 \newpage
 ------------------------------\\
 xa\\%%insert this somewhere else
-Lithium-Ionen Batterien werden in der Anwendunge durch verschiedene Methoden gekühlt. Unter anderem kommen Phasenwechselmaterialien, Luft- und Flüssigkühlung und Wärmerohre zum Einsatz.\footcite[Vgl.][S. 1,2]{Mohammed.2018}\\
+
 In den Batteriepacks mit prismatischen Lithium-Ionen-Batterien bietet sich die Boden-Kontaktkühlung an, da die Batteriezellen aufgrund ihrer Form platzsparend nebeneinandner geschachtelt werde können. Zum Einsatz kommen Kühlplatten, auf denen die Batteriezellen stehen. %% QUelle finden!
 Dadurch wird mit Hilfe der Kontaktkühlung auch das Jelly-Roll gekühlt, jedoch bildet sich aufgrund der einseitigen Kühlung ein Wärmegradient in der Zelle und dem Elektrodenwickel aus.\footcite[Vgl.][S. 2107]{Inui.2007}
 
