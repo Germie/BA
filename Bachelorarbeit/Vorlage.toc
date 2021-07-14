@@ -43,6 +43,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Simulationsvorbereitung}{35}{section.arabicsection.5}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Simulationsmodell für beide simulierten Varianten}{35}{subsection.arabicsection.5.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Auswertung}{36}{section.arabicsection.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}Zusammenfassung und Ausblick}{37}{section.arabicsection.7}%
